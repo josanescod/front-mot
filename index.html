@@ -1,67 +1,103 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Home</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/site.css"/>
-        <link rel="stylesheet" href="css/custom.css"/>
-        <script src="js/uikit.min.js"></script>
-        <script src="js/uikit-icons.min.js"></script>
-    </head>
-    <body>
-        <div class="mot-wrapper">
+
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/site.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+    <div class="mot-wrapper">
         <!-- NAVBAR -->
-        <nav class="uk-navbar-container" uk-navbar>
+        <nav class="uk-navbar-container " uk-navbar>
 
             <div class="uk-navbar-left">
-        
-                <ul class="uk-navbar-nav">
+
+                <ul class="uk-navbar-nav ">
                     <li class="uk-active"><a href="#">LOGO</a></li>
                 </ul>
-        
+
             </div>
-        
-            <div class="uk-navbar-right">
-        
-                <ul class="uk-navbar-nav">
-                    <li class="uk-active"><a href="#">HOME</a></li>
-                    <li><a href="#">QUE ÉS MOT</a></li>
+
+            <div class="uk-navbar-right uk-visible@m">
+
+                <ul class="uk-navbar-nav ">
+                    <li class="uk-active"><a href="index.html">HOME</a></li>
+                    <li><a href="mot.html">QUE ÉS MOT</a></li>
                     <li>
                         <a href="#">TALLERES</a>
                         <div class="uk-navbar-dropdown">
                             <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li class="uk-active"><a href="#">Taller 1</a></li>
-                                <li><a href="#">Taller 2</a></li>
-                                <li><a href="#">Taller 3</a></li>
+                                <li class="uk-active"><a href="taller1.html">Escritura creativa</a></li>
+                                <li><a href="taller2.html">Lenguaje inclusivo</a></li>
+                                <li><a href="org_taller.html">Organiza un taller</a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a href="#">SERVICIOS</a></li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CONTACTO</a></li>
+                    <li><a href="servicios.html">SERVICIOS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+
                 </ul>
-        
+
             </div>
-        
+            <!-- boton oculto en tabletas o superior-->
+            <button type="button" class="uk-navbar-toggle uk-hidden@m uk-position-right" uk-toggle="target: #menu_movil"
+                data-uk-navbar-toggle-icon></button>
         </nav>
-         <!-- NAVBAR -->
+        <!-- NAVBAR -->
+        <!-- MENU MOVIL -->
+        <div id="menu_movil" uk-offcanvas="overlay: true;flip: true">
+            <div class="uk-offcanvas-bar uk-hidden@m">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <ul class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
+                    <br>
+                    <li class="uk-nav-header uk-active"><a href="index.html" style="color:white">HOME</a></li>
+                    <hr class="uk-margin-small">
+                    <li class="uk-nav-header uk-active"><a href="mot.html" style="color:white">QUE ÉS MOT</a></li>
+                    <hr class="uk-margin-small">
+                    <li class="uk-nav-header uk-parent">
+                        <a href="#" style="color:white">TALLERES</a>
+                        <ul class="uk-nav-sub">
+                            <li><a href="html/taller1.html" style="color:white">Escritura creativa</a></li>
+                            <li><a href="html/taller2.html" style="color:white">Lenguaje inclusivo</a></li>
+                            <li><a href="html/org_taller.html" style="color:white">Organiza un taller</a></li>
+                        </ul>
+                    </li>
+                    <hr class="uk-margin-small">
+                    <li class="uk-nav-header"><a href="html/servicios.html" style="color:white">SERVICIOS</a></li>
+                    <hr class="uk-margin-small">
+                    <li class="uk-nav-header"><a href="html/blog.html" style="color:white">BLOG</a></li>
+                    <hr class="uk-margin-small">
+                    <li class="uk-nav-header"><a href="html/contacto.html" style="color:white">CONTACTO</a></li>
+                    <hr class="uk-margin-small">
+                </ul>
 
-         <!-- CONTENIDO -->
-         <div class="mot-content">
-            
-         </div>
-         <!-- CONTENIDO -->
-
-         <!-- FOOTER -->
-         <footer class="uk-margin-top">
-            <div class='uk-container uk-padding-small'>
-                <p class='uk-text-small uk-text-center'>by <a href='https://uniproyect.com' target='blank'>Uniproyect</a></p>
             </div>
-        </footer>
-         <!-- FOOTER -->
+        </div>
+        <!-- MENU MOVIL -->
+        <!-- CONTENIDO -->
+        <div class="mot-content">
 
         </div>
-    </body>
-</html>
+        <!-- CONTENIDO -->
 
+        <!-- FOOTER -->
+        <footer class="uk-margin-top">
+            <div class='uk-container uk-padding-small'>
+                <p class='uk-text-small uk-text-center'>by <a href='https://uniproyect.com'
+                        target='blank'>Uniproyect</a></p>
+            </div>
+        </footer>
+        <!-- FOOTER -->
+
+
+    </div>
+</body>
+
+</html>
