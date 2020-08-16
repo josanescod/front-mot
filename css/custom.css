@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap');
+
 html, body {
     height: 100%;
     width: 100%;
+    
+}
+
+html *
+{
+  font-family: 'Roboto','Open Sans', sans-serif !important;
 }
 
 .mot-wrapper {
@@ -11,4 +20,8 @@ html, body {
 
 .mot-content {
     flex-grow: 1;
+}
+
+#mot-custom-div {
+    margin-bottom: 75px;
 }
