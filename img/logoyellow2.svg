@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="26.662231mm"
+   height="26.662235mm"
+   viewBox="0 0 26.662231 26.662235"
+   version="1.1"
+   id="svg1685"
+   inkscape:version="1.0 (b51213c273, 2020-08-10)"
+   sodipodi:docname="logoyellow2.svg">
+  <defs
+     id="defs1679" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="38.956755"
+     inkscape:cy="436.09961"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1261"
+     inkscape:window-height="962"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata1682">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-94.770073,-32.781978)">
+    <text
+       style="font-variant:normal;font-weight:bold;font-stretch:normal;font-size:4.61076px;font-family:Helvetica65-Medium;-inkscape-font-specification:Helvetica65-Medium;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       id="text1040"
+       x="101.69457"
+       y="44.992619"><tspan
+         x="101.69457 104.08756 106.73414 109.29773 111.94431"
+         y="44.992619"
+         sodipodi:role="line"
+         id="tspan1036"
+         style="stroke-width:0.352777">suena</tspan><tspan
+         x="103.53426 106.35145 107.46265 110.02623"
+         y="50.525543"
+         sodipodi:role="line"
+         id="tspan1038"
+         style="stroke-width:0.352777">bien</tspan></text>
+    <path
+       d="m 108.10119,58.915048 c 7.07037,0 12.80195,-5.731581 12.80195,-12.801953 0,-7.070372 -5.73158,-12.801952 -12.80195,-12.801952 -7.07037,0 -12.801952,5.73158 -12.801952,12.801952 0,7.070372 5.731582,12.801953 12.801952,12.801953 z"
+       style="fill:none;stroke:#f6ba1a;stroke-width:1.05833;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       id="path1052" />
+  </g>
+</svg>
