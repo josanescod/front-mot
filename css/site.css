@@ -3994,7 +3994,7 @@ select.uk-form-width-xsmall {
   box-sizing: border-box;
   width: 270px;
   padding: 20px 20px;
-  background: #072146;
+  background: #333333;
   /* 3 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; }
@@ -4613,7 +4613,7 @@ select.uk-form-width-xsmall {
   position: absolute;
   top: 0;
   bottom: 0;
-  border-left: 1px solid #e5e5e5; }
+  border-left: 3px solid #e3bc38 !important; }
 
 /* Vertical */
 .uk-grid-divider.uk-grid-stack > .uk-grid-margin::before {
@@ -4621,7 +4621,7 @@ select.uk-form-width-xsmall {
   position: absolute;
   left: 0;
   right: 0;
-  border-top: 1px solid #e5e5e5; }
+  border-top: 3px solid #e3bc38 !important; }
 
 /*
  * Default
