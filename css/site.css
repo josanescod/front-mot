@@ -3994,7 +3994,7 @@ select.uk-form-width-xsmall {
   box-sizing: border-box;
   width: 270px;
   padding: 20px 20px;
-  background: #333333;
+  background: #2a344f;
   /* 3 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; }
@@ -4621,7 +4621,7 @@ select.uk-form-width-xsmall {
   position: absolute;
   left: 0;
   right: 0;
-  border-top: 3px solid #e3bc38 !important; }
+  border-top: 7px solid #e3bc38; }
 
 /*
  * Default
