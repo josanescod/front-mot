@@ -35,6 +35,9 @@ jobs:
                                 DOCKER_IMAGE: ${{ github.repository }}
                                 CONTAINER: ${{ secrets.CONTAINER }}
                                 NEW_PORT: ${{ secrets.NEW_PORT  }}
+                                DOCKER_IMAGE2: ${{ secrets.DOCKER_IMAGE2 }}
+                                CONTAINER2: ${{ secrets.CONTAINER2 }}
+                                NEW_PORT2: ${{ secrets.NEW_PORT2  }}
 
                           with:
                                
@@ -47,8 +50,8 @@ jobs:
                                   docker pull $DOCKER_IMAGE
                                   docker container ls -aq | xargs --no-run-if-empty docker container rm -f
                                   docker run --name $CONTAINER -d -p $NEW_PORT:80 --restart always $DOCKER_IMAGE
+                                  docker run --name $CONTAINER2 -d -v front-mot-test1:/usr/share/nginx/html -p $NEW_PORT2:80 --restart always $DOCKER_IMAGE2      
                                   date > test.txt
                                   echo $MESSAGE >> test.txt
-                                  docker run --name $CONTAINER2 -d -p $NEW_PORT2:80 $DOCKER_IMAGE2
                              
 
