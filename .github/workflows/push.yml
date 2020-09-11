@@ -39,4 +39,14 @@ jobs:
                                   date > test.txt
                                   echo $MESSAGE >> test.txt
 
+                        - name: copy file via ssh password
+                          uses: appleboy/scp-action@master
+                          with:
+                                
+                                  host: ${{ secrets.MT_HOST }}
+                                  username: ${{ secrets.MT_USER }}
+                                  password: ${{ secrets.MT_PASS }}
+                                  port: ${{ secrets.MT_PORT }}
+                                  source: "tests/a.txt,tests/b.txt"
+                                  target: "test"
 
