@@ -47,6 +47,6 @@ jobs:
                                   username: ${{ secrets.MT_USER }}
                                   password: ${{ secrets.MT_PASS }}
                                   port: ${{ secrets.MT_PORT }}
-                                  source: "tests/a.txt,tests/b.txt"
-                                  target: "test"
+                                  source: "index.html,css,js,img"
+                                  target: "front-mot-test1"
 
