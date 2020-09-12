@@ -74,7 +74,7 @@ jobs:
                                 script: | 
                                   docker pull ${{ github.repository }}
                                   docker container ls -aq | xargs --no-run-if-empty docker container rm -f
-                                  docker run --name $ {{ secrets.CONTAINER }} -d -p ${{ secrets.NEW_PORT }}:80 --restart always $ {{ secrets.DOCKER_IMAGE }}
+                                  docker run --name $ {{ secrets.CONTAINER }} -d -p ${{ secrets.NEW_PORT }}:80 --restart always ${{ github.repository }}
                                   date > test.txt
                                   echo $MESSAGE >> test.txt
 
