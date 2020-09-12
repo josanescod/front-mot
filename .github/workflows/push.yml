@@ -27,11 +27,11 @@ jobs:
                                   source: "index.html,css,js,img"
                                   target: "front-mot-test1"
 
-                        - name: ssh pipelines
+                        - name: work in server 1
                           uses: cross-the-world/ssh-pipeline@master
                           env: 
 
-                                MESSAGE: "container updated and container 2 created"     
+                                MESSAGE: "working in server 1 ..."     
                                 DOCKER_IMAGE: ${{ github.repository }}
                                 CONTAINER: ${{ secrets.CONTAINER }}
                                 NEW_PORT: ${{ secrets.NEW_PORT  }}
@@ -53,5 +53,19 @@ jobs:
                                   docker run --name $CONTAINER2 -d -v ~/front-mot-test1:/usr/share/nginx/html -p $NEW_PORT2:80 --restart always $DOCKER_IMAGE2            
                                   date > test.txt
                                   echo $MESSAGE >> test.txt
-                             
+
+                        - name: work in server 2
+                          uses: appleboy/ssh-action@master
+                          with:
+                                
+                                host: ${{ secrets.MT_HOST2 }}
+                                username: ${{ secrets.MT_USER2 }}
+                                key: ${{ secrets.KEY_SERV2 }}
+                                script: | 
+                                  docker pull ${{ secrets.DOCKER_IMAGE }}
+                                  docker container ls -aq | xargs --no-run-if-empty docker container rm -f
+                                  docker run --name $ {{ secrets.CONTAINER }} -d -p ${{ secrets.NEW_PORT }}:80 --restart always $ {{ secrets.DOCKER_IMAGE }}
+                                  date > test.txt
+                                  echo $MESSAGE >> test.txt
+
 
