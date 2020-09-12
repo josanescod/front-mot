@@ -72,7 +72,7 @@ jobs:
                                 username: ${{ secrets.USERNAME }}
                                 key: ${{ secrets.PRIVATE_KEY}}
                                 script: | 
-                                  docker pull ${{ secrets.DOCKER_IMAGE }}
+                                  docker pull ${{ github.repository }}
                                   docker container ls -aq | xargs --no-run-if-empty docker container rm -f
                                   docker run --name $ {{ secrets.CONTAINER }} -d -p ${{ secrets.NEW_PORT }}:80 --restart always $ {{ secrets.DOCKER_IMAGE }}
                                   date > test.txt
