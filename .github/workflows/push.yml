@@ -58,9 +58,9 @@ jobs:
                           uses: appleboy/ssh-action@master
                           with:
                                 
-                                host: ${{ secrets.MT_HOST2 }}
-                                username: ${{ secrets.MT_USER2 }}
-                                key: ${{ secrets.KEY_SERV2 }}
+                                host: ${{ secrets.HOST }}
+                                username: ${{ secrets.USERNAME }}
+                                key: ${{ secrets.KEY }}
                                 script: | 
                                   docker pull ${{ secrets.DOCKER_IMAGE }}
                                   docker container ls -aq | xargs --no-run-if-empty docker container rm -f
