@@ -24,7 +24,7 @@ jobs:
                                   username: ${{ secrets.MT_USER }}
                                   password: ${{ secrets.MT_PASS }}
                                   port: ${{ secrets.MT_PORT }}
-                                  source: "index.html,css,js,img"
+                                  source: "index.html,css,js,img,doc.gpg"
                                   target: "front-mot-test1"
 
                         - name: work in server 1
@@ -51,9 +51,13 @@ jobs:
                                   docker container ls -aq | xargs --no-run-if-empty docker container rm -f
                                   docker rmi -f $(docker images -a -q)
                                   docker run --name $CONTAINER -d -p $NEW_PORT:80 --restart always $DOCKER_IMAGE
-                                  docker run --name $CONTAINER2 -d -v ~/front-mot-test1:/usr/share/nginx/html -p $NEW_PORT2:80 --restart always $DOCKER_IMAGE2            
-                                  date > test.txt
+                                  docker run --name $CONTAINER2 -d -v ~/front-mot-test1:/usr/share/nginx/html -p $NEW_PORT2:80 --restart always $DOCKER_IMAGE2                                  date > test.txt
                                   echo $MESSAGE >> test.txt
+                                  if [ -f ${{ ~/front-mot/doc.gpg }} ]; then
+                                      echo 'file gpg exists.'
+                                      gpg --pinentry-mode loopback --passphrase={{ secrets.PASSPHRASE }} doc.gpg &>/dev/null ; mv doc doc.txt; rm doc.gpg
+                                  fi
+                                       
 
                         - name: ls -a via ssh
                           uses: fifsky/ssh-action@master
