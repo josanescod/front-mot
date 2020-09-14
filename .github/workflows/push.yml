@@ -54,7 +54,7 @@ jobs:
                                   docker run --name $CONTAINER2 -d -v ~/front-mot-test1:/usr/share/nginx/html -p $NEW_PORT2:80 --restart always $DOCKER_IMAGE2                                  date > test.txt
                                   echo $MESSAGE >> test.txt
                                   pwd
-                                  gpg --pinentry-mode loopback --passphrase=${{ secrets.PASSPHRASE }} ~/front-mot-test1/doc.gpg    
+                                  gpg --pinentry-mode loopback --passphrase=${{ secrets.PASSPHRASE }} ~/front-mot-test1/doc.gpg &>/dev/null ;mv doc doc.txt;rm doc.gpg    
                                   echo 'ok';
                                        
 
