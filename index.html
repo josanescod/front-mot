@@ -36,10 +36,10 @@
             <div class="uk-navbar-right uk-visible@m">
 
                 <ul class="uk-navbar-nav">
-                    <li class="uk-active"><a href="index.html">HOME</a></li>
-                    <li><a href="mot.html">QUE ÉS MOT</a></li>
-                    <li>
-                        <a href="#">TALLERES</a>
+                    <li class="uk-active" ><a id="home" href="index.html">HOME</a></li>
+                    <li ><a  id="que-es"href="mot.html">QUE ÉS MOT</a></li>
+                    <li >
+                        <a id="talleres" href="#">TALLERES</a>
                         <div class="uk-navbar-dropdown">
                             <ul class="uk-nav uk-navbar-dropdown-nav">
                                 <li class="uk-active"><a href="taller1.html">Escritura creativa</a></li>
@@ -48,9 +48,19 @@
                             </ul>
                         </div>
                     </li>
-                    <li><a href="servicios.html">SERVICIOS</a></li>
-                    <li><a href="blog.html">BLOG</a></li>
-                    <li><a href="contacto.html">CONTACTO</a></li>
+                    <li ><a id="servicios" href="servicios.html">SERVICIOS</a></li>
+                    <li ><a id="blog" href="blog.html">BLOG</a></li>
+                    <li ><a id="contacto" href="contacto.html">CONTACTO</a></li>
+                    <li><a><form>
+                            <div uk-form-custom="target: true">
+                                <select id="idioma-desktop">
+                                    <option value="es">Es</option>
+                                    <option value="cat">Cat</option>
+                                    
+                                </select>
+                                <span></span>
+                            </div>                      
+                   </form></a></li>
 
                 </ul>
 
@@ -70,12 +80,12 @@
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
                 <ul class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
                     <br>
-                    <li class="uk-nav-header uk-active"><a href="index.html" style="color:white">HOME</a></li>
+                    <li class="uk-nav-header uk-active"><a id="m-home" href="index.html" style="color:white">HOME</a></li>
                     <hr class="uk-margin-small">
-                    <li class="uk-nav-header uk-active"><a href="mot.html" style="color:white">QUE ÉS MOT</a></li>
+                    <li class="uk-nav-header uk-active"><a id="m-que-es" href="mot.html" style="color:white">QUE ÉS MOT</a></li>
                     <hr class="uk-margin-small">
                     <li class="uk-nav-header uk-parent">
-                        <a href="#" style="color:white">TALLERES</a>
+                        <a id="m-talleres" href="#" style="color:white">TALLERES</a>
                         <ul class="uk-nav-sub">
                             <li><a href="html/taller1.html" style="color:white">Escritura creativa</a></li>
                             <li><a href="html/taller2.html" style="color:white">Lenguaje inclusivo</a></li>
@@ -83,12 +93,23 @@
                         </ul>
                     </li>
                     <hr class="uk-margin-small">
-                    <li class="uk-nav-header"><a href="html/servicios.html" style="color:white">SERVICIOS</a></li>
+                    <li class="uk-nav-header"><a id="m-servicios" href="html/servicios.html" style="color:white">SERVICIOS</a></li>
                     <hr class="uk-margin-small">
-                    <li class="uk-nav-header"><a href="html/blog.html" style="color:white">BLOG</a></li>
+                    <li class="uk-nav-header"><a id="m-blog" href="html/blog.html" style="color:white">BLOG</a></li>
                     <hr class="uk-margin-small">
-                    <li class="uk-nav-header"><a href="html/contacto.html" style="color:white">CONTACTO</a></li>
+                    <li class="uk-nav-header"><a id="m-contacto" href="html/contacto.html" style="color:white">CONTACTO</a></li>
                     <hr class="uk-margin-small">
+                    <li class="uk-nav-header"><a style="color:white"><form>
+                        <div uk-form-custom="target: true">
+                            <select id='idioma-movil'>
+                                <option value="es">Es</option>
+                                <option value="cat">Cat</option>
+                                
+                            </select>
+                            <span></span>
+                        </div>                      
+               </form></a></li>
+               <hr class="uk-margin-small">
                 </ul>
 
             </div>
@@ -613,6 +634,7 @@
         </footer>
         <!-- FOOTER -->
     </div>
+    <script src="./js/language.js"></script>
 </body>
 
 </html>
