@@ -25,6 +25,15 @@
     "t3bg4":"Creatividad para tu proyecto social",
     "c3bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
     "titulo_bg6":"¿Y qué tal el taller?",
+    "t1bg6":"Este taller nos ayuda a crear, a fomentar nuestra espontaneidad y a valorar nuestras ideas para luego poderlas exportar a otros ámbitos de nuestras vidas. La creatividad en el arte está muy relacionada, hay una conexión entre la escritura y la música: el arte sirve para conocernos y expresarnos. Gracias, Lidia, porque simplemente tú eres un ejemplo de vitalidad creativa y sabes mostrarnos las herramientas de cómo consigues llegar a ello.",
+    "a1bg6":"Mar P, pianista y pedagoga. Taller online de Escritura Creativa",
+    "t2bg6":"Si estás leyendo esto porque tienes dudas... la respuesta es SÍ. Sí, porque es ideal para sacudirte la pereza del cuerpo. Sí, porque te provee de varias herramientas a la hora de enfrentarte a la hoja en blanco. Sí, porque aviva ese gusanillo que llevas dentro y quizás tenías adormilado. Sí, porque son grupos pequeños en los que te sientes en complicidad a la hora de compartir lo escrito. Y sí, porque Lidia es una profesora maravillosa.",   
+    "a2bg6":"Iñaki L, comunicador. Taller online de Escritura Creativa",
+    "t3bg6":"Han sido unas sesiones en las que he aprendido a crear ideas nuevas, a conectarlas y sobre todo, a ATREVERME. Con Mot he desempolvado la cajita de la creatividad, que llevaba guardada y olvidada demasiado tiempo.",
+    "a3bg6":"Alba P, maestra. Taller online de Escritura Creativa",
+    "t4bg6":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
+    "a4bg6":"Lorem impsum dolor sit amet consectetur adipisicing elites.",
+
 
 
     "m-home": "home",
@@ -52,7 +61,15 @@
     "m-c2bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
     "m-t3bg4":"Creatividad para tu proyecto social",
     "m-c3bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
-    "m-titulo_bg6":"¿Y qué tal el taller?"
+    "m-titulo_bg6":"¿Y qué tal el taller?",
+    "m-t1bg6":"Este taller nos ayuda a crear, a fomentar nuestra espontaneidad y a valorar nuestras ideas para luego poderlas exportar a otros ámbitos de nuestras vidas. La creatividad en el arte está muy relacionada, hay una conexión entre la escritura y la música: el arte sirve para conocernos y expresarnos. Gracias, Lidia, porque simplemente tú eres un ejemplo de vitalidad creativa y sabes mostrarnos las herramientas de cómo consigues llegar a ello.",
+    "m-a1bg6":"Mar P, pianista y pedagoga.Taller online de Escritura Creativa",
+    "m-t2bg6":"Si estás leyendo esto porque tienes dudas... la respuesta es SÍ. Sí, porque es ideal para sacudirte la pereza del cuerpo. Sí, porque te provee de varias herramientas a la hora de enfrentarte a la hoja en blanco. Sí, porque aviva ese gusanillo que llevas dentro y quizás tenías adormilado. Sí, porque son grupos pequeños en los que te sientes en complicidad a la hora de compartir lo escrito. Y sí, porque Lidia es una profesora maravillosa.",
+    "m-a2bg6":"Iñaki L, comunicador.Taller online de Escritura Creativa",
+    "m-t3bg6":"Han sido unas sesiones en las que he aprendido a crear ideas nuevas, a conectarlas y sobre todo, a ATREVERME. Con Mot he desempolvado la cajita de la creatividad, que llevaba guardada y olvidada demasiado tiempo.",
+    "m-a3bg6":"Alba P, maestra. Taller online de Escritura Creativa",
+    "m-t4bg6":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
+    "m-a4bg6":"Lorem impsum dolor sit amet consectetur adipisicing elites."
 
 
 }
