@@ -16,6 +16,14 @@
     "titulob5":"Organiza un taller presencial",
     "pb5":"Cuéntame que necesitas y adaptaré el taller para ti.",
     "botonb5":"suena bien",
+    "titulo_bg4":"¿Te ayudo con algo?",
+    "t1bg4":"Comunicación con perspectiva de género",
+    "c1bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
+    "botonbg4":"me interesa",
+    "t2bg4":"Revisión de lenguaje inclusivo",
+    "c2bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
+    "t3bg4":"Creatividad para tu proyecto social",
+    "c3bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
 
 
 
@@ -35,5 +43,16 @@
     "m-t2boton":"cuentame más",
     "m-titulob5":"Organiza un taller presencial",
     "m-pb5":"Cuéntame que necesitas y adaptaré el taller para ti.",
-    "m-botonb5":"suena bien"
+    "m-botonb5":"suena bien",
+    "m-titulo_bg4":"¿Te ayudo con algo?",
+    "m-t1bg4":"Comunicación con perspectiva de género",
+    "m-c1bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
+    "m-botonbg4":"me interesa",
+    "m-t2bg4":"Revisión de lenguaje inclusivo",
+    "m-c2bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
+    "m-t3bg4":"Creatividad para tu proyecto social",
+    "m-c3bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!"
+
+
+
 }

@@ -16,6 +16,18 @@
     "titulob5":"Organitza un taller presencial",
     "pb5":"Explica'm que necessites i adaptaré el taller per a tu.",
     "botonb5":"sona bé",
+    "titulo_bg4":"T'ajudo en alguna cosa?",
+    "t1bg4":"Comunicació amb perspectiva de gènere",
+    "c1bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
+    "botonbg4":"m'interessa",
+    "t2bg4":"Revisió de llenguatge inclusiu",
+    "c2bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
+    "t3bg4":"Creativitat per al teu projecte social",
+    "c3bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
+
+
+
+
 
 
     "m-home": "home",
@@ -34,5 +46,17 @@
     "m-t2boton":"explica'm mes",
     "m-titulob5":"Organitza un taller presencial",
     "m-pb5":"Explica'm que necessites i adaptaré el taller per a tu.",
-    "m-botonb5":"sona bé"
+    "m-botonb5":"sona bé",
+    "m-titulo_bg4":"T'ajudo en alguna cosa?",
+    "m-t1bg4":"Comunicació amb perspectiva de gènere",
+    "m-c1bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
+    "m-botonbg4":"m'interessa",
+    "m-t2bg4":"Revisió de llenguatge inclusiu",
+    "m-c2bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!",
+    "m-t3bg4":"Creativitat per al teu projecte social",
+    "m-c3bg4":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!"
+
+
+
+    
 }
