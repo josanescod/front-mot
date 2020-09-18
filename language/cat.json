@@ -11,6 +11,8 @@
     "mot-nace":"MOT neix per a portar el poder transformador de les paraules fins a tu, estiguis on estiguis.",
     "taller1":"Taller d'escriptura creativa",
     "taller2":"Taller de llenguatge inclusiu",
+    "t1boton":"explica'm mes",
+    "t2boton":"explica'm mes",
 
 
     "m-home": "home",
@@ -24,5 +26,7 @@
     "m-org_taller":"Organitza un taller",
     "m-mot-nace":"MOT neix per a portar el poder transformador de les paraules fins a tu, estiguis on estiguis.",
     "m-taller1":"Taller d'escriptura creativa",
-    "m-taller2":"Taller de llenguatge inclusiu"
+    "m-taller2":"Taller de llenguatge inclusiu",
+    "m-t1boton":"explica'm mes",
+    "m-t2boton":"explica'm mes"
 }

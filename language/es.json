@@ -11,6 +11,9 @@
     "mot-nace":"MOT nace para llevar el poder transformador de las palabras hasta ti, estés donde estés.",
     "taller1":"Taller de escritura creativa",
     "taller2":"Taller de lenguaje inclusivo",
+    "t1boton":"cuentame más",
+    "t2boton":"cuentame más",
+
 
 
     "m-home": "home",
@@ -24,5 +27,7 @@
     "m-org_taller":"Organiza un taller",
     "m-mot-nace":"MOT nace para llevar el poder transformador de las palabras hasta ti, estés donde estés.",
     "m-taller1":"Taller de escritura creativa",
-    "m-taller2":"Taller de lenguaje inclusivo"
+    "m-taller2":"Taller de lenguaje inclusivo",
+    "m-t1boton":"cuentame más",
+    "m-t2boton":"cuentame más"
 }

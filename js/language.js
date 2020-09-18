@@ -127,7 +127,16 @@ function darEstilo(id,datos,file){
                 texto_b7.innerHTML = `MOT es un <span class="uk-text-bold">estudio de palabras</span>.<br> Quizá te
                 resulte extraña esta definición,<br>
                 pero es un <span class="uk-text-bold">concepto nuevo que nace de creer<br> en el poder transformador de las palabras</span>. `
-
+                let t1p = document.querySelector('#t1p');
+                t1p.innerHTML=` Las palabras tienen <span id="t1span" class="uk-text-bold">el poder de
+                crear.</span>
+                Descúbrelo con el primer taller de anti-técnica narrativa para
+                vencer el miedo a la hoja en blanco.`
+                let t2p = document.querySelector('#t2p');
+                t2p.innerHTML=`Las palabras tienen <span class="uk-text-bold">el poder de
+                cambiarnos.</span>
+                Lo comprobarás en este espacio de aprendizaje y reflexión sobre el lenguaje no
+                sexista.`
             }else {
                 
                 let tempKey = document.querySelector(`#${id}`)
@@ -138,6 +147,16 @@ function darEstilo(id,datos,file){
                 texto_b7_m=`MOT es un <span class="uk-text-bold">estudio de palabras</span>.Quizá te resulte extraña esta
                 definición, pero es un <span class="uk-text-bold">concepto nuevo que nace de creer en el poder
                 transformador de las palabras</span>.`
+                let t1p_m = document.querySelector('#m-t1p');
+                t1p_m.innerHTML=`Las palabras tienen <span id="m-t1span"class="uk-text-bold">el poder de
+                crear.</span>
+                Descúbrelo con el primer taller de anti-técnica narrativa para
+                vencer el miedo a la hoja en blanco.`
+                let t2p_m = document.querySelector('#m-t2p');
+                t2p_m.innerHTML=`Las palabras tienen <span class="uk-text-bold">el poder de
+                cambiarnos.</span>
+                Lo comprobarás en este espacio de aprendizaje y reflexión sobre el lenguaje no
+                sexista.`
 
             }    
 
@@ -145,13 +164,19 @@ function darEstilo(id,datos,file){
             let seccion2 = document.querySelectorAll('.bg2');
             for (i=0;i<seccion2.length; i++){
                 seccion2[i].style.backgroundImage = `url('img/bg2.svg')`;
+            }
             //selecciona logoyellow2 del bg7 y cambia el svg 
             let logoseccion7 = document.querySelectorAll('.bg7-logo');
             for (i=0;i<logoseccion7.length;i++){
                 logoseccion7[i].src='img/logoyellow2.svg';
                
             }   
-            }
+            
+            //footer es
+            let footer = document.querySelector('#footer');
+            footer.innerHTML=`Mot Estudio de palabras &copy;2020 | Aviso Legal | Política de privacidad by
+            <a href='https://uniproyect.com' target='blank'>Uniproyect</a>
+            <a href="#" uk-totop uk-scroll class="uk-align-right"></a>`
 
             }else { //CAT
             //separar data[key] en 3 frases
@@ -174,7 +199,16 @@ function darEstilo(id,datos,file){
                 texto_b7.innerHTML = `MOT és un <span class="uk-text-bold">estudi de paraules</span>.<br> Potser et
                 resulta estranya aquesta definició,<br>
                 però és un <span class="uk-text-bold">un concepte nou que neix de creure<br> en el poder transformador de les paraules</span>. `
-            
+                let t1p = document.querySelector('#t1p');
+                t1p.innerHTML=` Les paraules tenen <span id="t1span" class="uk-text-bold">el poder de
+                crear.</span>
+                Descobreix-ho amb el primer taller d'anti-técnica narrativa per
+                vèncer la por a la fulla en blanc.`
+                let t2p = document.querySelector('#t2p');
+                t2p.innerHTML=`Les paraules tenen <span class="uk-text-bold">el poder de
+                canviar-nos.</span>
+                Ho comprovaràs en aquest espai d'aprenentatge i reflexió sobre el llenguatge no
+                sexista.`
             
             
             }else {
@@ -188,6 +222,16 @@ function darEstilo(id,datos,file){
                 class="uk-text-bold">estudi de paraules</span>.Potser et resulta estranya aquesta
                 definició, però és un <span class="uk-text-bold">concepte nou que neix de creure en el poder
                 transformador de l</span>.`
+                let t1p_m = document.querySelector('#m-t1p');
+                t1p_m.innerHTML=`Les paraules tenen <span id="m-t1span"class="uk-text-bold">el poder de
+                crear.</span>
+                Descobreix-ho amb el primer taller d'anti-técnica narrativa per
+                vèncer la por a la fulla en blanc.`
+                let t2p_m = document.querySelector('#m-t2p');
+                t2p_m.innerHTML=`Les paraules tenen <span class="uk-text-bold">el poder de
+                canviar-nos.</span>
+                Ho comprovaràs en aquest espai d'aprenentatge i reflexió sobre el llenguatge no
+                sexista.`
             
             
             }   
@@ -202,6 +246,11 @@ function darEstilo(id,datos,file){
             for (i=0;i<logoseccion7.length;i++){
                 logoseccion7[i].src='img/logoyellow2_cat.svg';
             }   
+            //footer cat
+            let footer = document.querySelector('#footer');
+            footer.innerHTML=`Mot Estudio de palabras &copy;2020 | Avís Legal | Política de privacitat by
+            <a href='https://uniproyect.com' target='blank'>Uniproyect</a>
+            <a href="#" uk-totop uk-scroll class="uk-align-right"></a>`
             
 
             }
