@@ -13,6 +13,9 @@
     "taller2":"Taller de llenguatge inclusiu",
     "t1boton":"explica'm mes",
     "t2boton":"explica'm mes",
+    "titulob5":"Organitza un taller presencial",
+    "pb5":"Explica'm que necessites i adaptaré el taller per a tu.",
+    "botonb5":"sona bé",
 
 
     "m-home": "home",
@@ -28,5 +31,8 @@
     "m-taller1":"Taller d'escriptura creativa",
     "m-taller2":"Taller de llenguatge inclusiu",
     "m-t1boton":"explica'm mes",
-    "m-t2boton":"explica'm mes"
+    "m-t2boton":"explica'm mes",
+    "m-titulob5":"Organitza un taller presencial",
+    "m-pb5":"Explica'm que necessites i adaptaré el taller per a tu.",
+    "m-botonb5":"sona bé"
 }

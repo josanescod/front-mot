@@ -137,6 +137,12 @@ function darEstilo(id,datos,file){
                 cambiarnos.</span>
                 Lo comprobarás en este espacio de aprendizaje y reflexión sobre el lenguaje no
                 sexista.`
+                let pb5L = document.querySelector('#pb5L');
+                pb5L.innerHTML=`¿Te gustaría que tu centro, asociación o empresa ofreciese<br>
+                el <span class="uk-text-bold">Taller de Escritura Creativa</span> o el <span
+                    class="uk-text-bold">
+                    Taller de Lenguaje Inclusivo?
+                </span>`
             }else {
                 
                 let tempKey = document.querySelector(`#${id}`)
@@ -144,7 +150,7 @@ function darEstilo(id,datos,file){
 
                 //hardcoded bloque 7 se tendria que buscar mejorar solución
                 let texto_b7_m = document.querySelector('#texto-b7-m');
-                texto_b7_m=`MOT es un <span class="uk-text-bold">estudio de palabras</span>.Quizá te resulte extraña esta
+                texto_b7_m.innerHTML=`MOT es un <span class="uk-text-bold">estudio de palabras</span>.Quizá te resulte extraña esta
                 definición, pero es un <span class="uk-text-bold">concepto nuevo que nace de creer en el poder
                 transformador de las palabras</span>.`
                 let t1p_m = document.querySelector('#m-t1p');
@@ -157,6 +163,12 @@ function darEstilo(id,datos,file){
                 cambiarnos.</span>
                 Lo comprobarás en este espacio de aprendizaje y reflexión sobre el lenguaje no
                 sexista.`
+                let pb5L_m = document.querySelector('#m-pb5L');
+                pb5L_m.innerHTML=`¿Te gustaría que tu centro, asociación o empresa ofreciese<br>
+                el <span class="uk-text-bold">Taller de Escritura Creativa</span> o el <span
+                    class="uk-text-bold">
+                    Taller de Lenguaje Inclusivo?
+                </span>`
 
             }    
 
@@ -209,6 +221,12 @@ function darEstilo(id,datos,file){
                 canviar-nos.</span>
                 Ho comprovaràs en aquest espai d'aprenentatge i reflexió sobre el llenguatge no
                 sexista.`
+                let pb5L = document.querySelector('#pb5L');
+                pb5L.innerHTML=`T'agradaria que el teu centre, associació o empresa oferís<br>
+                el <span class="uk-text-bold">Taller d'Escriptura Creativa</span> o el <span
+                    class="uk-text-bold">
+                    Taller de Llenguatge Inclusiu?
+                </span>`
             
             
             }else {
@@ -221,17 +239,23 @@ function darEstilo(id,datos,file){
                 texto_b7_m.innerHTML=`MOT és un <span
                 class="uk-text-bold">estudi de paraules</span>.Potser et resulta estranya aquesta
                 definició, però és un <span class="uk-text-bold">concepte nou que neix de creure en el poder
-                transformador de l</span>.`
+                transformador de les paraules.</span>`
                 let t1p_m = document.querySelector('#m-t1p');
                 t1p_m.innerHTML=`Les paraules tenen <span id="m-t1span"class="uk-text-bold">el poder de
                 crear.</span>
                 Descobreix-ho amb el primer taller d'anti-técnica narrativa per
-                vèncer la por a la fulla en blanc.`
+                vèncer la por al full en blanc.`
                 let t2p_m = document.querySelector('#m-t2p');
                 t2p_m.innerHTML=`Les paraules tenen <span class="uk-text-bold">el poder de
                 canviar-nos.</span>
                 Ho comprovaràs en aquest espai d'aprenentatge i reflexió sobre el llenguatge no
                 sexista.`
+                let pb5L_m = document.querySelector('#m-pb5L');
+                pb5L_m.innerHTML=`T'agradaria que el teu centre, associació o empresa oferís<br>
+                el <span class="uk-text-bold">Taller d'Escriptura Creativa</span> o el <span
+                    class="uk-text-bold">
+                    Taller de Llenguatge Inclusiu?
+                </span>`
             
             
             }   

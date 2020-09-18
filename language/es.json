@@ -13,6 +13,9 @@
     "taller2":"Taller de lenguaje inclusivo",
     "t1boton":"cuentame más",
     "t2boton":"cuentame más",
+    "titulob5":"Organiza un taller presencial",
+    "pb5":"Cuéntame que necesitas y adaptaré el taller para ti.",
+    "botonb5":"suena bien",
 
 
 
@@ -29,5 +32,8 @@
     "m-taller1":"Taller de escritura creativa",
     "m-taller2":"Taller de lenguaje inclusivo",
     "m-t1boton":"cuentame más",
-    "m-t2boton":"cuentame más"
+    "m-t2boton":"cuentame más",
+    "m-titulob5":"Organiza un taller presencial",
+    "m-pb5":"Cuéntame que necesitas y adaptaré el taller para ti.",
+    "m-botonb5":"suena bien"
 }
