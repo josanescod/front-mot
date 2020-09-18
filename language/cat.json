@@ -5,10 +5,24 @@
     "servicios": "serveis",
     "blog": "blog",
     "contacto":"contacte",
+    "es_creativa":"Escriptura creativa",
+    "leng_inclusivo":"Llenguatge inclusiu",
+    "org_taller":"Organitza un taller",
+    "mot-nace":"MOT neix per a portar el poder transformador de les paraules fins a tu, estiguis on estiguis.",
+    "taller1":"Taller d'escriptura creativa",
+    "taller2":"Taller de llenguatge inclusiu",
+
+
     "m-home": "home",
     "m-que-es": "que es mot",
     "m-talleres": "tallers",
     "m-servicios": "serveis",
     "m-blog": "blog",
-    "m-contacto":"contacte"
+    "m-contacto":"contacte",
+    "m-es_creativa":"Escriptura creativa",
+    "m-leng_inclusivo":"Llenguatge inclusiu",
+    "m-org_taller":"Organitza un taller",
+    "m-mot-nace":"MOT neix per a portar el poder transformador de les paraules fins a tu, estiguis on estiguis.",
+    "m-taller1":"Taller d'escriptura creativa",
+    "m-taller2":"Taller de llenguatge inclusiu"
 }
