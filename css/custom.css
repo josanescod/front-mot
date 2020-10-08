@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap');*/
+@import url('https://fonts.google.com/specimen/Arimo?category=Sans+Serif#standard-styles');
 
 html, body {
     height: 100%;
@@ -9,7 +10,7 @@ html, body {
 
 html *
 {
-  font-family: 'Roboto','Open Sans', sans-serif !important;
+  font-family: 'Arimo','Roboto','Open Sans', sans-serif !important;
 }
 
 .mot-wrapper {
@@ -51,7 +52,7 @@ html *
 }
 .mot-custom-button2:hover{
     color:white !important;
-    background-color:#28828C !important;
+    background-color:#008CBA !important;
    
     
 }

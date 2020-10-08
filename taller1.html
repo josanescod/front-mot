@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>mot - estudio de palabras</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/custom.css"/>
+    <link rel="stylesheet" href="css/site.css"/>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+<div class="mot-wrapper">
+    <!-- NAVBAR -->
+    <nav class="uk-navbar-container " style="background-color:white" uk-navbar uk-sticky>
+
+        <div class="uk-navbar-left uk-visible@m">
+
+            <ul class="uk-navbar-nav">
+                <!--<li><a class="uk-logo"> <img data-src="img/logo_mot_1.svg" width="100%" height="100%" alt="Logo de mot" uk-img></a></li>-->
+                <li><img data-src="img/logo_mot_1.svg" width="100%" height="100%" alt="Logo de mot" uk-img></li>
+            </ul>
+
+        </div>
+        <div class="uk-navbar-left uk-hidden@m">
+
+            <ul class="uk-navbar-nav">
+                <!--<li><a class="uk-logo"><img data-src="img/logo_mot_1.svg" width="80%" height="80%" alt="Logo de mot" uk-img></a></li>-->
+                <li><img data-src="img/logo_mot_1.svg" width="80%" height="80%" alt="Logo de mot" uk-img></li>
+            </ul>
+
+        </div>
+
+        <div class="uk-navbar-right uk-visible@m">
+
+            <ul class="uk-navbar-nav">
+                <li class="uk-active"><a href="index.html">HOME</a></li>
+                <li><a href="mot.html">QUE ÉS MOT</a></li>
+                <li>
+                    <a href="#">TALLERES</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active"><a href="taller1.html">Escritura creativa</a></li>
+                            <li><a href="taller2.html">Lenguaje inclusivo</a></li>
+                            <li><a href="org_taller.html">Organiza un taller</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="servicios.html">SERVICIOS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contacto.html">CONTACTO</a></li>
+
+            </ul>
+
+        </div>
+        <div id="mot-custom-div" class="uk-navbar-right uk-hidden@m">
+            <ul class="uk-navbar-nav">
+                <!-- boton oculto en tabletas o superior-->
+                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil"
+                        data-uk-navbar-toggle-icon></button>
+            </ul>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+    <!-- MENU MOVIL -->
+    <div id="menu_movil" uk-offcanvas="overlay: true;flip: true">
+        <div class="uk-offcanvas-bar uk-hidden@m">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <ul class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
+                <br>
+                <li class="uk-nav-header uk-active"><a href="index.html" style="color:white">HOME</a></li>
+                <hr class="uk-margin-small">
+                <li class="uk-nav-header uk-active"><a href="mot.html" style="color:white">QUE ÉS MOT</a></li>
+                <hr class="uk-margin-small">
+                <li class="uk-nav-header uk-parent">
+                    <a href="#" style="color:white">TALLERES</a>
+                    <ul class="uk-nav-sub">
+                        <li><a href="html/taller1.html" style="color:white">Escritura creativa</a></li>
+                        <li><a href="html/taller2.html" style="color:white">Lenguaje inclusivo</a></li>
+                        <li><a href="html/org_taller.html" style="color:white">Organiza un taller</a></li>
+                    </ul>
+                </li>
+                <hr class="uk-margin-small">
+                <li class="uk-nav-header"><a href="html/servicios.html" style="color:white">SERVICIOS</a></li>
+                <hr class="uk-margin-small">
+                <li class="uk-nav-header"><a href="html/blog.html" style="color:white">BLOG</a></li>
+                <hr class="uk-margin-small">
+                <li class="uk-nav-header"><a href="html/contacto.html" style="color:white">CONTACTO</a></li>
+                <hr class="uk-margin-small">
+            </ul>
+
+        </div>
+    </div>
+    <!-- MENU MOVIL -->
+    <!-- CONTENIDO -->
+    <!--HERO-->
+    <div>
+        <img data-src="img/talleresccreativa.jpg" alt="Creatividad taller escritura creativa" uk-img>
+    </div>
+    <div class="uk-section uk-text-center">
+        <div class="uk-container uk-container-small">
+            <p class="uk-h1 uk-text-bolder"><strong>Olvida todo lo que sabes sobre cursos de escritura, porque este no
+                es así</strong></p>
+            <p>
+                A través de una serie de variados ejercicios prácticos, desde juegos surrealistas
+                a mecanismos de creación de ideas, aprenderemos a superar este momento.
+                Dejaremos a un lado las exigencias formales para trabajar la no-técnica, la escritura
+                más visceral. Siempre conscientes de que el objetivo no es alcanzar la máxima
+                calidad literaria del texto, sino el simple hecho de permitirnos escribir sin que las
+                expectativas del resultado inhiban la capacidad creativa presente en cada persona.
+            </p>
+            <p>En este taller cualquier texto que sea resultado de haber superado
+                el miedo a la hoja en blanco será bienvenido.</p>
+            <button class="mot-custom-button2 uk-button uk-button-default uk-text-lowercase">me interesa</button>
+        </div>
+    </div>
+
+    <div class="uk-section uk-section-secondary">
+        <div class="uk-child-width-1-2@m uk-child-width-1-1@s" uk-grid>
+            <div class="uk-container">
+                <p><strong>¿A QUIÉN VA DIRIGIDO?</strong></p>
+                <h1><strong>Este taller es para ti</strong></h1>
+                <ul class="uk-list uk-list-hyphen">
+                    <li>
+                        Si eres una persona con inquietud por la
+                        escritura que a la hora de ponerse a escribir no
+                        sabe por dónde empezar.
+                    </li>
+                    <li>
+                        Si quieres potenciar tu creatividad utilizando
+                        las palabras como herramienta.
+                    </li>
+                    <li>
+                        Si eres una persona ya iniciada en la escritura
+                        que quiere conocer técnicas nuevas para superar
+                        sus bloqueos creativos.
+                    </li>
+                    <li>
+                        Y también si todavía no has descubierto que te
+                        gusta escribir.
+                    </li>
+                </ul>
+                <p> Si quieres acercarte a la escritura de una
+                    manera diferente, como un medio para explorar
+                    tu creatividad, no tengas ninguna duda:
+                    <strong>este taller es para ti.</strong>
+                </p>
+            </div>
+            <div class="uk-container uk-margin">
+                <p><strong>OBJETIVOS</strong></p>
+                <h1><strong>Este taller es para ti</strong></h1>
+                <ul class="uk-list uk-list-hyphen">
+                    <li>
+                        Superar los prejuicios sobre tu capacidad
+                        creativa.
+                    </li>
+                    <li>
+                        Romper las falsas creencias sobre la
+                        creatividad.
+                    </li>
+                    <li>
+                        Aumentar la confianza en ti mism@
+                        descubriendo tu potencial creativo.
+                    </li>
+                    <li>
+                        Conocer herramientas para superar
+                        posibles bloqueos creativos.
+                    </li>
+                    <li>
+                        Adquirir fluidez en la escritura y en el
+                        pensamiento creativo.
+                    </li>
+                    <li>
+                        Fomentar tu hábito de escritura como medio
+                        de expresión, diversión y autorrealización.
+                    </li>
+                </ul>
+                <p> Si quieres acercarte a la escritura de una
+                    manera diferente, como un medio para explorar
+                    tu creatividad, no tengas ninguna duda:
+                    <strong>este taller es para ti.</strong>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+<footer>
+    <div class='uk-container uk-padding-small uk-text-center'>
+        <p class='uk-text-small '> Mot Estudio de palabras &copy;2020 | Aviso Legal | Política de privacidad by
+            <a href='https://uniproyect.com' target='blank'>Uniproyect</a>
+            <a href="#" uk-totop uk-scroll class="uk-align-right"></a>
+        </p>
+    </div>
+</footer>
+<!-- FOOTER -->
+</div>
+</body>
+
+</html>
