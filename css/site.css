@@ -3994,7 +3994,7 @@ select.uk-form-width-xsmall {
   box-sizing: border-box;
   width: 270px;
   padding: 20px 20px;
-  background: #2a344f;
+  background: #40a8ba;
   /* 3 */
   overflow-y: auto;
   -webkit-overflow-scrolling: touch; }
@@ -4613,7 +4613,7 @@ select.uk-form-width-xsmall {
   position: absolute;
   top: 0;
   bottom: 0;
-  border-left: 3px solid #e3bc38 !important; }
+  border-left: 3px solid #f9c00e !important;}
 
 /* Vertical */
 .uk-grid-divider.uk-grid-stack > .uk-grid-margin::before {
@@ -4621,7 +4621,7 @@ select.uk-form-width-xsmall {
   position: absolute;
   left: 0;
   right: 0;
-  border-top: 7px solid #e3bc38; }
+  /*border-top: 7px solid #e3bc38;*/ }
 
 /*
  * Default
@@ -4858,7 +4858,8 @@ ul.uk-nav-sub {
  * Items
  */
 .uk-nav-sub a {
-  padding: 2px 0; }
+  padding: 2px 0;
+   }
 
 /* Parent icon modifier
  ========================================================================== */
@@ -4869,11 +4870,15 @@ ul.uk-nav-sub {
   float: right;
   background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23666%22%20stroke-width%3D%221.1%22%20points%3D%2210%201%204%207%2010%2013%22%20%2F%3E%0A%3C%2Fsvg%3E");
   background-repeat: no-repeat;
-  background-position: 50% 50%; }
+  background-position: 50% 50%; 
+  
+}
 
 .uk-nav-parent-icon > .uk-parent.uk-open > a::after {
-  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23666%22%20stroke-width%3D%221.1%22%20points%3D%221%204%207%2010%2013%204%22%20%2F%3E%0A%3C%2Fsvg%3E"); }
-
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2214%22%20height%3D%2214%22%20viewBox%3D%220%200%2014%2014%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolyline%20fill%3D%22none%22%20stroke%3D%22%23666%22%20stroke-width%3D%221.1%22%20points%3D%221%204%207%2010%2013%204%22%20%2F%3E%0A%3C%2Fsvg%3E");
+  
+}
+  
 /* Header
  ========================================================================== */
 .uk-nav-header {
@@ -4990,7 +4995,9 @@ ul.uk-nav-sub {
 
 /* Parent icon modifier  */
 .uk-nav-center.uk-nav-parent-icon > .uk-parent > a::after {
-  position: absolute; }
+  position: absolute;
+ 
+}
 
 /* ========================================================================
    Component: Navbar
