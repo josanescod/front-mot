@@ -71,3 +71,11 @@ svg[data-svg="close-icon"] {
 .uk-nav-parent-icon > .uk-parent.uk-open > a::after {
   background-image: url(/img/mot-arrow-down.svg);
 }
+
+#movil_white > li > a {
+  color: white;
+}
+
+#movil_white_sub > li > a {
+  color: white;
+}
