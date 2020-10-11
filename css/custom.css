@@ -1,82 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap");
 
-html, body {
-    height: 100%;
-    width: 100%;
-    
+html,
+body {
+  height: 100%;
+  width: 100%;
 }
 
-html *
-{
-  font-family: 'Roboto','Open Sans', sans-serif !important;
+html * {
+  font-family: "Roboto", "Open Sans", sans-serif;
 }
 
 .mot-content {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 #mot-custom-div {
-    margin-bottom: 75px;
+  margin-bottom: 75px;
 }
 
-.mot-custom-button1  {
-    
-    color:black !important;
-    border-color:#f9c00e !important;
-    border-width: 4px !important;
-    border-style: solid;
-    font-weight: bold !important;
+.mot-custom-button1 {
+  color: black;
+  border-color: #f9c00e;
+  border-width: 4px;
+  border-style: solid;
+  font-weight: bold;
 }
 
-.mot-custom-button1:hover{
-    background-color:#40a8ba !important;
-    color:white !important;
-   
-    
+.mot-custom-button1:hover {
+  background-color: #40a8ba;
+  color: white;
 }
 .mot-custom-button2 {
-    background-color:white !important;
-    border-color:#40a8ba !important;
-    border-width: 4px !important;
-    border-style: solid !important;
-    font-weight: bold !important;
-    color:black !important;
-
+  background-color: white;
+  border-color: #40a8ba;
+  border-width: 4px;
+  border-style: solid;
+  font-weight: bold;
+  color: black;
 }
-.mot-custom-button2:hover{
-    color:white !important;
-    background-color:#40a8ba !important;
-    border-color:grey !important;
-
-   
-    
+.mot-custom-button2:hover {
+  color: white;
+  background-color: #40a8ba;
+  border-color: grey;
 }
 
 /* pruebas: para cambiar el color de los simbolos del carrusel y modificar altura sections*/
 .uk-slidenav-previous {
-    color: #C5C5C5 !important;
+  color: #c5c5c5;
 }
 
 .uk-slidenav-next {
-    color: #C5C5C5 !important;
+  color: #c5c5c5;
 }
 
 /* altura de los divs*/
 .uk-height-large {
-    height: 500px !important;
+  height: 500px;
 }
 
 /*menu movil*/
 svg[data-svg="close-icon"] {
-    color: white;
-  }
+  color: white;
+}
 
-.uk-nav-parent-icon > .uk-parent > a::after  {
-    
-    background-image: url(/img/mot-arrow-left.svg)!important;
+.uk-nav-parent-icon > .uk-parent > a::after {
+  background-image: url(/img/mot-arrow-left.svg);
 }
 
 .uk-nav-parent-icon > .uk-parent.uk-open > a::after {
-    background-image: url(/img/mot-arrow-down.svg)!important;
+  background-image: url(/img/mot-arrow-down.svg);
 }
