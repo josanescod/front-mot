@@ -70,4 +70,13 @@ html *
 .uk-height-large {
     height: 500px !important;
 }
+.mot-columna-dirigido {
+    background-color: red;
+    padding: 2% 2% 2% 12%;
+}
+
+.mot-columna-objetivos {
+    background-color: #ea2a2a;
+    padding: 2% 12% 2% 2%;
+}
 
