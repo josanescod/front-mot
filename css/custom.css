@@ -64,8 +64,9 @@ y modificar altura sections*/
 .uk-height-large {
   height: 500px;
 }
-.mot-height-large {
-  height: 425px;
+
+.mot-height-medium {
+  height: 250px;
 }
 
 /* menu movil */
