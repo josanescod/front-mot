@@ -1,15 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap');
-
-html, body {
+html,
+body {
     height: 100%;
     width: 100%;
-    
 }
 
-html *
-{
-  font-family: 'Roboto','Open Sans', sans-serif !important;
+html * {
+    font-family: 'Roboto', 'Open Sans', sans-serif !important;
 }
 
 .mot-wrapper {
@@ -26,37 +24,35 @@ html *
     margin-bottom: 75px;
 }
 
-.mot-custom-button1  {
-    
-    color:white !important;
-    border-color:#E3BC38 !important;
+.mot-custom-button1 {
+    color: white !important;
+    border-color: #E3BC38 !important;
     border-width: 5px !important;
     border-style: solid;
     font-weight: bold !important;
 }
 
-.mot-custom-button1:hover{
-    background-color:#28828C !important;
-   
-    
+.mot-custom-button1:hover {
+    background-color: #28828C !important;
 }
+
 .mot-custom-button2 {
-    background-color:white !important;
-    border-color:#008CBA !important;
+    background-color: white !important;
+    border-color: #008CBA !important;
     border-width: 5px !important;
     border-style: solid !important;
     font-weight: bold !important;
-    color:black !important;
+    color: black !important;
+}
 
+.mot-custom-button2:hover {
+    color: white !important;
+    background-color: #28828C !important;
 }
-.mot-custom-button2:hover{
-    color:white !important;
-    background-color:#28828C !important;
-   
-    
-}
+
 
 /* pruebas: para cambiar el color de los simbolos del carrusel y modificar altura sections*/
+
 .uk-slidenav-previous {
     color: #C5C5C5 !important;
 }
@@ -65,8 +61,16 @@ html *
     color: #C5C5C5 !important;
 }
 
+
 /* altura de los divs*/
+
 .uk-height-large {
     height: 500px !important;
 }
 
+
+/* Estilos para página ¿Qué es Mot? */
+
+.padding-gande {
+    padding: 15%;
+}
