@@ -19,6 +19,12 @@ html * {
   margin-bottom: 75px;
 }
 
+/* nav */
+#mot-navbar {
+  background-color:white;
+}
+
+/* botones */
 .mot-custom-button1 {
   color: black;
   border-color: #f9c00e;
@@ -36,7 +42,6 @@ html * {
   border-color: #40a8ba;
   border-width: 4px;
   border-style: solid;
-  font-weight: bold;
   color: black;
 }
 .mot-custom-button2:hover {
@@ -45,7 +50,8 @@ html * {
   border-color: grey;
 }
 
-/* pruebas: para cambiar el color de los simbolos del carrusel y modificar altura sections*/
+/* pruebas: para cambiar el color de los simbolos del carrusel 
+y modificar altura sections*/
 .uk-slidenav-previous {
   color: #c5c5c5;
 }
@@ -54,12 +60,15 @@ html * {
   color: #c5c5c5;
 }
 
-/* altura de los divs*/
+/* altura de los divs */
 .uk-height-large {
   height: 500px;
 }
+.mot-height-large {
+  height: 425px;
+}
 
-/*menu movil*/
+/* menu movil */
 svg[data-svg="close-icon"] {
   color: white;
 }
