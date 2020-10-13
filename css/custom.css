@@ -37,13 +37,13 @@ html *
 }
 
 .mot-custom-button1:hover{
-    background-color:#28828C !important;
+    background-color:#E3BC38 !important;
    
     
 }
 .mot-custom-button2 {
     background-color:white !important;
-    border-color:#008CBA !important;
+    border-color:#40a8ba !important;
     border-width: 5px !important;
     border-style: solid !important;
     font-weight: bold !important;
@@ -52,7 +52,7 @@ html *
 }
 .mot-custom-button2:hover{
     color:white !important;
-    background-color:#008CBA !important;
+    background-color:#40a8ba !important;
    
     
 }
@@ -78,7 +78,9 @@ html *
 
 
 }
-
+.uk-section-secondary {
+    background-color: #40a8ba;
+}
 /* pruebas: para cambiar el color de los simbolos del carrusel y modificar altura sections*/
 .uk-slidenav-previous {
     color: #C5C5C5 !important;
@@ -98,6 +100,13 @@ html *
 
 .mot-columna-derecha {
     padding: 2% 12% 2% 2%;
+}
+.mot-columna-izquierda2 {
+    padding: 2% 2% 2% 25%;
+}
+
+.mot-columna-derecha2 {
+    padding: 2% 25% 2% 2%;
 }
 
 .mot-fondo-amarillo {
