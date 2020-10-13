@@ -20,7 +20,7 @@ html * {
 }
 
 /* nav color blanco al menu de navegacion */
-.mot-navbar {
+#mot-navbar {
   background-color:white;
 }
 
