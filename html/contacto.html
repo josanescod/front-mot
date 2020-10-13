@@ -8,20 +8,22 @@
     <link rel="stylesheet" href="../css/site.css" />
     <link rel="stylesheet" href="../css/custom.css" />
     <script src="../js/uikit.min.js"></script>
-    <script src="../js/uikit-icons.min.js"></script>  
+    <script src="../js/uikit-icons.min.js"></script>
 </head>
 
 <body>
     <!-- NAVBAR -->
-    <nav class="uk-navbar-container" uk-navbar uk-sticky>
-        <div class="uk-navbar-left uk-visible@m">
+    <nav id="mot-navbar" class="uk-navbar-container  uk-navbar uk-sticky mot-navbar ">
+        <div class="uk-navbar-left uk-visible@m ">
             <ul class="uk-navbar-nav">
-                <li><img data-src="../img/logo_mot_1.svg" width="100%" height="100%" alt="Logo de mot" uk-img></li>
+                <li><a href="../index.html"><img data-src="img/logo_mot_2.svg" width="100%" height="100%"
+                            alt="Logo de mot" uk-img></a></li>
             </ul>
         </div>
-        <div class="uk-navbar-left uk-hidden@m">
+        <div class="uk-navbar-left uk-hidden@m ">
             <ul class="uk-navbar-nav">
-                <li><img data-src="../img/logo_mot_1.svg" width="80%" height="80%" alt="Logo de mot" uk-img></li>
+                <li><a href="../index.html"><img data-src="img/logo_mot_2.svg" width="80%" height="80%"
+                            alt="Logo de mot" uk-img></a></li>
             </ul>
         </div>
         <div class="uk-navbar-right uk-visible@m">
@@ -82,8 +84,11 @@
     </div>
     <!-- MENU MOVIL -->
     <!-- CONTENIDO -->
-    <div id="mot-contactoimg" class="uk-section uk-height-medium uk-background-cover uk-margin-auto uk-padding-auto"
+    <div class="uk-section uk-height-medium uk-background-cover uk-margin-auto uk-padding-auto uk-visible@m"
         style="background-image: url(../img/contacto.svg);">
+    </div>
+    <div class="uk-section uk-height-medium uk-background-cover uk-margin-auto uk-padding-auto uk-hidden@m"
+        style="background-image: url(../img/contacto_movil.svg); ">
     </div>
     <!-- CONTENIDO -->
     <!-- FORMULARIO -->
@@ -140,21 +145,21 @@
     <div class="uk-section uk-height-medium uk-background-cover uk-light uk-visible@m"
         style="background-image: url(../img/contacto2.svg);">
         <div class="uk-container uk-container-expand uk-text-center uk-position-relative uk-padding">
-            <p class="uk-h2"><span class="uk-text-bold">Entérate de todo</span></span>.
+            <p class="uk-h2"><span class="uk-text-bold">Entérate de todo</span>
             </p>
-            <a class="uk-center" href="" class="uk-icon-button" uk-icon="icon: instagram; ratio: 2"
+            <a class="uk-center uk-icon-button" href="" uk-icon="icon: instagram; ratio: 2"
                 style="margin-right:15px;"></a>
-            <a class="uk-center" href="" class="uk-icon-button" uk-icon="icon: mail;ratio: 2"></a>
+            <a class="uk-center uk-icon-button" href="" uk-icon="icon: mail;ratio: 2"></a>
         </div>
     </div>
     <div class="uk-section mot-height-medium uk-background-cover uk-light uk-hidden@m"
         style="background-image: url(../img/contacto2.svg);">
         <div class="uk-container uk-container-expand uk-text-center uk-position-relative uk-padding">
-            <p class="uk-h2"><span class="uk-text-bold">Entérate de todo</span></span>.
+            <p class="uk-h2"><span class="uk-text-bold">Entérate de todo</span>
             </p>
-            <a class="uk-center" href="" class="uk-icon-button" uk-icon="icon: instagram; ratio: 2"
+            <a class="uk-center uk-icon-button" href="" uk-icon="icon: instagram; ratio: 2"
                 style="margin-right:15px;"></a>
-            <a class="uk-center" href="" class="uk-icon-button" uk-icon="icon: mail;ratio: 2"></a>
+            <a class="uk-center uk-icon-button" href="" uk-icon="icon: mail;ratio: 2"></a>
         </div>
     </div>
     <!-- BANNER -->
@@ -169,8 +174,7 @@
                 <a href="#" uk-totop uk-scroll class="uk-align-left"></a>
                 <a href="" class="uk-icon-button" uk-icon="icon: mail;ratio: 2"></a>
                 <a href="" class="uk-icon-button" uk-icon="icon: instagram; ratio: 2"></a>
-                <a href="" class="mot-custom-button2 uk-button uk-button-default uk-text-lowercase uk-button-small"
-                    class="uk-align-right"><span class="uk-text-bold">+info</span></a>
+                <a href="" class="mot-custom-button2 uk-button uk-button-default uk-text-lowercase uk-button-small"><span class="uk-text-bold">+info</span></a>
                 <p class="uk-visible@m">Mot Estudio de palabras &copy;2020 | Aviso Legal | Política de privacidad</p>
                 <p class="uk-hidden@m uk-text-center">Mot Estudio de palabras &copy;2020 | Aviso Legal | Política de
                     privacidad</p>
@@ -179,4 +183,5 @@
     </footer>
     <!-- FOOTER -->
 </body>
+
 </html>

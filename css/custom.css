@@ -19,10 +19,11 @@ html * {
   margin-bottom: 75px;
 }
 
-/* nav */
-#mot-navbar {
+/* nav color blanco al menu de navegacion */
+.mot-navbar {
   background-color:white;
 }
+
 
 /* botones */
 .mot-custom-button1 {
