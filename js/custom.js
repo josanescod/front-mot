@@ -1,49 +1,43 @@
-var path,name;
+var path;
 
 window.onload = () => {
-
-    seleccionaPagina();
-
-
+    getPageHtml();
 }
 
-function seleccionaPagina() {
-    
+function getPageHtml() {
+
     path = window.location.pathname;
-    console.log(path);
-    
-
-   if (path.includes('/html/')){
-        console.log(path);
-        name=path.substring(6);
-        console.log(name);
-        recorrehrefs(name);
-        
-    }else {
-        
-        console.log(path);
-        name = path.substring(1);
-        path.substring(1);
-        console.log(name);
-        recorrehrefs(name);
-
+    if (path === '/') {
+        let elements = document.querySelectorAll('#mot-opciones li');
+        let index=elements[0];
+        index.classList.add("uk-active");
+        index.lastChild.style.color = "#40a8ba";
         
     }
+    else if (path.includes('/html/')) {
 
-    
-    
+        path = path.substring(6);
+        changeColorMenuOption(path);
+
+    } else {
+
+        path = path.substring(1);
+        changeColorMenuOption(path);
+
+
+    }
 }
 
+function changeColorMenuOption(enlace) {
+    let ul = document.querySelectorAll('#mot-opciones li a');
+    
+    for (i = 0; i < ul.length; i++) {
+        let opcion = ul[i].getAttribute("href");
 
-function recorrehrefs(ruta,enlace){
-    var ul = document.querySelectorAll('#mot-opciones li a');
-        console.log('##############')
-        console.log('direcciones')
-        console.log('##############')
-        for (i=0; i<ul.length;i++){
-            console.log(ul[i].getAttribute("href"));
-            if (enlace===ul[i].getAttribute("href")){
-                console.log('marcar esta con clase activa->'+ul[i].getAttribute("href"));
-            }
+        if (opcion.search(enlace) === 0) {
+
+            ul[i].parentNode.classList.add("uk-active");
+            ul[i].style.color = "#40a8ba";
         }
+    }
 }

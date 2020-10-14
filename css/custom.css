@@ -11,11 +11,11 @@ html * {
   font-family: "Roboto", "Open Sans", sans-serif;
 }
 
-.mot-content {
+.mot-content { /*mirar si se puede eliminar*/
   flex-grow: 1;
 }
 
-#mot-custom-div {
+#mot-custom-div {/*mirar si se puede eliminar*/
   margin-bottom: 75px;
 }
 
@@ -23,6 +23,16 @@ html * {
 #mot-navbar {
   background-color:white;
 }
+.uk-navbar-nav > li:hover > a {
+  color:#40a8ba;
+  transition: color 0.3s ease-in 0s;
+}
+
+.uk-navbar-dropdown-nav >  li:hover > a {
+  color:#40a8ba;
+  transition: color 0.3s ease-in 0s;
+}
+
 
 
 /* botones */
@@ -83,6 +93,10 @@ svg[data-svg="close-icon"] {
   background-image: url(/img/mot-arrow-down.svg);
 }
 
+#movil_white > li {
+  border-bottom: 1px solid white;
+}
+
 #movil_white > li > a {
   color: white;
 }
@@ -90,3 +104,6 @@ svg[data-svg="close-icon"] {
 #movil_white_sub > li > a {
   color: white;
 }
+
+
+
