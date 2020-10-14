@@ -25,6 +25,16 @@ html *
 #mot-navbar {
   background-color:white;
 }
+
+.uk-navbar-nav  > li > a {
+    color: black;
+    padding: 0 40px;
+    font-size: 0.97rem;
+}
+.mot-active {
+    color:#40a8ba !important;
+}
+
 .uk-navbar-nav > li:hover > a {
   color:#40a8ba;
   transition: color 0.3s ease-in 0s;
@@ -80,9 +90,8 @@ html *
 .mot-custom-button3:hover{
     color:black !important;
     background-color:#f9c00e !important;
-
-
 }
+
 .uk-section-secondary {
     background-color: #40a8ba;
 }
