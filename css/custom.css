@@ -1,75 +1,83 @@
 /*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
-/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap');*/
-@import url('https://fonts.google.com/specimen/Arimo?category=Sans+Serif#standard-styles');
 
+
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap');*/
+
+@import url('https://fonts.google.com/specimen/Arimo?category=Sans+Serif#standard-styles');
 html,
 body {
-  height: 100%;
-  width: 100%;
+    height: 100%;
+    width: 100%;
 }
 
-html *
-{
-  font-family: 'Arimo','Roboto','Open Sans', sans-serif;
+html * {
+    font-family: 'Arimo', 'Roboto', 'Open Sans', sans-serif;
 }
 
-.mot-content { /*mirar si se puede eliminar*/
-  flex-grow: 1;
+.mot-content {
+    /*mirar si se puede eliminar*/
+    flex-grow: 1;
 }
 
-#mot-custom-div {/*mirar si se puede eliminar*/
-  margin-bottom: 75px;
+#mot-custom-div {
+    /*mirar si se puede eliminar*/
+    margin-bottom: 75px;
 }
+
 
 /* nav color blanco al menu de navegacion */
+
 #mot-navbar {
-  background-color:white;
+    background-color: white;
 }
 
-.uk-navbar-nav  > li > a {
+.uk-navbar-nav>li>a {
     color: black;
     padding: 0 40px;
     font-size: 0.97rem;
 }
+
 .mot-active {
-    color:#40a8ba !important;
+    color: #40a8ba !important;
 }
 
-.uk-navbar-nav > li:hover > a {
-  color:#40a8ba;
-  transition: color 0.3s ease-in 0s;
+.uk-navbar-nav>li:hover>a {
+    color: #40a8ba;
+    transition: color 0.3s ease-in 0s;
 }
 
-.uk-navbar-dropdown-nav >  li:hover > a {
-  color:#40a8ba;
-  transition: color 0.3s ease-in 0s;
+.uk-navbar-dropdown-nav>li:hover>a {
+    color: #40a8ba;
+    transition: color 0.3s ease-in 0s;
 }
+
 
 /* botones */
+
 .mot-custom-button1 {
-  color: black;
-  border-color: #f9c00e;
-  border-width: 4px;
-  border-style: solid;
-  font-weight: bold;
+    color: black;
+    border-color: #f9c00e;
+    border-width: 4px;
+    border-style: solid;
+    font-weight: bold;
 }
 
-.mot-custom-button1:hover{
-    background-color:#E3BC38 !important;
+.mot-custom-button1:hover {
+    background-color: #E3BC38 !important;
 }
 
 .mot-custom-button2 {
-    background-color:white !important;
-    border-color:#40a8ba !important;
+    background-color: white !important;
+    border-color: #40a8ba !important;
     border-width: 5px !important;
     border-style: solid !important;
     font-weight: bold !important;
-    color:black !important;
+    color: black !important;
 }
 
-.mot-custom-button2:hover{
-    color:white !important;
-    background-color:#40a8ba !important;
+.mot-custom-button2:hover {
+    color: white !important;
+    background-color: #40a8ba !important;
 }
 
 .mot-custom-button3 {
@@ -87,44 +95,53 @@ html *
     margin: auto;
     padding: 10px;
 }
-.mot-custom-button3:hover{
-    color:black !important;
-    background-color:#f9c00e !important;
+
+.mot-custom-button3:hover {
+    color: black !important;
+    background-color: #f9c00e !important;
 }
 
 .uk-section-secondary {
     background-color: #40a8ba;
 }
+
+
 /* pruebas: para cambiar el color de los simbolos del carrusel y modificar altura sections*/
+
 .uk-slidenav-previous {
-  color: #c5c5c5;
+    color: #c5c5c5;
 }
 
 .uk-slidenav-next {
-  color: #c5c5c5;
+    color: #c5c5c5;
 }
 
+
 /* altura de los divs */
+
 .uk-height-large {
-  height: 500px;
+    height: 500px;
 }
 
 .mot-height-medium {
-  height: 250px;
+    height: 250px;
 }
+
 
 /* menu movil */
+
 svg[data-svg="close-icon"] {
-  color: white;
+    color: white;
 }
 
-.uk-nav-parent-icon > .uk-parent > a::after {
-  background-image: url(/img/mot-arrow-left.svg);
+.uk-nav-parent-icon>.uk-parent>a::after {
+    background-image: url(/img/mot-arrow-left.svg);
 }
 
-.uk-nav-parent-icon > .uk-parent.uk-open > a::after {
-  background-image: url(/img/mot-arrow-down.svg);
+.uk-nav-parent-icon>.uk-parent.uk-open>a::after {
+    background-image: url(/img/mot-arrow-down.svg);
 }
+
 .mot-columna-izquierda {
     padding: 2% 2% 2% 12%;
 }
@@ -132,6 +149,7 @@ svg[data-svg="close-icon"] {
 .mot-columna-derecha {
     padding: 2% 12% 2% 2%;
 }
+
 .mot-columna-izquierda2 {
     padding: 2% 2% 2% 25%;
 }
@@ -148,18 +166,25 @@ svg[data-svg="close-icon"] {
     background-color: #f8d556;
 }
 
-#movil_white > li {
-  border-bottom: 1px solid white;
+#movil_white>li {
+    border-bottom: 1px solid white;
 }
 
-#movil_white > li > a {
-  color: white;
+#movil_white>li>a {
+    color: white;
 }
 
-#movil_white_sub > li > a {
-  color: white;
+#movil_white_sub>li>a {
+    color: white;
 }
 
 .mot-color-azul {
     color: #28828C;
+}
+
+
+/* Estilos para página ¿Qué es Mot? */
+
+.padding-gande {
+    padding: 17%;
 }
