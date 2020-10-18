@@ -27,14 +27,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/mot-image-hero.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/botones.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Mot_Logos-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Mot_Logos-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Mot_Logos-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Mot_Logos-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Mot_Logos-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Mot_Logos-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organiza.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/organizauntaller.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contacto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/mot.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/mot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/org_taller.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/org_taller.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/taller1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/taller2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/talleresccreativa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/talleresccreativa.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +71,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -75,8 +83,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/html" />
       <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/html" />
     </key>
   </component>
   <component name="RunManager">
@@ -101,7 +109,8 @@
       <workItem from="1602617540125" duration="4879000" />
       <workItem from="1602701716188" duration="7836000" />
       <workItem from="1602788482895" duration="6340000" />
-      <workItem from="1602874596672" duration="6024000" />
+      <workItem from="1602874596672" duration="6314000" />
+      <workItem from="1602989258887" duration="23816000" />
     </task>
     <servers />
   </component>
@@ -137,9 +146,14 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2338" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1602788844837" />
-    <state x="74" y="80" width="1618" height="914" key="find.popup" timestamp="1602708439509">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2663" y="225" width="423" height="583" key="RollbackChangesDialog" timestamp="1603006696796">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="225" width="423" height="583" key="RollbackChangesDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603006696796" />
+    <state x="1994" y="83" width="1618" height="950" key="find.popup" timestamp="1603010546075">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="74" y="80" width="1618" height="914" key="find.popup/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1602708439509" />
+    <state x="1994" y="83" width="1618" height="950" key="find.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603010546075" />
   </component>
 </project>

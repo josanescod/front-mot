@@ -9,7 +9,9 @@ body {
     height: 100%;
     /*width: 100%;*/
 }
-
+p li {
+    color: black;
+}
 html * {
     font-family: 'Arimo', 'Roboto', 'Open Sans', sans-serif;
 }
@@ -51,60 +53,9 @@ html * {
     transition: color 0.3s ease-in 0s;
 }
 
-
-/* botones */
-
-.mot-custom-button1 {
-    color: black;
-    border-color: #f9c00e;
-    border-width: 4px;
-    border-style: solid;
-    font-weight: bold;
-}
-
-.mot-custom-button1:hover {
-    background-color: #E3BC38 !important;
-}
-
-.mot-custom-button2 {
-    background-color: white !important;
-    border-color: #40a8ba !important;
-    border-width: 5px !important;
-    border-style: solid !important;
-    font-weight: bold !important;
-    color: black !important;
-}
-
-.mot-custom-button2:hover {
-    color: white !important;
-    background-color: #40a8ba !important;
-}
-
-.mot-custom-button3 {
-    background-color: transparent !important;
-    border-color: #f9c00e !important;
-    border-width: 5px !important;
-    border-style: solid !important;
-    font-weight: bold !important;
-    color: white !important;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    text-align: center !important;
-    line-height: 20px;
-    margin: auto;
-    padding: 10px;
-}
-
-.mot-custom-button3:hover {
-    color: black !important;
-    background-color: #f9c00e !important;
-}
-
-.uk-section-secondary {
+.mot-fondo-azul {
     background-color: #40a8ba;
 }
-
 
 /* pruebas: para cambiar el color de los simbolos del carrusel y modificar altura sections*/
 
@@ -116,7 +67,6 @@ html * {
     color: #c5c5c5;
 }
 
-
 /* altura de los divs */
 
 .uk-height-large {
@@ -126,7 +76,6 @@ html * {
 .mot-height-medium {
     height: 250px;
 }
-
 
 /* menu movil */
 
@@ -166,6 +115,14 @@ svg[data-svg="close-icon"] {
     background-color: #f8d556;
 }
 
+.mot-fondo-morado {
+    background-color: #a063a5;
+}
+
+.mot-fondo-morado-claro {
+    background-color: #a273a5;
+}
+
 #movil_white>li {
     border-bottom: 1px solid white;
 }
@@ -179,15 +136,21 @@ svg[data-svg="close-icon"] {
 }
 
 .mot-color-azul {
-    color: #28828C;
+    color: #40a8ba;
 }
 
-/*IMAGENES HERO INI*/
-
-/*IMAGENES HERO FIN*/
+.mot-linea-azul {
+    border:2px solid #40a8ba;
+}
 
 /* Estilos para página ¿Qué es Mot? */
 
 .padding-gande {
     padding: 17%;
+}
+
+.mot-barra-amarilla {
+    border: 1.5px solid #f9c00e;
+    background: #f9c00e;
+    margin-top: 49px;
 }

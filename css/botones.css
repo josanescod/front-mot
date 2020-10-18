@@ -1,0 +1,131 @@
+.mot-boton-amarillo-blanco {
+    background-color: transparent;
+    color: white;
+    border-color: #f9c00e;
+    border-width: 4px;
+    border-style: solid;
+    font-weight: bold;
+}
+
+.mot-boton-amarillo-blanco:hover {
+    background-color: #f9c00e;
+}
+
+.mot-boton-amarillo-negro {
+    background-color: transparent;
+    color: black;
+    border-color: #f9c00e;
+    border-width: 4px;
+    border-style: solid;
+    font-weight: bold;
+}
+
+.mot-boton-amarillo-negro:hover {
+    background-color: #f9c00e;
+}
+
+.mot-boton-amarillo-blanco-redondo {
+    background-color: transparent;
+    border-color: #f9c00e;
+    border-width: 5px;
+    border-style: solid;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+.mot-boton-amarillo-blanco-redondo:hover {
+    background-color: #f9c00e;
+}
+
+.mot-boton-amarillo-negro-redondo {
+    background-color: transparent;
+    border-color: #f9c00e;
+    border-width: 5px;
+    border-style: solid;
+    font-weight: bold;
+    color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+.mot-boton-amarillo-negro-redondo:hover {
+    background-color: #f9c00e;
+}
+
+.mot-boton-azul-blanco {
+    background-color: transparent;
+    border-color: #40a8ba;
+    border-width: 5px;
+    border-style: solid;
+    font-weight: bold;
+    color: white;
+}
+
+.mot-boton-azul-blanco:hover {
+    background-color: #40a8ba;
+}
+
+.mot-boton-azul-negro {
+    background-color: transparent;
+    border-color: #40a8ba;
+    border-width: 5px;
+    border-style: solid;
+    font-weight: bold;
+    color: black;
+}
+
+.mot-boton-azul-negro:hover {
+    background-color: #40a8ba;
+}
+
+.mot-boton-azul-negro-redondo {
+    background-color: transparent;
+    border-color: #40a8ba;
+    border-width: 5px;
+    border-style: solid;
+    font-weight: bold;
+    color: black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+.mot-boton-azul-negro-redondo:hover {
+    background-color: #40a8ba;
+}
+
+.mot-boton-azul-blaco-redondo {
+    background-color: transparent;
+    border-color: #40a8ba;
+    border-width: 5px;
+    border-style: solid;
+    font-weight: bold;
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+.mot-boton-azul-blanco-redondo:hover {
+    background-color: #40a8ba;
+}
