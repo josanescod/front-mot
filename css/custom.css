@@ -83,14 +83,6 @@ svg[data-svg="close-icon"] {
     color: white;
 }
 
-.uk-nav-parent-icon>.uk-parent>a::after {
-    background-image: url(/img/mot-arrow-left.svg);
-}
-
-.uk-nav-parent-icon>.uk-parent.uk-open>a::after {
-    background-image: url(/img/mot-arrow-down.svg);
-}
-
 .mot-columna-izquierda {
     padding: 2% 2% 2% 12%;
 }
