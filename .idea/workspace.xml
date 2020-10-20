@@ -27,30 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contacto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/mot.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/mot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/org_taller.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/org_taller.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/taller1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/taller2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg1m.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg5.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg7.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contacto2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contacto_movil.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/homebg.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/homebg3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/homebg_movil.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/lidia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logo_mot_old.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logoblue.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logoblue2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logoyellow2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logoyellow3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/mot-arrow-down.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/mot-arrow-left.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +96,8 @@
       <workItem from="1602788482895" duration="6340000" />
       <workItem from="1602874596672" duration="6314000" />
       <workItem from="1602989258887" duration="23816000" />
-      <workItem from="1603133559807" duration="7029000" />
+      <workItem from="1603133559807" duration="7175000" />
+      <workItem from="1603221975188" duration="1040000" />
     </task>
     <servers />
   </component>

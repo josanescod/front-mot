@@ -37,3 +37,7 @@
 ehthumbs.db
 Thumbs.dbi
 /HTML5Application/nbproject/private/
+
+#WebStorm
+#######################
+.idea
