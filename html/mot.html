@@ -20,20 +20,13 @@
     <nav id="mot-navbar" class="uk-width-1-1" uk-navbar uk-sticky>
         <div class="k-navbar-left">
             <ul class="uk-navbar-nav">
-                <li><a href="../index.html"><img data-src="../img/logo_mot_1.svg" width="100%" height="100%" alt="Logo de mot" uk-img></a></li>
-            </ul>
-        </div>
-        <div class="uk-navbar-left uk-hidden@m">
-            <ul class="uk-navbar-nav">
-                <li>
-                    <a href="../index.html"><img data-src="../img/logo_mot_1.svg" width="80%" height="80%" alt="Logo de mot" uk-img></a>
-                </li>
+                <li><a href="../index.html"><img data-src="../img/logo_mot_1.svg" alt="Logo de mot" uk-img></a></li>
             </ul>
         </div>
         <div class="uk-margin-large-right uk-navbar-right uk-visible@m">
             <ul id="mot-opciones" class="uk-navbar-nav">
                 <li><a href="../index.html">HOME</a></li>
-                <li><a href="mot.html" class="mot-active">QUE ÉS MOT</a></li>
+                <li><a href="mot.html">QUE ÉS MOT</a></li>
                 <li>
                     <a href="#">TALLERES</a>
                     <div id="mot-submenu" class="uk-navbar-dropdown">
@@ -44,13 +37,14 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="contacto.html" class="mot-active">CONTACTO</a></li>
             </ul>
         </div>
         <div id="mot-custom-div" class="uk-navbar-right uk-hidden@m">
             <ul class="uk-navbar-nav">
                 <!-- boton oculto en tabletas o superior-->
-                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil" data-uk-navbar-toggle-icon></button>
+                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil"
+                        data-uk-navbar-toggle-icon></button>
             </ul>
         </div>
     </nav>
@@ -129,17 +123,20 @@
 
     <hr>
 
+    <!-- FOOTER -->
     <footer class="uk-padding-small uk-margin-top">
         <div class="uk-container uk-container-expand uk-text-right">
             <a class="uk-align-left" href="../index.html">
                 <img data-src="../img/mot-icono-footer1.svg" alt="logo-mot" uk-img class=" uk-visible@m">
                 <img data-src="../img/estudiopalabras-icono-footer2.svg" alt="logo-mot" uk-img class=" uk-visible@m">
             </a>
-            <a href="" uk-scroll class="uk-align-left uk-totop"><span uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m"><span uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m"><span uk-icon="icon: chevron-up; ratio: 2"></span></a>
             <a href="" class="uk-icon-button" uk-icon="icon: mail;ratio: 2"></a>
             <a href="" class="uk-icon-button" uk-icon="icon: instagram; ratio: 2"></a>
             <a href="#"><button class="mot-boton-azul-negro uk-button uk-text-lowercase uk-button-small">+ info</button></a>
-            <p>Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
+            <p class="uk-visible@m">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
+            <p class="uk-hidden@m uk-text-small uk-text-center">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
         </div>
     </footer>
     <!-- FOOTER -->
