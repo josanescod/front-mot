@@ -9,9 +9,11 @@ body {
     height: 100%;
     /*width: 100%;*/
 }
+
 p li {
     color: black;
 }
+
 html * {
     font-family: 'Arimo', 'Roboto', 'Open Sans', sans-serif;
 }
@@ -57,6 +59,7 @@ html * {
     background-color: #40a8ba;
 }
 
+
 /* pruebas: para cambiar el color de los simbolos del carrusel y modificar altura sections*/
 
 .uk-slidenav-previous {
@@ -67,6 +70,7 @@ html * {
     color: #c5c5c5;
 }
 
+
 /* altura de los divs */
 
 .uk-height-large {
@@ -76,6 +80,7 @@ html * {
 .mot-height-medium {
     height: 250px;
 }
+
 
 /* menu movil */
 
@@ -132,8 +137,9 @@ svg[data-svg="close-icon"] {
 }
 
 .mot-linea-azul {
-    border:2px solid #40a8ba;
+    border: 2px solid #40a8ba;
 }
+
 
 /* Estilos para página ¿Qué es Mot? */
 
@@ -145,5 +151,4 @@ svg[data-svg="close-icon"] {
     border: 1.5px solid #f9c00e;
     background: #f9c00e;
     margin-top: 49px;
->>>>>>> taller
 }
