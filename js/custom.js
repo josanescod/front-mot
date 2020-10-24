@@ -1,43 +1,19 @@
-var path;
-
+//cuando se haga click en una opcion del menu , se cierre automaticamente
 window.onload = () => {
-    getPageHtml();
-}
 
-function getPageHtml() {
+    var bHome = document.querySelector('#mHome')
+    var bProyectos = document.querySelector('#mMot')
+    var btaller1 = document.querySelector('#mtaller1')
+    var btaller2 = document.querySelector('#mtaller2')
+    var borg_taller = document.querySelector('#morg_taller')
+    var bContact = document.querySelector('#mContacto');
+    var elements = [bHome, bProyectos,btaller1,btaller2,borg_taller, bContact];
 
-    path = window.location.pathname;
-    if (path === '/') {
-        let elements = document.querySelectorAll('#mot-opciones li');
-        let index=elements[0];
-        index.classList.add("uk-active");
-        index.lastChild.style.color = "#40a8ba";
-        
-    }
-    else if (path.includes('/html/')) {
+    for (e in elements) {
 
-        path = path.substring(6);
-        changeColorMenuOption(path);
-
-    } else {
-
-        path = path.substring(1);
-        changeColorMenuOption(path);
-
-
-    }
-}
-
-function changeColorMenuOption(enlace) {
-    let ul = document.querySelectorAll('#mot-opciones li a');
-    
-    for (i = 0; i < ul.length; i++) {
-        let opcion = ul[i].getAttribute("href");
-
-        if (opcion.search(enlace) === 0) {
-
-            ul[i].parentNode.classList.add("uk-active");
-            ul[i].style.color = "#40a8ba";
-        }
+        console.log(elements[e])
+        elements[e].addEventListener('click', function () {
+            UIkit.offcanvas('#menu_movil').hide();
+        })
     }
 }

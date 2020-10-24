@@ -45,30 +45,20 @@ html * {
     color: #40a8ba !important;
 }
 
-.uk-navbar-nav>li:hover>a {
-    color: #40a8ba;
-    transition: color 0.3s ease-in 0s;
-}
-
-.uk-navbar-dropdown-nav>li:hover>a {
-    color: #40a8ba;
-    transition: color 0.3s ease-in 0s;
-}
 
 .mot-fondo-azul {
     background-color: #40a8ba;
 }
 
-
-/* pruebas: para cambiar el color de los simbolos del carrusel y modificar altura sections*/
-
-.uk-slidenav-previous {
-    color: #c5c5c5;
+/* estilos flecha de opciones del canvas del movil */
+.uk-nav-parent-icon>.uk-parent>a::after {
+    background-image: url(/img/flecha-blanca-canvas-izquierda.svg);
 }
 
-.uk-slidenav-next {
-    color: #c5c5c5;
+.uk-nav-parent-icon>.uk-parent.uk-open>a::after {
+    background-image: url(/img/flecha-blanca-canvas-abajo.svg);
 }
+
 
 
 /* altura de los divs */
