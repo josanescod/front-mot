@@ -2,7 +2,8 @@
 <html lang="es">
 
 <head>
-    <title>mot - estudio de palabras</title>
+    <title>Catálogo de talleres | MOT</title>
+    <meta name="description" content="Aprende más sobre mis talleres de escritura creativa y lenguaje inclusivo. También puedo organizar un taller a medida de tus necesidades">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/site.css" />
@@ -20,7 +21,9 @@
     <nav id="mot-navbar" class="uk-width-1-1" uk-navbar uk-sticky>
         <div class="k-navbar-left">
             <ul class="uk-navbar-nav">
-                <li><a href="../index.html"><img data-src="../img/logo_mot_1.svg" width="100%" height="100%" alt="Logo de mot" uk-img></a></li>
+                <li>
+                    <a href="../index.html"><img data-src="../img/logo_mot_1.svg" width="100%" height="100%" alt="Logo de mot" uk-img></a>
+                </li>
             </ul>
         </div>
         <div class="uk-margin-large-right uk-navbar-right uk-visible@m">
@@ -43,32 +46,37 @@
         <div id="mot-custom-div" class="uk-navbar-right uk-hidden@m">
             <ul class="uk-navbar-nav">
                 <!-- boton oculto en tabletas o superior-->
-                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil"
-                        data-uk-navbar-toggle-icon></button>
+                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil" data-uk-navbar-toggle-icon></button>
             </ul>
         </div>
     </nav>
     <!-- NAVBAR -->
     <!-- MENU MOVIL -->
-    <nav id="menu_movil" uk-offcanvas="overlay: true;flip: true">
-        <div class="uk-offcanvas-bar uk-hidden@m">
+    <div id="menu_movil" uk-offcanvas="overlay: true;flip: true">
+        <div class="uk-offcanvas-bar uk-hidden@m uk-light">
             <button class="uk-offcanvas-close" type="button" uk-close></button>
             <ul id="movil_white" class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
                 <br>
-                <li class="uk-nav-header uk-active"><a href="../index.html">HOME</a></li>
-                <li class="uk-nav-header uk-active"><a href="mot.html">QUE ÉS MOT</a></li>
-                <li class="uk-nav-header uk-parent">
-                    <a href="#">TALLERES</a>
-                    <ul id="movil_white_sub" class="uk-nav-sub">
-                        <li><a href="taller1.html">Escritura creativa</a></li>
-                        <li><a href="taller2.html">Lenguaje inclusivo</a></li>
-                        <li><a href="org_taller.html">Organiza un taller</a></li>
+                <li class="uk-nav-header"><a href="../index.html">HOME</a></li>
+                <li class="uk-nav-header"><a href="mot.html">QUE ÉS MOT</a></li>
+                <li class="uk-nav-header">
+                    <ul uk-accordion>
+                        <li>
+                            <a class="uk-accordion-title uk-nav-header" href="#">TALLERES</a>
+                            <div class="uk-accordion-content">
+                                <ul>
+                                    <li><a href="taller1.html">Escritura creativa</a></li>
+                                    <li><a href="taller2.html">Lenguaje inclusivo</a></li>
+                                    <li><a href="org_taller.html">Organiza un taller</a></li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </li>
                 <li class="uk-nav-header"><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </div>
-    </nav>
+    </div>
     <!-- MENU MOVIL -->
     <!--HERO-->
     <div class="uk-background-cover mot-imagen-hero" style="background-image: url(../img/organiza.jpg);">
@@ -77,31 +85,26 @@
     <div class="uk-section uk-text-center">
         <div class="uk-container">
             <div class="uk-container uk-container-small uk-text-center">
-                <h2 class="uk-h1 uk-text-bolder"><strong>¿Quieres organizar un taller presencial en tu centro,
+                <h1 class="uk-text-bolder"><strong>¿Quieres organizar un taller presencial en tu centro,
                     asociación o empresa?</strong>
-                </h2>
+                </h1>
                 <p class="uk-h3">Cuéntame qué necesitas y adaptaré el taller para ti.</p>
             </div>
             <hr class="mot-linea-azul">
             <div uk-grid>
                 <div class="uk-width-1-3@m">
                     <p class="uk-h4">Taller adaptado</p>
-                    <p class="uk-h5"> El contenido, duración y horarios del Taller de Escritura Creativa y del Taller de
-                        Lenguaje Inclusivo pueden adaptarse según tus necesidades y según las características de las
-                        personas participantes.
+                    <p class="uk-h5"> El contenido, duración y horarios del Taller de Escritura Creativa y del Taller de Lenguaje Inclusivo pueden adaptarse según tus necesidades y según las características de las personas participantes.
                     </p>
                 </div>
                 <div class="uk-width-1-3@m">
                     <p class="uk-h4">Apoyo a proyectos sociales</p>
-                    <p class="uk-h5"> Si te dedicas a desarrollar proyectos sociales, eres una asociación o una entidad
-                        del Tercer Sector y te gustaría organizar un taller, escríbeme sin preocuparte por el
-                        presupuesto. Juntxs encontraremos la manera de colaborar más adecuada.
+                    <p class="uk-h5"> Si te dedicas a desarrollar proyectos sociales, eres una asociación o una entidad del Tercer Sector y te gustaría organizar un taller, escríbeme sin preocuparte por el presupuesto. Juntxs encontraremos la manera de colaborar más adecuada.
                     </p>
                 </div>
                 <div class="uk-width-1-3@m">
                     <p class="uk-h4">Crea tu propio taller</p>
-                    <p class="uk-h5"> ¿Quieres desarrollar un taller sobre algún tema creativo o social, diferente a los
-                        actuales talleres de MOT? Puedo ayudarte a crearlo desde cero, programarlo e impartirlo.
+                    <p class="uk-h5"> ¿Quieres desarrollar un taller sobre algún tema creativo o social, diferente a los actuales talleres de MOT? Puedo ayudarte a crearlo desde cero, programarlo e impartirlo.
                     </p>
                 </div>
             </div>
@@ -138,15 +141,13 @@
                         </ul>
                     </div>
 
-                    <div class="uk-hidden@s uk-light">
-                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    <div class="uk-visible@l">
+                        <a class="mot-left uk-position-center-left uk-position-small uk-slidenav-previous" href="#"uk-slider-item="previous"><span uk-icon="icon: chevron-left; ratio: 3.5"></span></a>
+                        <a class="mot-right uk-position-center-right uk-position-small uk-slidenav-next" href="#"uk-slider-item="next"><span uk-icon="icon: chevron-right; ratio: 3.5"></span></a>
                     </div>
-                    <div class="uk-visible@s">
-                        <a class="uk-position-center-left-out uk-position-small uk-slidenav-previous" href="#"
-                           uk-slider-item="previous"><span uk-icon="icon: chevron-left; ratio: 3.5"></span></a>
-                        <a class="uk-position-center-right-out uk-position-small uk-slidenav-next" href="#"
-                           uk-slider-item="next"><span uk-icon="icon: chevron-right; ratio: 3.5"></span></a>
+                    <div class="uk-hidden@l">
+                        <a class="mot-left uk-position-center-left uk-position-small uk-slidenav-previous" href="#"uk-slider-item="previous"><span uk-icon="icon: chevron-left; ratio: 2.5"></span></a>
+                        <a class="mot-right uk-position-center-right uk-position-small uk-slidenav-next" href="#"uk-slider-item="next"><span uk-icon="icon: chevron-right; ratio: 2.5"></span></a>
                     </div>
                 </div>
                 <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
@@ -161,10 +162,10 @@
                 <img data-src="../img/mot-icono-footer1.svg" alt="logo-mot" uk-img class=" uk-visible@m">
                 <img data-src="../img/estudiopalabras-icono-footer2.svg" alt="logo-mot" uk-img class=" uk-visible@m">
             </a>
-            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m"><span uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
-            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m"><span uk-icon="icon: chevron-up; ratio: 2"></span></a>
-            <a href="" class="uk-icon-button" uk-icon="icon: mail;ratio: 2"></a>
-            <a href="" class="uk-icon-button" uk-icon="icon: instagram; ratio: 2"></a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m mot-up"><span uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m mot-up"><span uk-icon="icon: chevron-up; ratio: 2"></span></a>
+            <a href="" uk-icon="icon: mail;ratio: 2.5"></a>
+            <a href="" uk-icon="icon: instagram; ratio: 2"></a>
             <a href="#"><button class="mot-boton-azul-negro uk-button uk-text-lowercase uk-button-small">+ info</button></a>
             <p class="uk-visible@m">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
             <p class="uk-hidden@m uk-text-small uk-text-center">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>

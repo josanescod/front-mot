@@ -2,7 +2,8 @@
 <html lang="es">
 
 <head>
-    <title>mot - estudio de palabras</title>
+    <title>Escritura creativa | MOT</title>
+    <meta name="description" content="Con el taller de escritura creativa podrás comunicarte con el mundo y contigo">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/site.css" />
@@ -50,25 +51,31 @@
     </nav>
     <!-- NAVBAR -->
     <!-- MENU MOVIL -->
-    <nav id="menu_movil" uk-offcanvas="overlay: true;flip: true">
-        <div class="uk-offcanvas-bar uk-hidden@m">
+    <div id="menu_movil" uk-offcanvas="overlay: true;flip: true">
+        <div class="uk-offcanvas-bar uk-hidden@m uk-light">
             <button class="uk-offcanvas-close" type="button" uk-close></button>
             <ul id="movil_white" class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
                 <br>
-                <li class="uk-nav-header uk-active"><a href="../index.html">HOME</a></li>
-                <li class="uk-nav-header uk-active"><a href="mot.html">QUE ÉS MOT</a></li>
-                <li class="uk-nav-header uk-parent">
-                    <a href="#">TALLERES</a>
-                    <ul id="movil_white_sub" class="uk-nav-sub">
-                        <li><a href="taller1.html">Escritura creativa</a></li>
-                        <li><a href="taller2.html">Lenguaje inclusivo</a></li>
-                        <li><a href="org_taller.html">Organiza un taller</a></li>
+                <li class="uk-nav-header"><a href="../index.html">HOME</a></li>
+                <li class="uk-nav-header"><a href="mot.html">QUE ÉS MOT</a></li>
+                <li class="uk-nav-header">
+                    <ul uk-accordion>
+                        <li>
+                            <a class="uk-accordion-title uk-nav-header" href="#">TALLERES</a>
+                            <div class="uk-accordion-content">
+                                <ul>
+                                    <li><a href="taller1.html">Escritura creativa</a></li>
+                                    <li><a href="taller2.html">Lenguaje inclusivo</a></li>
+                                    <li><a href="org_taller.html">Organiza un taller</a></li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </li>
                 <li class="uk-nav-header"><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </div>
-    </nav>
+    </div>
     <!-- MENU MOVIL -->
     <!-- CONTENIDO -->
     <!--HERO-->
@@ -77,8 +84,8 @@
     <!--HERO-->
     <div class="uk-section uk-text-center">
         <div class="uk-container uk-container-small">
-            <p class="uk-h1 uk-text-bolder"><strong>Olvida todo lo que sabes sobre cursos de escritura, porque este no
-                es así</strong></p>
+            <h1 class="uk-text-bolder"><strong>Olvida todo lo que sabes sobre cursos de escritura, porque este no
+                es así</strong></h1>
             <p>
                 A través de una serie de variados ejercicios prácticos, desde juegos surrealistas a mecanismos de creación de ideas, aprenderemos a superar este momento. Dejaremos a un lado las exigencias formales para trabajar la no-técnica, la escritura más visceral.
                 Siempre conscientes de que el objetivo no es alcanzar la máxima calidad literaria del texto, sino el simple hecho de permitirnos escribir sin que las expectativas del resultado inhiban la capacidad creativa presente en cada persona.
@@ -90,9 +97,9 @@
 
     <div class="uk-section" uk-grid>
         <div class="uk-container uk-width-1-2@m uk-margin-remove uk-padding-large mot-fondo-amarillo">
-            <div class="uk-margin-xlarge-left">
+            <div class="uk-margin-auto-left@m uk-margin-remove@s uk-padding">
                 <p><strong>¿A QUIÉN VA DIRIGIDO?</strong></p>
-                <h1><strong>Este taller es para ti</strong></h1>
+                <p class="uk-h1"><strong>Este taller es para ti</strong></p>
                 <ul class="uk-list uk-list-hyphen">
                     <li>
                         Si eres una persona con inquietud por la escritura que a la hora de ponerse a escribir no sabe por dónde empezar.
@@ -113,9 +120,9 @@
             </div>
         </div>
         <div class="uk-container uk-width-1-2@m uk-margin-remove uk-padding-large mot-fondo-amarillo-claro">
-            <div class="uk-margin-xlarge-right">
+            <div class="uk-margin-auto-right@m uk-margin-remove@ uk-padding">
                 <p><strong>OBJETIVOS</strong></p>
-                <h1><strong>¿Qué conseguirás?</strong></h1>
+                <p class="uk-h1"><strong>¿Qué conseguirás?</strong></p>
                 <ul class="uk-list uk-list-hyphen">
                     <li>
                         Superar los prejuicios sobre tu capacidad creativa.
@@ -144,48 +151,48 @@
         <div class="uk-container">
             <div uk-grid>
                 <div class="uk-width-1-2@m uk-padding-large">
-                    <h1 class="mot-color-azul"><strong>Taller online</strong></h1>
+                    <p class="uk-h1 mot-color-azul"><strong>Taller online</strong></p>
                     <ul uk-accordion="multiple: true">
                         <li>
-                            <a class="uk-accordion-title" href="#">PRECIO*</a>
+                            <a class="uk-accordion-title mot-border-bottom-black" href="#">PRECIO*</a>
                             <div class="uk-accordion-content">
                                 <p>2 personas = 80€/pers<br> 3/5 personas = 65€/pers</p>
                                 <p>*El precio total del taller variará en función de la cantidad de personas inscritas. No máx. 5 personas.</p>
                             </div>
                         </li>
                         <li>
-                            <a class="uk-accordion-title" href="#">HORARIOS</a>
+                            <a class="uk-accordion-title mot-border-bottom-black" href="#">HORARIOS</a>
                             <div class="uk-accordion-content">
                                 <p>
                                     MARTES<br> De 10.30h a 12h.<br> Inicio 22 de septiembre - 5 semanas<br>
-                                    <a href="#modal" uk-toggle>►¡Inscripciones abiertas aquí!</a>
+                                    <a href="#modal" uk-toggle><u>►¡Inscripciones abiertas aquí!</u></a>
                                 </p>
                                 <p>
                                     JUEVES<br> De 19.30h a 21h.<br> Inicio 24 de septiembre - 5 semanas<br>
-                                    <a href="#modal" uk-toggle>►¡Inscripciones abiertas aquí!</a>
+                                    <a href="#modal" uk-toggle><u>►¡Inscripciones abiertas aquí!</u></a>
                                 </p>
                             </div>
                         </li>
                     </ul>
                 </div>
                 <div class="uk-width-1-2@m uk-padding-large">
-                    <h1 class="mot-color-azul"><strong>Taller presencial</strong></h1>
+                    <p class="uk-h1 mot-color-azul"><strong>Taller presencial</strong></p>
                     <ul uk-accordion="multiple: true">
                         <li>
-                            <a class="uk-accordion-title" href="#">CASTELLON</a>
+                            <a class="uk-accordion-title mot-border-bottom-black" href="#">CASTELLON</a>
                             <div class="uk-accordion-content">
                                 <p>
                                     2 y 3 octubre.<br> Viernes de 16 a 10h y sábado de 10 a 14h.<br> Precio 40€. Asociación “La Exprimidora”<br>
-                                    <a href="#">► Me apunto</a>
+                                    <a href="#"><u>► Me apunto</u></a>
                                 </p>
                             </div>
                         </li>
                         <li>
-                            <a class="uk-accordion-title" href="#">VALENCIA</a>
+                            <a class="uk-accordion-title mot-border-bottom-black" href="#">VALENCIA</a>
                             <div class="uk-accordion-content">
                                 <p>
                                     16 octubre.<br> Sábado de 17h a 19h.<br> Precio 25€. Asociación “La Mina”<br>
-                                    <a href="#">► Me apunto</a>
+                                    <a href="#"><u>► Me apunto</u></a>
                                 </p>
                             </div>
                         </li>
@@ -208,7 +215,7 @@
 
     <div class="uk-section uk-text-center">
         <div class="uk-container">
-            <p class="uk-h2">¿Y qué tal el taller?</p>
+            <h2>¿Y qué tal el taller?</h2>
             <hr class="mot-linea-azul">
             <div uk-slider="autoplay: true; autoplay-interval: 5000">
                 <div class="uk-position-relative">
@@ -253,13 +260,13 @@
                         </ul>
                     </div>
 
-                    <div class="uk-hidden@s uk-light">
-                        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-                        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                    <div class="uk-visible@l">
+                        <a class="mot-left uk-position-center-left uk-position-small uk-slidenav-previous" href="#"uk-slider-item="previous"><span uk-icon="icon: chevron-left; ratio: 3.5"></span></a>
+                        <a class="mot-right uk-position-center-right uk-position-small uk-slidenav-next" href="#"uk-slider-item="next"><span uk-icon="icon: chevron-right; ratio: 3.5"></span></a>
                     </div>
-                    <div class="uk-visible@s">
-                        <a class="uk-position-center-left-out uk-position-small uk-slidenav-previous" href="#" uk-slider-item="previous"><span uk-icon="icon: chevron-left; ratio: 3.5"></span></a>
-                        <a class="uk-position-center-right-out uk-position-small uk-slidenav-next" href="#" uk-slider-item="next"><span uk-icon="icon: chevron-right; ratio: 3.5"></span></a>
+                    <div class="uk-hidden@l">
+                        <a class="mot-left uk-position-center-left uk-position-small uk-slidenav-previous" href="#"uk-slider-item="previous"><span uk-icon="icon: chevron-left; ratio: 2.5"></span></a>
+                        <a class="mot-right uk-position-center-right uk-position-small uk-slidenav-next" href="#"uk-slider-item="next"><span uk-icon="icon: chevron-right; ratio: 2.5"></span></a>
                     </div>
                 </div>
                 <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
@@ -274,13 +281,13 @@
                 <h2 class="uk-h1 uk-text-bolder"><strong>¿Necesitas más información?</strong></h2>
             </div>
             <div uk-grid>
-                <div class="uk-width-1-2@m uk-padding-large">
+                <div class="uk-width-1-2@m">
                     <p class="uk-h5">
                         Rellena este formulario si te gustaría proponer nuevos horarios o si tienes cualquier otra pregunta. Intentaré responderte en menos de 48h, <span class="uk-text-bold">¡lo prometo!</span>
                     </p>
                     <img src="../img/bocadillo.jpg" alt="bocadillo">
                 </div>
-                <div class="uk-width-1-2@m uk-padding-large">
+                <div class="uk-width-1-2@m">
                     <form class="uk-form-stacked">
                         <div class="uk-margin">
                             <label class="uk-form-label" for="nombre">Nombre y apellidos*:</label>
@@ -307,7 +314,7 @@
                             </div>
                         </div>
                         <p class="uk-text-italic uk-text-small">*Campos obligatorios</p>
-                        <input type="submit" class="mot-boton-amarillo-negro uk-button uk-text-lowercase" value="enviar"></input>
+                        <input type="submit" class="mot-boton-amarillo-negro uk-button uk-text-lowercase uk-align-center uk-align-left@m" value="enviar">
                     </form>
                 </div>
             </div>
@@ -360,10 +367,10 @@
                 <img data-src="../img/mot-icono-footer1.svg" alt="logo-mot" uk-img class=" uk-visible@m">
                 <img data-src="../img/estudiopalabras-icono-footer2.svg" alt="logo-mot" uk-img class=" uk-visible@m">
             </a>
-            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m"><span uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
-            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m"><span uk-icon="icon: chevron-up; ratio: 2"></span></a>
-            <a href="" class="uk-icon-button" uk-icon="icon: mail;ratio: 2"></a>
-            <a href="" class="uk-icon-button" uk-icon="icon: instagram; ratio: 2"></a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m mot-up"><span uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m mot-up"><span uk-icon="icon: chevron-up; ratio: 2"></span></a>
+            <a href="" uk-icon="icon: mail;ratio: 2.5"></a>
+            <a href="" uk-icon="icon: instagram; ratio: 2"></a>
             <a href="#"><button class="mot-boton-azul-negro uk-button uk-text-lowercase uk-button-small">+ info</button></a>
             <p class="uk-visible@m">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
             <p class="uk-hidden@m uk-text-small uk-text-center">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>

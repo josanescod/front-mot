@@ -8,6 +8,17 @@ html,
 body {
     height: 100%;
     /*width: 100%;*/
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #40a8ba;
 }
 
 p li {
@@ -140,15 +151,44 @@ svg[data-svg="close-icon"] {
     border: 2px solid #40a8ba;
 }
 
-
-/* Estilos para página ¿Qué es Mot? */
-
-.padding-gande {
-    padding: 17%;
-}
-
 .mot-barra-amarilla {
     border: 1.5px solid #f9c00e;
     background: #f9c00e;
     margin-top: 49px;
+}
+
+.mot-h5 {
+    color: black;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .mot-h5 {
+        color: black;
+        font-size: 16px;
+    }
+}
+
+.mot-left {
+    left: -5%;
+}
+
+.mot-left:hover {
+    color: #40a8ba;
+}
+
+.mot-right {
+    right: -5%;
+}
+
+.mot-right:hover {
+    color: #40a8ba;
+}
+
+.mot-border-bottom-black {
+    border-bottom: 1px solid black;
+}
+
+.mot-up:hover {
+    color: #40a8ba;
 }

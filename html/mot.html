@@ -2,7 +2,8 @@
 <html lang="es">
 
 <head>
-    <title>mot - estudio de palabras</title>
+    <title>Qué es MOT | MOT</title>
+    <meta name="description" content="Usamos las palabras correctas para ayudar a superar los bloqueos creativos y vencer el miedo a la mente en blanco. Entra y aprende más sobre mí">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/site.css" />
@@ -20,7 +21,9 @@
     <nav id="mot-navbar" class="uk-width-1-1" uk-navbar uk-sticky>
         <div class="k-navbar-left">
             <ul class="uk-navbar-nav">
-                <li><a href="../index.html"><img data-src="../img/logo_mot_1.svg" alt="Logo de mot" uk-img></a></li>
+                <li>
+                    <a href="../index.html"><img data-src="../img/logo_mot_1.svg" alt="Logo de mot" uk-img></a>
+                </li>
             </ul>
         </div>
         <div class="uk-margin-large-right uk-navbar-right uk-visible@m">
@@ -43,32 +46,37 @@
         <div id="mot-custom-div" class="uk-navbar-right uk-hidden@m">
             <ul class="uk-navbar-nav">
                 <!-- boton oculto en tabletas o superior-->
-                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil"
-                        data-uk-navbar-toggle-icon></button>
+                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil" data-uk-navbar-toggle-icon></button>
             </ul>
         </div>
     </nav>
     <!-- NAVBAR -->
     <!-- MENU MOVIL -->
-    <nav id="menu_movil" uk-offcanvas="overlay: true;flip: true">
-        <div class="uk-offcanvas-bar uk-hidden@m">
+    <div id="menu_movil" uk-offcanvas="overlay: true;flip: true">
+        <div class="uk-offcanvas-bar uk-hidden@m uk-light">
             <button class="uk-offcanvas-close" type="button" uk-close></button>
             <ul id="movil_white" class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
                 <br>
-                <li class="uk-nav-header uk-active"><a href="../index.html">HOME</a></li>
-                <li class="uk-nav-header uk-active"><a href="mot.html">QUE ÉS MOT</a></li>
-                <li class="uk-nav-header uk-parent">
-                    <a href="#">TALLERES</a>
-                    <ul id="movil_white_sub" class="uk-nav-sub">
-                        <li><a href="taller1.html">Escritura creativa</a></li>
-                        <li><a href="taller2.html">Lenguaje inclusivo</a></li>
-                        <li><a href="org_taller.html">Organiza un taller</a></li>
+                <li class="uk-nav-header"><a href="../index.html">HOME</a></li>
+                <li class="uk-nav-header"><a href="mot.html">QUE ÉS MOT</a></li>
+                <li class="uk-nav-header">
+                    <ul uk-accordion>
+                        <li>
+                            <a class="uk-accordion-title uk-nav-header" href="#">TALLERES</a>
+                            <div class="uk-accordion-content">
+                                <ul>
+                                    <li><a href="taller1.html">Escritura creativa</a></li>
+                                    <li><a href="taller2.html">Lenguaje inclusivo</a></li>
+                                    <li><a href="org_taller.html">Organiza un taller</a></li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </li>
                 <li class="uk-nav-header"><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </div>
-    </nav>
+    </div>
     <!-- MENU MOVIL -->
     <!--HERO-->
     <div class="uk-background-cover mot-imagen-hero" style="background-image: url(../img/cab_que_es_mot.png);">
@@ -76,15 +84,15 @@
     <!--HERO-->
     <div class="uk-section uk-text-center">
         <div class="uk-container uk-container-small">
-            <p class="uk-h1 uk-text-bolder">
+            <h1 class="uk-text-bolder">
                 <span class="mot-color-azul">Mot</span> nace para llevar
                 <span class="mot-color-azul">el poder transformador de las palabras</span> a todos los rincones del mundo
-            </p>
+            </h1>
         </div>
     </div>
     <div class="uk-section" uk-grid uk-height-match="row: false">
         <div class="uk-container uk-width-1-2@m uk-margin-remove mot-fondo-amarillo">
-            <p class="uk-h3 uk-padding-large">
+            <p class="mot-h5 uk-padding-large">
                 Todo reside en el poder de crear, con <span class="uk-text-italic">The word is our playground</span>,
                 un taller de escritura creativa donde usamos <span class="uk-text-bold">las palabras como estímulo que
                 ayuda a superar los bloqueos creativos y vencer el miedo a la hoja en blanco.</span>También
@@ -104,16 +112,12 @@
             <p class="uk-h1">
                 <strong class="uk-text-bolder">¿Quién está detrás de <span class="mot-color-azul">MOT</span>?</strong>
             </p>
-            <p class="uk-h6 uk-text-emphasis uk-text-bold">¡Hola! Por fin me presento.<br>Soy Lidia Palmer, redactora creativa y fundadora de MOT.
+            <p class="uk-h5 uk-text-emphasis uk-text-bold">¡Hola! Por fin me presento.<br>Soy Lidia Palmer, redactora creativa y fundadora de MOT.
             </p>
             <img class="uk-border-circle" src="../img/avatar.jpg" width="200" height="200" alt="Border circle">
             <p>
-                Después de muchos años trabajando en comunicación, me he dado cuenta de algo
-                muy importante: las palabras tienen un poder inmenso. Y como son la materia prima
-                de mi profesión, quiero utilizarlas para mejorar nuestras vidas, ayudando a las
-                personas a despertar su creatividad o a construir un mundo más justo. Aunque no
-                solo esto: mientras tanto, sigo aprendiendo e investigando sobre nuevas formas en
-                que las palabras pueden aportar valor a nuestras vidas.
+                Después de muchos años trabajando en comunicación, me he dado cuenta de algo muy importante: las palabras tienen un poder inmenso. Y como son la materia prima de mi profesión, quiero utilizarlas para mejorar nuestras vidas, ayudando a las personas a despertar
+                su creatividad o a construir un mundo más justo. Aunque no solo esto: mientras tanto, sigo aprendiendo e investigando sobre nuevas formas en que las palabras pueden aportar valor a nuestras vidas.
             </p>
             <a href="http://www.linkedin.com">
                 <button class="uk-button uk-text-lowercase mot-boton-amarillo-negro-redondo"><span uk-icon="icon: linkedin; ratio: 2"></span></button>
@@ -130,10 +134,10 @@
                 <img data-src="../img/mot-icono-footer1.svg" alt="logo-mot" uk-img class=" uk-visible@m">
                 <img data-src="../img/estudiopalabras-icono-footer2.svg" alt="logo-mot" uk-img class=" uk-visible@m">
             </a>
-            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m"><span uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
-            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m"><span uk-icon="icon: chevron-up; ratio: 2"></span></a>
-            <a href="" class="uk-icon-button" uk-icon="icon: mail;ratio: 2"></a>
-            <a href="" class="uk-icon-button" uk-icon="icon: instagram; ratio: 2"></a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m mot-up"><span uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m mot-up"><span uk-icon="icon: chevron-up; ratio: 2"></span></a>
+            <a href="" uk-icon="icon: mail;ratio: 2.5"></a>
+            <a href="" uk-icon="icon: instagram; ratio: 2"></a>
             <a href="#"><button class="mot-boton-azul-negro uk-button uk-text-lowercase uk-button-small">+ info</button></a>
             <p class="uk-visible@m">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
             <p class="uk-hidden@m uk-text-small uk-text-center">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
