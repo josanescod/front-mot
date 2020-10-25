@@ -165,11 +165,11 @@
                             <div class="uk-accordion-content">
                                 <p>
                                     MARTES<br> De 10.30h a 12h.<br> Inicio 22 de septiembre - 5 semanas<br>
-                                    <a href="#"><u>►¡Inscripciones abiertas aquí!</u></a>
+                                    <a href="#grupo-martes" uk-toggle><u>►¡Inscripciones abiertas aquí!</u></a>
                                 </p>
                                 <p>
                                     JUEVES<br> De 19.30h a 21h.<br> Inicio 24 de septiembre - 5 semanas<br>
-                                    <a href="#"><u>►¡Inscripciones abiertas aquí!</u></a>
+                                    <a href="#grupo-jueves" uk-toggle><u>►¡Inscripciones abiertas aquí!</u></a>
                                 </p>
                             </div>
                         </li>
@@ -321,6 +321,194 @@
         </div>
     </div>
     <!-- FORMULARIO -->
+
+    <!-- MODAL -->
+    <div id="grupo-martes" class="uk-modal-container" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body mot-fondo-azul uk-light">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <h2 class="uk-modal-title uk-text-center">Inscripción: Taller escritura creativa</h2>
+            <p> MARTES ONLINE<br> De 10.30h a 12h.<br> Inicio 22 de septiembre - 5 semanas<br></p>
+            <form class="uk-form-stacked">
+                <div uk-grid>
+                    <div class="uk-width-1-2@m">
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="nombre-inscripcion">Nombre y apellidos*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="nombre-inscripcion" name="nombre-inscripcion"
+                                       type="text"
+                                       placeholder="Nombre..." required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="apellidos-inscripcion">Nombre y apellidos*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="apellidos-inscripcion"
+                                       name="apellidos-inscripcion" type="text"
+                                       placeholder="Apellidos..." required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="email-inscripcion">Email*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="email-inscripcion" name="email-inscripcion"
+                                       type="email" placeholder="Email..." required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="telefono-inscripcion">Teléfono:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="telefono-inscripcion"
+                                       name="telefono-inscripcion" type="text" placeholder="Telefono...">
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <div class="uk-form-label">Edad*</div>
+                            <div class="uk-form-controls">
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion"> 16 -
+                                    21</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion"> 22 -
+                                    35</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion"> 36 -
+                                    50</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion"> Mayor de
+                                    50</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-2@m">
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="profesion-inscripcion">Profesion:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="profesion-inscripcion"
+                                       name="profesion-inscripcion" type="text" placeholder="Profesion...">
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="localidad-inscripcion">¿Desde qué localidad vas a
+                                realizar el taller?</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="localidad-inscripcion"
+                                       name="localidad-inscripcion" type="text" placeholder="Localidad...">
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <div class="uk-form-label">¿Cómo has descubierto la existencia del taller?*</div>
+                            <div class="uk-form-controls">
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion">
+                                    Instagram</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion">
+                                    Facebook</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion"> Recomendación
+                                    de otra persona</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion">
+                                    Google</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion"> Otro: <input
+                                        class="uk-input" id="otro-inscripcion" name="otro-inscripcion"
+                                        type="text" placeholder="Otro..."></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="uk-text-italic uk-text-small">*Campos obligatorios</p>
+                <input type="submit" class="mot-boton-amarillo-negro uk-button uk-text-lowercase uk-align-center"
+                       value="Inscribirse">
+            </form>
+        </div>
+    </div>
+
+    <!-- MODAL -->
+    <div id="grupo-jueves" class="uk-modal-container" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body mot-fondo-azul uk-light">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <h2 class="uk-modal-title uk-text-center">Inscripción: Taller escritura creativa</h2>
+            <p>JUEVES ONLINE<br> De 19.30h a 21h.<br> Inicio 24 de septiembre - 5 semanas<br></p>
+            <form class="uk-form-stacked">
+                <div uk-grid>
+                    <div class="uk-width-1-2@m">
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="nombre-inscripcion">Nombre y apellidos*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="nombre-inscripcion" name="nombre-inscripcion"
+                                       type="text"
+                                       placeholder="Nombre..." required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="apellidos-inscripcion">Nombre y apellidos*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="apellidos-inscripcion"
+                                       name="apellidos-inscripcion" type="text"
+                                       placeholder="Apellidos..." required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="email-inscripcion">Email*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="email-inscripcion" name="email-inscripcion"
+                                       type="email" placeholder="Email..." required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="telefono-inscripcion">Teléfono:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="telefono-inscripcion"
+                                       name="telefono-inscripcion" type="text" placeholder="Telefono...">
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <div class="uk-form-label">Edad*</div>
+                            <div class="uk-form-controls">
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion"> 16 -
+                                    21</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion"> 22 -
+                                    35</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion"> 36 -
+                                    50</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion"> Mayor de
+                                    50</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-2@m">
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="profesion-inscripcion">Profesion:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="profesion-inscripcion"
+                                       name="profesion-inscripcion" type="text" placeholder="Profesion...">
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label" for="localidad-inscripcion">¿Desde qué localidad vas a
+                                realizar el taller?</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input" id="localidad-inscripcion"
+                                       name="localidad-inscripcion" type="text" placeholder="Localidad...">
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <div class="uk-form-label">¿Cómo has descubierto la existencia del taller?*</div>
+                            <div class="uk-form-controls">
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion">
+                                    Instagram</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion">
+                                    Facebook</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion"> Recomendación
+                                    de otra persona</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion">
+                                    Google</label><br>
+                                <label><input class="uk-radio" type="radio" name="edad-inscripcion"> Otro: <input
+                                        class="uk-input" id="otro-inscripcion" name="otro-inscripcion"
+                                        type="text" placeholder="Otro..."></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="uk-text-italic uk-text-small">*Campos obligatorios</p>
+                <input type="submit" class="mot-boton-amarillo-negro uk-button uk-text-lowercase uk-align-center"
+                       value="Inscribirse">
+            </form>
+        </div>
+    </div>
 
     <!-- FOOTER -->
     <footer class="uk-padding-small uk-margin-top">
