@@ -51,25 +51,31 @@
     </nav>
     <!-- NAVBAR -->
     <!-- MENU MOVIL -->
-    <nav id="menu_movil" uk-offcanvas="overlay: true;flip: true">
-        <div class="uk-offcanvas-bar uk-hidden@m">
+    <div id="menu_movil" uk-offcanvas="overlay: true;flip: true">
+        <div class="uk-offcanvas-bar uk-hidden@m uk-light">
             <button class="uk-offcanvas-close" type="button" uk-close></button>
             <ul id="movil_white" class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
                 <br>
-                <li class="uk-nav-header uk-active"><a href="../index.html">HOME</a></li>
-                <li class="uk-nav-header uk-active"><a href="mot.html">QUE ÉS MOT</a></li>
-                <li class="uk-nav-header uk-parent">
-                    <a href="#">TALLERES</a>
-                    <ul id="movil_white_sub" class="uk-nav-sub">
-                        <li><a href="taller1.html">Escritura creativa</a></li>
-                        <li><a href="taller2.html">Lenguaje inclusivo</a></li>
-                        <li><a href="org_taller.html">Organiza un taller</a></li>
+                <li class="uk-nav-header"><a href="../index.html">HOME</a></li>
+                <li class="uk-nav-header"><a href="mot.html">QUE ÉS MOT</a></li>
+                <li class="uk-nav-header">
+                    <ul uk-accordion>
+                        <li>
+                            <a class="uk-accordion-title uk-nav-header" href="#">TALLERES</a>
+                            <div class="uk-accordion-content">
+                                <ul>
+                                    <li><a href="taller1.html">Escritura creativa</a></li>
+                                    <li><a href="taller2.html">Lenguaje inclusivo</a></li>
+                                    <li><a href="org_taller.html">Organiza un taller</a></li>
+                                </ul>
+                            </div>
+                        </li>
                     </ul>
                 </li>
                 <li class="uk-nav-header"><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </div>
-    </nav>
+    </div>
     <!-- MENU MOVIL -->
     <!-- CONTENIDO -->
     <div class="uk-section uk-height-large uk-background-cover uk-margin-auto uk-padding-auto" style="background-image: url(../img/contacto.svg);">
@@ -80,13 +86,13 @@
     <div class="uk-section">
         <div class="uk-container">
             <div uk-grid>
-                <div class="uk-width-1-2@m uk-padding-large">
+                <div class="uk-width-1-2@m">
                     <h2 class="uk-h2 uk-text-bolder"><strong>Contacto</strong></h2>
                     <p class="uk-h5">
                         ¿Tienes alguna duda, quieres hacerme una propuesta o saber más sobre MOT? Rellena este formulario para contactar conmigo. Estaré encantada de leerte y te responderé lo antes posible, <span class="uk-text-bold">¡prometido!</span>
                     </p>
                 </div>
-                <div class="uk-width-1-2@m uk-padding-large">
+                <div class="uk-width-1-2@m">
                     <form class="uk-form-stacked">
                         <div class="uk-margin">
                             <label class="uk-form-label" for="nombre">Nombre y apellidos*:</label>
@@ -113,7 +119,7 @@
                             </div>
                         </div>
                         <p class="uk-text-italic uk-text-small">*Campos obligatorios</p>
-                        <input type="submit" class="mot-boton-azul-negro uk-button uk-text-lowercase" value="enviar"></input>
+                        <input type="submit" class="mot-boton-azul-negro uk-button uk-text-lowercase uk-align-center uk-align-left@m" value="enviar"></input>
                     </form>
                 </div>
             </div>
@@ -125,8 +131,8 @@
     <div class="uk-section uk-text-center uk-background-cover uk-light uk-padding-large uk-background-fixed" style="background-image: url(../img/contacto.jpg);">
         <div class="uk-container uk-container-small">
             <h1 class="uk-text-bolder">Entérate de todo</h1>
-            <a href="" class="uk-icon-button" uk-icon="icon: mail;ratio: 2"></a>
-            <a href="" class="uk-icon-button" uk-icon="icon: instagram; ratio: 2"></a>
+            <a class="uk-padding-small" href="" uk-icon="icon: instagram; ratio: 2"></a>
+            <a class="uk-padding-small" href="" uk-icon="icon: mail;ratio: 2.5"></a>
         </div>
     </div>
     <!-- BANNER   -->
@@ -138,10 +144,10 @@
                 <img data-src="../img/mot-icono-footer1.svg" alt="logo-mot" uk-img class=" uk-visible@m">
                 <img data-src="../img/estudiopalabras-icono-footer2.svg" alt="logo-mot" uk-img class=" uk-visible@m">
             </a>
-            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m"><span uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
-            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m"><span uk-icon="icon: chevron-up; ratio: 2"></span></a>
-            <a href="" class="uk-icon-button" uk-icon="icon: mail;ratio: 2"></a>
-            <a href="" class="uk-icon-button" uk-icon="icon: instagram; ratio: 2"></a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m mot-up"><span uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m mot-up"><span uk-icon="icon: chevron-up; ratio: 2"></span></a>
+            <a href="" uk-icon="icon: mail;ratio: 2.5"></a>
+            <a href="" uk-icon="icon: instagram; ratio: 2"></a>
             <a href="#"><button class="mot-boton-azul-negro uk-button uk-text-lowercase uk-button-small">+ info</button></a>
             <p class="uk-visible@m">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
             <p class="uk-hidden@m uk-text-small uk-text-center">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
