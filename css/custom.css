@@ -37,13 +37,6 @@ html * {
     margin-bottom: 75px;
 }
 
-
-/* nav color blanco al menu de navegacion */
-
-#mot-navbar {
-    background-color: white;
-}
-
 .uk-navbar-nav>li>a {
     color: black;
     padding: 0 40px;
