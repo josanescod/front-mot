@@ -6,17 +6,20 @@
     <meta name="description" content="Contacta con conmigo y aprenderás a comunicarte con el mundo y contigo mismo.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/site.css" />
+    <link rel="stylesheet" href="../node_modules/uikit/dist/css/uikit.css" />
     <link rel="stylesheet" href="../css/custom.css" />
     <link rel="stylesheet" href="../css/mot-image-hero.css" />
     <link rel="stylesheet" href="../css/botones.css" />
-    <script src="../js/uikit.min.js"></script>
-    <script src="../js/uikit-icons.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/uikit/dist/js/uikit.js"></script>
+    <script src="../node_modules/uikit/dist/js/uikit-icons.js"></script>
+    <script src="../node_modules/emailjs-com/dist/email.js"></script>
+    <script src="../js/custom.js"></script>
 </head>
 
 <body>
     <!-- NAVBAR -->
-    <nav class="uk-width-1-1" uk-navbar uk-sticky>
+    <nav class="uk-width-1-1 uk-background-default" uk-navbar uk-sticky>
         <div class="k-navbar-left">
             <ul class="uk-navbar-nav">
                 <li>
@@ -108,7 +111,7 @@
                         <div class="uk-margin">
                             <label class="uk-form-label" for="telefono">Telefono:</label>
                             <div class="uk-form-controls">
-                                <input class="uk-input" id="telefono" name="telefono" type="email" placeholder="Telefono...">
+                                <input class="uk-input" id="telefono" name="telefono" type="text" placeholder="Telefono...">
                             </div>
                         </div>
                         <div class="uk-margin">
@@ -153,27 +156,6 @@
         </div>
     </footer>
     <!-- FOOTER -->
-<!--    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>-->
-<!--    <script type="text/javascript">-->
-<!--        (function() {-->
-<!--            emailjs.init("user_eUy4bBvY6yrtUn0yEIaQJ");-->
-<!--        })();-->
-
-<!--        -->
-<!--        object.addEventListener("submit", myScript);-->
-<!--        //-->
-<!--        // var templateParams = {-->
-<!--        //     name: 'James',-->
-<!--        //     notes: 'Check this out!'-->
-<!--        // };-->
-<!--        //-->
-<!--        // emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)-->
-<!--        //     .then(function(response) {-->
-<!--        //         console.log('SUCCESS!', response.status, response.text);-->
-<!--        //     }, function(error) {-->
-<!--        //         console.log('FAILED...', error);-->
-<!--        //     });-->
-<!--    </script>-->
 </body>
 
 </html>
