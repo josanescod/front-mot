@@ -20,13 +20,14 @@
     <nav id="mot-navbar" class="uk-width-1-1" uk-navbar uk-sticky>
         <div class="k-navbar-left">
             <ul class="uk-navbar-nav">
-                <li><a href="../index.html"><img data-src="../img/logo_mot_1.svg" width="100%" height="100%" alt="Logo de mot" uk-img></a></li>
+                <li>
+                    <a href="../index.html"><img data-src="../img/logo_mot_1.svg" width="100%" height="100%" alt="Logo de mot" uk-img></a>
+                </li>
             </ul>
         </div>
         <div class="uk-margin-large-right uk-navbar-right uk-visible@m">
             <ul id="mot-opciones" class="uk-navbar-nav">
                 <li><a href="../index.html">HOME</a></li>
-                <li><a href="mot.html">QUE ÉS MOT</a></li>
                 <li>
                     <a href="#" class="mot-active">TALLERES</a>
                     <div id="mot-submenu" class="uk-navbar-dropdown">
@@ -37,14 +38,14 @@
                         </ul>
                     </div>
                 </li>
+                <li><a href="mot.html">SOBRE MOT</a></li>
                 <li><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </div>
         <div id="mot-custom-div" class="uk-navbar-right uk-hidden@m">
             <ul class="uk-navbar-nav">
                 <!-- boton oculto en tabletas o superior-->
-                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil"
-                        data-uk-navbar-toggle-icon></button>
+                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil" data-uk-navbar-toggle-icon></button>
             </ul>
         </div>
     </nav>
@@ -56,7 +57,6 @@
             <ul id="movil_white" class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
                 <br>
                 <li class="uk-nav-header uk-active"><a href="../index.html">HOME</a></li>
-                <li class="uk-nav-header uk-active"><a href="mot.html">QUE ÉS MOT</a></li>
                 <li class="uk-nav-header uk-parent">
                     <a href="#">TALLERES</a>
                     <ul id="movil_white_sub" class="uk-nav-sub">
@@ -65,6 +65,7 @@
                         <li><a href="org_taller.html">Organiza un taller</a></li>
                     </ul>
                 </li>
+                <li class="uk-nav-header uk-active"><a href="mot.html">SOBRE MOT</a></li>
                 <li class="uk-nav-header"><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </div>
@@ -86,22 +87,17 @@
             <div uk-grid>
                 <div class="uk-width-1-3@m">
                     <p class="uk-h4">Taller adaptado</p>
-                    <p class="uk-h5"> El contenido, duración y horarios del Taller de Escritura Creativa y del Taller de
-                        Lenguaje Inclusivo pueden adaptarse según tus necesidades y según las características de las
-                        personas participantes.
+                    <p class="uk-h5"> El contenido, duración y horarios del Taller de Escritura Creativa y del Taller de Lenguaje Inclusivo pueden adaptarse según tus necesidades y según las características de las personas participantes.
                     </p>
                 </div>
                 <div class="uk-width-1-3@m">
                     <p class="uk-h4">Apoyo a proyectos sociales</p>
-                    <p class="uk-h5"> Si te dedicas a desarrollar proyectos sociales, eres una asociación o una entidad
-                        del Tercer Sector y te gustaría organizar un taller, escríbeme sin preocuparte por el
-                        presupuesto. Juntxs encontraremos la manera de colaborar más adecuada.
+                    <p class="uk-h5"> Si te dedicas a desarrollar proyectos sociales, eres una asociación o una entidad del Tercer Sector y te gustaría organizar un taller, escríbeme sin preocuparte por el presupuesto. Juntxs encontraremos la manera de colaborar más adecuada.
                     </p>
                 </div>
                 <div class="uk-width-1-3@m">
                     <p class="uk-h4">Crea tu propio taller</p>
-                    <p class="uk-h5"> ¿Quieres desarrollar un taller sobre algún tema creativo o social, diferente a los
-                        actuales talleres de MOT? Puedo ayudarte a crearlo desde cero, programarlo e impartirlo.
+                    <p class="uk-h5"> ¿Quieres desarrollar un taller sobre algún tema creativo o social, diferente a los actuales talleres de MOT? Puedo ayudarte a crearlo desde cero, programarlo e impartirlo.
                     </p>
                 </div>
             </div>
@@ -143,10 +139,8 @@
                         <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
                     </div>
                     <div class="uk-visible@s">
-                        <a class="uk-position-center-left-out uk-position-small uk-slidenav-previous" href="#"
-                           uk-slider-item="previous"><span uk-icon="icon: chevron-left; ratio: 3.5"></span></a>
-                        <a class="uk-position-center-right-out uk-position-small uk-slidenav-next" href="#"
-                           uk-slider-item="next"><span uk-icon="icon: chevron-right; ratio: 3.5"></span></a>
+                        <a class="uk-position-center-left-out uk-position-small uk-slidenav-previous" href="#" uk-slider-item="previous"><span uk-icon="icon: chevron-left; ratio: 3.5"></span></a>
+                        <a class="uk-position-center-right-out uk-position-small uk-slidenav-next" href="#" uk-slider-item="next"><span uk-icon="icon: chevron-right; ratio: 3.5"></span></a>
                     </div>
                 </div>
                 <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
