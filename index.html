@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/botones.css" />
     <script src="js/uikit.min.js"></script>
     <script src="js/uikit-icons.min.js"></script>
-<!--    <script src="js/custom.js"></script>-->
+    <!--    <script src="js/custom.js"></script>-->
 </head>
 
 <body>
@@ -19,13 +19,14 @@
     <nav id="mot-navbar" class="uk-width-1-1" uk-navbar uk-sticky>
         <div class="k-navbar-left">
             <ul class="uk-navbar-nav">
-                <li><a href="index.html"><img data-src="img/logo_mot_1.svg" width="100%" height="100%" alt="Logo de mot" uk-img></a></li>
+                <li>
+                    <a href="index.html"><img data-src="img/logo_mot_1.svg" width="100%" height="100%" alt="Logo de mot" uk-img></a>
+                </li>
             </ul>
         </div>
         <div class="uk-margin-large-right uk-navbar-right uk-visible@m">
             <ul id="mot-opciones" class="uk-navbar-nav">
                 <li><a href="index.html" class="mot-active">HOME</a></li>
-                <li><a href="html/mot.html">QUE ÉS MOT</a></li>
                 <li>
                     <a href="#">TALLERES</a>
                     <div id="mot-submenu" class="uk-navbar-dropdown">
@@ -36,14 +37,14 @@
                         </ul>
                     </div>
                 </li>
+                <li><a href="html/mot.html">SOBRE MOT</a></li>
                 <li><a href="html/contacto.html">CONTACTO</a></li>
             </ul>
         </div>
         <div id="mot-custom-div" class="uk-navbar-right uk-hidden@m">
             <ul class="uk-navbar-nav">
                 <!-- boton oculto en tabletas o superior-->
-                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil"
-                    data-uk-navbar-toggle-icon></button>
+                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil" data-uk-navbar-toggle-icon></button>
             </ul>
         </div>
     </nav>
@@ -55,7 +56,6 @@
             <ul id="movil_white" class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
                 <br>
                 <li class="uk-nav-header uk-active"><a href="index.html">HOME</a></li>
-                <li class="uk-nav-header uk-active"><a href="html/mot.html">QUE ÉS MOT</a></li>
                 <li class="uk-nav-header uk-parent">
                     <a href="#">TALLERES</a>
                     <ul id="movil_white_sub" class="uk-nav-sub">
@@ -64,6 +64,7 @@
                         <li><a href="html/org_taller.html">Organiza un taller</a></li>
                     </ul>
                 </li>
+                <li class="uk-nav-header uk-active"><a href="html/mot.html">SOBRE MOT</a></li>
                 <li class="uk-nav-header"><a href="html/contacto.html">CONTACTO</a></li>
             </ul>
         </div>
@@ -80,15 +81,13 @@
             <div class="uk-grid-divider" uk-grid>
                 <div class="uk-width-1-2@m">
                     <h1><strong>Taller de escritura creativa</strong></h1>
-                    <p>Las palabras tienen <strong>el poder de crear.</strong> Descúbrelo con el primer taller de anti-técnica
-                        narrativa para vencer el miedo a la hoja en blanco.</p>
+                    <p>Las palabras tienen <strong>el poder de crear.</strong> Descúbrelo con el primer taller de anti-técnica narrativa para vencer el miedo a la hoja en blanco.</p>
                     <a href="html/taller1.html"><button class="uk-button mot-boton-amarillo-negro uk-text-lowercase uk-margin-large-top">cuentame más</button></a>
                     <hr class="uk-hidden@m mot-barra-amarilla">
                 </div>
                 <div class="uk-width-1-2@m">
                     <h1><strong>Taller de lenguaje inclusivo</strong></h1>
-                    <p>Las palabras tienen <strong>el poder de cambiarnos.</strong> Lo comprobarás en este espacio de
-                        aprendizaje y reflexión sobre el lenguaje no sexista.</p>
+                    <p>Las palabras tienen <strong>el poder de cambiarnos.</strong> Lo comprobarás en este espacio de aprendizaje y reflexión sobre el lenguaje no sexista.</p>
                     <a href="html/taller2.html"><button class="uk-button mot-boton-amarillo-negro uk-text-lowercase uk-margin-large-top">cuentame más</button></a>
                 </div>
             </div>
@@ -104,35 +103,20 @@
             <div uk-grid>
                 <div class="uk-width-1-3@m">
                     <p class="uk-h4">Comunicación con perspectiva de género</p>
-                    <p class="uk-h5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat
-                        culpa
-                        sequi incidunt ratione rem hic sed temporibus provident?
-                        Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa
-                        sequi incidunt ratione rem hic sed temporibus provident?
-                        Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!
+                    <p class="uk-h5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!
                     </p>
                 </div>
                 <div class="uk-width-1-3@m">
                     <p class="uk-h4">Revisión de lenguaje inclusivo</p>
-                    <p class="uk-h5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat
-                        culpa
-                        sequi incidunt ratione rem hic sed temporibus provident?
-                        Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa
-                        sequi incidunt ratione rem hic sed temporibus provident?
-                        Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!
+                    <p class="uk-h5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!
                     </p>
                 </div>
                 <div class="uk-width-1-3@m">
                     <p class="uk-h4">Creatividad para tu proyecto social</p>
-                    <p class="uk-h5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat
-                        culpa
-                        sequi incidunt ratione rem hic sed temporibus provident?
-                        Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa
-                        sequi incidunt ratione rem hic sed temporibus provident?
-                        Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!
+                    <p class="uk-h5"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque! Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Vel repellat culpa sequi incidunt ratione rem hic sed temporibus provident? Assumenda molestiae delectus beatae iste ex aut nulla modi sint cumque!
                     </p>
                 </div>
             </div>
@@ -147,8 +131,7 @@
                 <strong class="uk-text-bolder">Organiza un taller presencial en tu asociación o empresa</strong>
             </p>
             <p class="uk-h3">
-                ¿Te gustaría que tu centro, asociación o empresa ofreciese
-                el <strong>Taller de Escritura Creativa</strong> o el <strong>Taller de Lenguaje Inclusivo</strong>?
+                ¿Te gustaría que tu centro, asociación o empresa ofreciese el <strong>Taller de Escritura Creativa</strong> o el <strong>Taller de Lenguaje Inclusivo</strong>?
             </p>
             <p class="uk-h3">
                 Cuéntame que necesitas y adaptaré el taller para ti.
@@ -169,55 +152,37 @@
                         <ul class="uk-slider-items uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-3@m">
                             <li class="uk-padding">
                                 <p>
-                                    “Este taller nos ayuda a crear, a fomentar nuestra espontaneidad y a valorar nuestras ideas para
-                                    luego poderlas exportar a otros ámbitos de nuestras vidas. La creatividad en el arte está muy
-                                    relacionada, hay una conexión entre la escritura y la música: el arte sirve para conocernos y expresarnos. Gracias, Lidia,
-                                    porque simplemente tú eres un ejemplo de vitalidad creativa y sabes mostrarnos las herramientas de cómo
-                                    consigues llegar a ello.”
+                                    “Este taller nos ayuda a crear, a fomentar nuestra espontaneidad y a valorar nuestras ideas para luego poderlas exportar a otros ámbitos de nuestras vidas. La creatividad en el arte está muy relacionada, hay una conexión entre la escritura y la música:
+                                    el arte sirve para conocernos y expresarnos. Gracias, Lidia, porque simplemente tú eres un ejemplo de vitalidad creativa y sabes mostrarnos las herramientas de cómo consigues llegar a ello.”
                                 </p>
                                 <p class="uk-text-bold ">Mar P, pianista y pedagoga. Taller online de Escritura Creativa</p>
                             </li>
                             <li class="uk-padding">
-                                <p>“Si estás leyendo esto porque tienes dudas... la respuesta es SÍ. Sí, porque es ideal para
-                                    sacudirte la pereza del cuerpo. Sí, porque te provee de varias herramientas a la hora de en-
-                                    frentarte a la hoja en blanco. Sí, porque aviva ese gusanillo que llevas dentro y
-                                    quizás tenías adormilado. Sí, porque son grupos pequeños en los que te sientes en
-                                    complicidad a la hora de compartir lo escrito. Y sí, porque Lidia es una profesora
-                                    maravillosa.
+                                <p>“Si estás leyendo esto porque tienes dudas... la respuesta es SÍ. Sí, porque es ideal para sacudirte la pereza del cuerpo. Sí, porque te provee de varias herramientas a la hora de en- frentarte a la hoja en blanco. Sí,
+                                    porque aviva ese gusanillo que llevas dentro y quizás tenías adormilado. Sí, porque son grupos pequeños en los que te sientes en complicidad a la hora de compartir lo escrito. Y sí, porque Lidia es una profesora maravillosa.
                                 </p>
                                 <p class="uk-text-bold ">Iñaki L, comunicador. Taller online de Escritura Creativa</p>
                             </li>
                             <li class="uk-padding">
-                                <p>“Han sido unas sesiones en las que he aprendido a crear ideas nuevas, a conectarlas y sobre
-                                    todo, a ATREVERME. Con Mot he desempolvado la cajita de la creatividad, que llevaba
-                                    guardada y olvidada demasiado tiempo.”
+                                <p>“Han sido unas sesiones en las que he aprendido a crear ideas nuevas, a conectarlas y sobre todo, a ATREVERME. Con Mot he desempolvado la cajita de la creatividad, que llevaba guardada y olvidada demasiado tiempo.”
                                 </p>
                                 <p class="uk-text-bold ">Alba P, maestra. Taller online de Escritura Creativa</p>
                             </li>
                             <li class="uk-padding">
                                 <p>
-                                    “Este taller nos ayuda a crear, a fomentar nuestra espontaneidad y a valorar nuestras ideas para
-                                    luego poderlas exportar a otros ámbitos de nuestras vidas. La creatividad en el arte está muy
-                                    relacionada, hay una conexión entre la escritura y la música: el arte sirve para conocernos y expresarnos. Gracias, Lidia,
-                                    porque simplemente tú eres un ejemplo de vitalidad creativa y sabes mostrarnos las herramientas de cómo
-                                    consigues llegar a ello.”
+                                    “Este taller nos ayuda a crear, a fomentar nuestra espontaneidad y a valorar nuestras ideas para luego poderlas exportar a otros ámbitos de nuestras vidas. La creatividad en el arte está muy relacionada, hay una conexión entre la escritura y la música:
+                                    el arte sirve para conocernos y expresarnos. Gracias, Lidia, porque simplemente tú eres un ejemplo de vitalidad creativa y sabes mostrarnos las herramientas de cómo consigues llegar a ello.”
                                 </p>
                                 <p class="uk-text-bold ">Mar P, pianista y pedagoga. Taller online de Escritura Creativa</p>
                             </li>
                             <li class="uk-padding">
-                                <p>“Si estás leyendo esto porque tienes dudas... la respuesta es SÍ. Sí, porque es ideal para
-                                    sacudirte la pereza del cuerpo. Sí, porque te provee de varias herramientas a la hora de en-
-                                    frentarte a la hoja en blanco. Sí, porque aviva ese gusanillo que llevas dentro y
-                                    quizás tenías adormilado. Sí, porque son grupos pequeños en los que te sientes en
-                                    complicidad a la hora de compartir lo escrito. Y sí, porque Lidia es una profesora
-                                    maravillosa.
+                                <p>“Si estás leyendo esto porque tienes dudas... la respuesta es SÍ. Sí, porque es ideal para sacudirte la pereza del cuerpo. Sí, porque te provee de varias herramientas a la hora de en- frentarte a la hoja en blanco. Sí,
+                                    porque aviva ese gusanillo que llevas dentro y quizás tenías adormilado. Sí, porque son grupos pequeños en los que te sientes en complicidad a la hora de compartir lo escrito. Y sí, porque Lidia es una profesora maravillosa.
                                 </p>
                                 <p class="uk-text-bold ">Iñaki L, comunicador. Taller online de Escritura Creativa</p>
                             </li>
                             <li class="uk-padding">
-                                <p>“Han sido unas sesiones en las que he aprendido a crear ideas nuevas, a conectarlas y sobre
-                                    todo, a ATREVERME. Con Mot he desempolvado la cajita de la creatividad, que llevaba
-                                    guardada y olvidada demasiado tiempo.”
+                                <p>“Han sido unas sesiones en las que he aprendido a crear ideas nuevas, a conectarlas y sobre todo, a ATREVERME. Con Mot he desempolvado la cajita de la creatividad, que llevaba guardada y olvidada demasiado tiempo.”
                                 </p>
                                 <p class="uk-text-bold ">Alba P, maestra. Taller online de Escritura Creativa</p>
                             </li>
@@ -229,10 +194,8 @@
                         <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slider-item="next"></a>
                     </div>
                     <div class="uk-visible@s">
-                        <a class="uk-position-center-left-out uk-position-small uk-slidenav-previous" href="#"
-                           uk-slider-item="previous"><span uk-icon="icon: chevron-left; ratio: 3.5"></span></a>
-                        <a class="uk-position-center-right-out uk-position-small uk-slidenav-next" href="#"
-                           uk-slider-item="next"><span uk-icon="icon: chevron-right; ratio: 3.5"></span></a>
+                        <a class="uk-position-center-left-out uk-position-small uk-slidenav-previous" href="#" uk-slider-item="previous"><span uk-icon="icon: chevron-left; ratio: 3.5"></span></a>
+                        <a class="uk-position-center-right-out uk-position-small uk-slidenav-next" href="#" uk-slider-item="next"><span uk-icon="icon: chevron-right; ratio: 3.5"></span></a>
                     </div>
                 </div>
                 <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
@@ -243,9 +206,7 @@
     <div class="uk-section uk-text-center uk-background-cover uk-light uk-padding-large uk-background-fixed" style="background-image: url(img/fondo1.jpg);">
         <div class="uk-container uk-container-small">
             <img data-src="img/logoyellow.svg" alt="Logo de mot amarillo" uk-img>
-            <p class="uk-h2">MOT es un <span class="uk-text-bold">estudio de palabras</span>.<br> Quizá te
-                resulte extraña esta definición,<br>
-                pero es un <span class="uk-text-bold">concepto nuevo que nace de creer<br> en el poder
+            <p class="uk-h2">MOT es un <span class="uk-text-bold">estudio de palabras</span>.<br> Quizá te resulte extraña esta definición,<br> pero es un <span class="uk-text-bold">concepto nuevo que nace de creer<br> en el poder
                     transformador de las palabras</span>.
             </p>
             <a href="html/mot.html">
@@ -264,8 +225,8 @@
             </a>
             <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m"><span uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
             <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m"><span uk-icon="icon: chevron-up; ratio: 2"></span></a>
-            <a href="" class="uk-icon-button" uk-icon="icon: mail;ratio: 2"></a>
-            <a href="" class="uk-icon-button" uk-icon="icon: instagram; ratio: 2"></a>
+            <a href="mailto:hola@motestudiodepalabras.com" class="uk-icon-button" uk-icon="icon: mail;ratio: 2"></a>
+            <a href="https://www.instagram.com/mot.escrituracreativa/" class="uk-icon-button" uk-icon="icon: instagram; ratio: 2"></a>
             <a href="#"><button class="mot-boton-azul-negro uk-button uk-text-lowercase uk-button-small">+ info</button></a>
             <p class="uk-visible@m">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
             <p class="uk-hidden@m uk-text-small uk-text-center">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
