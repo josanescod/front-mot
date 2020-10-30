@@ -1,8 +1,3 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');*/
-
-
-/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&display=swap');*/
-
 @import url('https://fonts.google.com/specimen/Arimo?category=Sans+Serif#standard-styles');
 html,
 body {
@@ -183,3 +178,28 @@ svg[data-svg="close-icon"] {
 .mot-up:hover {
     color: #40a8ba;
 }
+
+.uk-offcanvas-bar {
+    background-color: rgb(64,168,186);
+}
+
+/* Divider
+ ========================================================================== */
+ .uk-grid-divider > * {
+    position: relative; }
+  
+  .uk-grid-divider > :not(.uk-first-column)::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-left: 3px solid #F9C00E; }
+  
+  /* Vertical */
+  .uk-grid-divider.uk-grid-stack > .uk-grid-margin::before {
+    content: "";
+    position: absolute;
+    left: 2;
+    right: 0;
+    border-top: 3px solid #F9C00E; }
+  
