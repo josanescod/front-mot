@@ -64,6 +64,27 @@
     background-color: #f9c00e;
 }
 
+.mot-boton-amarillo-negro-redondo-linkedin {
+    background-color: transparent;
+    border-color: #f9c00e;
+    border-width: 5px;
+    border-style: solid;
+    font-weight: bold;
+    color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    margin: auto;
+    padding: 10px;
+}
+
+
+.mot-boton-amarillo-negro-redondo-linkedin:hover {
+    background-color: #f9c00e;
+}
+
 .mot-boton-azul-blanco {
     background-color: transparent;
     border-color: #40a8ba;
