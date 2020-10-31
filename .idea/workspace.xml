@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ibnuhEhhdQpgeutsAWK3BRfeAU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+      <recent name="$PROJECT_DIR$/html" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="mot.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front-mot/html/mot.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.mot.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="" />
+      <created>1602185383044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602185383044</updated>
+      <workItem from="1602185384668" duration="4681000" />
+      <workItem from="1602617540125" duration="4879000" />
+      <workItem from="1602701716188" duration="7836000" />
+      <workItem from="1602788482895" duration="6340000" />
+      <workItem from="1602874596672" duration="6314000" />
+      <workItem from="1602989258887" duration="23816000" />
+      <workItem from="1603133559807" duration="7175000" />
+      <workItem from="1603221975188" duration="1040000" />
+      <workItem from="1604135975612" duration="616000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2338" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602788844837">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2338" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1602788844837" />
+    <state x="2613" y="269" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603139335477">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2613" y="269" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603139335477" />
+    <state x="765" y="339" width="424" height="479" key="FileChooserDialogImpl" timestamp="1603138894333">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="339" width="424" height="479" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603138894333" />
+    <state x="2663" y="225" width="423" height="583" key="RollbackChangesDialog" timestamp="1603006696796">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2663" y="225" width="423" height="583" key="RollbackChangesDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603006696796" />
+    <state x="2688" y="436" width="373" height="161" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603135129259">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2688" y="436" width="373" height="161" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603135129259" />
+    <state x="173" y="90" width="1618" height="950" key="find.popup" timestamp="1603139004190">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="74" y="80" width="1618" height="914" key="find.popup/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1602708439509" />
+    <state x="173" y="90" width="1618" height="950" key="find.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603139004190" />
+  </component>
+</project>
