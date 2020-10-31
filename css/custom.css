@@ -183,6 +183,13 @@ svg[data-svg="close-icon"] {
     background-color: rgb(64,168,186);
 }
 
+@media screen and (max-width: 639px) {
+    .mot-icono-footer {
+        width: 50px;
+    }
+}
+
+
 /* Divider
  ========================================================================== */
  .uk-grid-divider > * {
@@ -202,4 +209,4 @@ svg[data-svg="close-icon"] {
     left: 2;
     right: 0;
     border-top: 3px solid #F9C00E; }
-  
+
