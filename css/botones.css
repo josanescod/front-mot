@@ -60,6 +60,10 @@
     padding: 10px;
 }
 
+.mot-boton-amarillo-negro-redondo:hover {
+    background-color: #f9c00e;
+}
+
 .mot-boton-amarillo-negro-redondo-linkedin {
     background-color: transparent;
     border-color: #f9c00e;
@@ -76,7 +80,8 @@
     padding: 10px;
 }
 
-.mot-boton-amarillo-negro-redondo:hover {
+
+.mot-boton-amarillo-negro-redondo-linkedin:hover {
     background-color: #f9c00e;
 }
 
