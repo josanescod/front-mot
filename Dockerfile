@@ -1,6 +1,5 @@
 FROM nginx:1.19-alpine
 RUN apk add --update nodejs npm
-RUN apk add --update npm
 WORKDIR /usr/share/nginx/html
 ADD index.html /usr/share/nginx/html
 COPY package-lock.json /usr/share/nginx/html
