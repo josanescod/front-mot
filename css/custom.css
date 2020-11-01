@@ -74,6 +74,10 @@ html * {
     height: 500px;
 }
 
+.uk-h1 {
+    color: black;
+}
+
 .mot-height-medium {
     height: 250px;
 }

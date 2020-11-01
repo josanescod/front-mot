@@ -26,7 +26,15 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="" />
+    <list default="true" id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/org_taller.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/org_taller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/taller1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/taller2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,6 +104,7 @@
       <workItem from="1603133559807" duration="7175000" />
       <workItem from="1603221975188" duration="1040000" />
       <workItem from="1604135975612" duration="616000" />
+      <workItem from="1604227169221" duration="4468000" />
     </task>
     <servers />
   </component>
@@ -147,10 +156,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2688" y="436" width="373" height="161" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603135129259" />
-    <state x="173" y="90" width="1618" height="950" key="find.popup" timestamp="1603139004190">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2150" y="90" width="1618" height="950" key="find.popup" timestamp="1604230904336">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="74" y="80" width="1618" height="914" key="find.popup/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1602708439509" />
-    <state x="173" y="90" width="1618" height="950" key="find.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603139004190" />
+    <state x="2150" y="90" width="1618" height="950" key="find.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1604230904336" />
   </component>
 </project>

@@ -6,10 +6,10 @@
     <meta name="description" content="Contacta con conmigo y aprenderás a comunicarte con el mundo y contigo mismo.">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../node_modules/uikit/dist/css/uikit.css" />
-    <link rel="stylesheet" href="../css/custom.css" />
-    <link rel="stylesheet" href="../css/mot-image-hero.css" />
-    <link rel="stylesheet" href="../css/botones.css" />
+    <link rel="stylesheet" href="../node_modules/uikit/dist/css/uikit.css"/>
+    <link rel="stylesheet" href="../css/custom.css"/>
+    <link rel="stylesheet" href="../css/mot-image-hero.css"/>
+    <link rel="stylesheet" href="../css/botones.css"/>
     <script src="../node_modules/jquery/dist/jquery.js"></script>
     <script src="../node_modules/uikit/dist/js/uikit.js"></script>
     <script src="../node_modules/uikit/dist/js/uikit-icons.js"></script>
@@ -18,140 +18,175 @@
 </head>
 
 <body>
-    <!-- NAVBAR -->
-    <nav class="uk-width-1-1 uk-background-default" uk-navbar uk-sticky>
-        <div class="k-navbar-left">
-            <ul class="uk-navbar-nav">
-                <li>
-                    <a href="../index.html"><img data-src="../img/logo_mot_1.svg" alt="Logo de mot" uk-img></a>
-                </li>
-            </ul>
-        </div>
-        <div class="uk-margin-large-right uk-navbar-right uk-visible@m">
-            <ul id="mot-opciones" class="uk-navbar-nav">
-                <li><a href="../index.html">HOME</a></li>
-                <li>
-                    <a href="#">TALLERES</a>
-                    <div id="mot-submenu" class="uk-navbar-dropdown">
-                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                            <li><a href="taller1.html">Escritura creativa</a></li>
-                            <li><a href="taller2.html">Lenguaje inclusivo</a></li>
-                            <li><a href="org_taller.html">Organiza un taller</a></li>
-                        </ul>
-                    </div>
-                </li>
-                <li><a href="mot.html">SOBRE MOT</a></li>
-                <li><a href="contacto.html" class="mot-active">CONTACTO</a></li>
-            </ul>
-        </div>
-        <div id="mot-custom-div" class="uk-navbar-right uk-hidden@m">
-            <ul class="uk-navbar-nav">
-                <!-- boton oculto en tabletas o superior-->
-                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil" data-uk-navbar-toggle-icon></button>
-            </ul>
-        </div>
-    </nav>
-    <!-- NAVBAR -->
-    <!-- MENU MOVIL -->
-    <div id="menu_movil" uk-offcanvas="overlay: true;flip: true">
-        <div class="uk-offcanvas-bar uk-hidden@m uk-light">
-            <button class="uk-offcanvas-close" type="button" uk-close></button>
-            <ul id="movil_white" class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
-                <br>
-                <li class="uk-nav-header uk-active"><a href="../index.html">HOME</a></li>
-                <li class="uk-nav-header uk-parent">
-                    <a href="#">TALLERES</a>
-                    <ul id="movil_white_sub" class="uk-nav-sub">
+<!-- NAVBAR -->
+<nav class="uk-width-1-1 uk-background-default" uk-navbar uk-sticky>
+    <div class="k-navbar-left">
+        <ul class="uk-navbar-nav">
+            <li>
+                <a href="../index.html"><img data-src="../img/logo_mot_1.svg" alt="Logo de mot" uk-img></a>
+            </li>
+        </ul>
+    </div>
+    <div class="uk-margin-large-right uk-navbar-right uk-visible@m">
+        <ul id="mot-opciones" class="uk-navbar-nav">
+            <li><a href="../index.html">HOME</a></li>
+            <li>
+                <a href="#">TALLERES</a>
+                <div id="mot-submenu" class="uk-navbar-dropdown">
+                    <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li><a href="taller1.html">Escritura creativa</a></li>
                         <li><a href="taller2.html">Lenguaje inclusivo</a></li>
                         <li><a href="org_taller.html">Organiza un taller</a></li>
                     </ul>
-                </li>
-                <li class="uk-nav-header uk-active"><a href="mot.html">SOBRE MOT</a></li>
-                <li class="uk-nav-header"><a href="contacto.html">CONTACTO</a></li>
-            </ul>
-        </div>
-    </div>
-    <!-- MENU MOVIL -->
-    <!-- CONTENIDO -->
-    <div class="uk-section uk-height-large uk-background-cover uk-margin-auto uk-padding-auto" style="background-image: url(../img/contacto.svg);">
-    </div>
-    <!-- CONTENIDO -->
-
-    <!-- FORMULARIO -->
-    <div class="uk-section">
-        <div class="uk-container">
-            <div uk-grid>
-                <div class="uk-width-1-2@m">
-                    <h2 class="uk-h2 uk-text-bolder"><strong>Contacto</strong></h2>
-                    <p class="uk-h5">
-                        ¿Tienes alguna duda, quieres hacerme una propuesta o saber más sobre MOT? Rellena este formulario para contactar conmigo. Estaré encantada de leerte y te responderé lo antes posible, <span class="uk-text-bold">¡prometido!</span>
-                    </p>
                 </div>
-                <div class="uk-width-1-2@m">
-                    <form class="uk-form-stacked mot-form">
-                        <div class="uk-margin">
-                            <label class="uk-form-label" for="nombre">Nombre y apellidos*:</label>
-                            <div class="uk-form-controls">
-                                <input class="uk-input" id="nombre" name="nombre" type="text" placeholder="Nombre y apellidos..." required>
-                            </div>
-                        </div>
-                        <div class="uk-margin">
-                            <label class="uk-form-label" for="email">Email*:</label>
-                            <div class="uk-form-controls">
-                                <input class="uk-input" id="email" name="email" type="email" placeholder="Email..." required>
-                            </div>
-                        </div>
-                        <div class="uk-margin">
-                            <label class="uk-form-label" for="telefono">Telefono:</label>
-                            <div class="uk-form-controls">
-                                <input class="uk-input" id="telefono" name="telefono" type="text" placeholder="Telefono...">
-                            </div>
-                        </div>
-                        <div class="uk-margin">
-                            <label class="uk-form-label" for="mensaje">Mensaje*:</label>
-                            <div class="uk-form-controls">
-                                <textarea class="uk-textarea" id="mensaje" name="mensaje" rows="3" placeholder="Mensaje..." required></textarea>
-                            </div>
-                        </div>
-                        <p class="uk-text-italic uk-text-small">*Campos obligatorios</p>
-                        <input type="submit" class="mot-boton-azul-negro uk-button uk-text-lowercase uk-align-center uk-align-left@m" value="enviar"></input>
-                    </form>
+            </li>
+            <li><a href="mot.html">SOBRE MOT</a></li>
+            <li><a href="contacto.html" class="mot-active">CONTACTO</a></li>
+        </ul>
+    </div>
+    <div id="mot-custom-div" class="uk-navbar-right uk-hidden@m">
+        <ul class="uk-navbar-nav">
+            <!-- boton oculto en tabletas o superior-->
+            <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil"
+                    data-uk-navbar-toggle-icon></button>
+        </ul>
+    </div>
+</nav>
+<!-- NAVBAR -->
+<!-- MENU MOVIL -->
+<div id="menu_movil" uk-offcanvas="overlay: true;flip: true">
+    <div class="uk-offcanvas-bar uk-hidden@m uk-light">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <ul id="movil_white" class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
+            <br>
+            <li class="uk-nav-header uk-active"><a href="../index.html">HOME</a></li>
+            <li class="uk-nav-header uk-parent">
+                <a href="#">TALLERES</a>
+                <ul id="movil_white_sub" class="uk-nav-sub">
+                    <li><a href="taller1.html">Escritura creativa</a></li>
+                    <li><a href="taller2.html">Lenguaje inclusivo</a></li>
+                    <li><a href="org_taller.html">Organiza un taller</a></li>
+                </ul>
+            </li>
+            <li class="uk-nav-header uk-active"><a href="mot.html">SOBRE MOT</a></li>
+            <li class="uk-nav-header"><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </div>
+</div>
+<!-- MENU MOVIL -->
+<!-- CONTENIDO -->
+<!--<div class="uk-section uk-height-large uk-background-cover uk-margin-auto uk-padding-auto"-->
+<!--     style="background-image: url(../img/contacto.svg);">-->
+<!--</div>-->
+<!--HERO-->
+<div class="uk-background-cover mot-imagen-hero" style="background-image: url(../img/contacto.svg);">
+</div>
+<!--HERO-->
+<!-- CONTENIDO -->
+
+<!-- FORMULARIO -->
+<div class="uk-section">
+    <div class="uk-container">
+        <h2 class="uk-h2 uk-text-bolder"><strong>Contacto</strong></h2>
+        <p class="uk-h5">
+            ¿Tienes alguna duda, quieres hacerme una propuesta o saber más sobre MOT? Rellena este formulario para
+            contactar conmigo. Estaré encantada de leerte y te responderé lo antes posible, <span class="uk-text-bold">¡prometido!</span>
+        </p>
+        <form class="uk-form-stacked mot-form">
+            <div class="uk-child-width-1-3@s" uk-grid>
+                <div class="uk-form-controls">
+                    <input class="uk-input" id="nombre" name="nombre" type="text"
+                           placeholder="* Nombre y apellidos..." required>
+                </div>
+                <div class="uk-form-controls">
+                    <input class="uk-input" id="email" name="email" type="email" placeholder="* Email..."
+                           required>
+                </div>
+                <div class="uk-form-controls">
+                    <input class="uk-input" id="localidad" name="localidad" type="text"
+                           placeholder="* Localidad...">
                 </div>
             </div>
+            <div class="uk-margin">
+                <div class="uk-form-controls">
+                    <textarea class="uk-textarea" id="mensaje" name="mensaje" rows="3"
+                              placeholder="* Mensaje..."
+                              required></textarea>
+                </div>
+            </div>
+            <p class="uk-text-italic uk-text-small">*Campos obligatorios</p>
+            <p class="uk-text-italic uk-text-small">Trataremos tus datos para responder tu consulta. Si aceptas,
+                recibirás comunicaciones comerciales sobre nuestros servicios. Puedes ejercer tus derechos de
+                acceso, rectificación, supresión y oposición, entre otros, según nuestra <a href="#">Política de
+                    privacidad</a></p>
+            <input type="submit"
+                   class="mot-boton-azul-negro uk-button uk-text-lowercase uk-align-center"
+                   value="enviar">
+        </form>
+    </div>
+</div>
+<!-- FORMULARIO -->
+
+<!-- BANNER   -->
+<div class="uk-section uk-background-cover uk-light uk-padding-large uk-background-fixed"
+     style="background-image: url(../img/contacto.jpg);">
+    <div class="uk-container">
+        <h1 class="uk-text-bolder uk-text-center">Entérate de todo</h1>
+        <hr class="mot-barra-amarilla">
+        <div class="uk-h4">
+                <form class="uk-grid-small" uk-grid>
+                    <div class="uk-width-1-3@s">
+                        <p><strong>Suscribete a nuestra newsletter: </strong>
+                    </div>
+                    <div class="uk-width-1-3@s">
+                        <input class="uk-input" id="email-newsletter" name="email-newsletter" type="email" placeholder="* Email..."
+                               required>
+                    </div>
+                    <div class="uk-width-1-3@s">
+                        <input type="submit"
+                               class="mot-boton-amarillo-blanco uk-button uk-text-lowercase uk-align-center"
+                               value="suscribete">
+                    </div>
+                </form>
+                <p>
+                    <strong>Siguenos en Redes:
+                        <a class="uk-padding-small" href="https://www.instagram.com/mot.escrituracreativa/" uk-icon="icon: instagram; ratio: 2"></a>
+                    </strong>
+                </p>
         </div>
     </div>
-    <!-- FORMULARIO -->
+</div>
+<!-- BANNER   -->
 
-    <!-- BANNER   -->
-    <div class="uk-section uk-text-center uk-background-cover uk-light uk-padding-large uk-background-fixed" style="background-image: url(../img/contacto.jpg);">
-        <div class="uk-container uk-container-small">
-            <h1 class="uk-text-bolder">Entérate de todo</h1>
-            <a class="uk-padding-small" href="" uk-icon="icon: instagram; ratio: 2"></a>
-            <a class="uk-padding-small" href="" uk-icon="icon: mail;ratio: 2.5"></a>
-        </div>
+<!-- FOOTER -->
+<footer class="uk-padding-small uk-margin-top">
+    <div class="uk-container uk-container-expand uk-text-right">
+        <a class="uk-align-left" href="../index.html">
+            <img data-src="../img/mot-icono-footer1.svg" alt="logo-mot" uk-img class="mot-icono-footer">
+            <img data-src="../img/estudiopalabras-icono-footer2.svg" alt="logo-mot" uk-img
+                 class="mot-icono-footer uk-visible@s">
+        </a>
+        <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m mot-up"><span
+                uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
+        <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m mot-up"><span
+                uk-icon="icon: chevron-up; ratio: 2"></span></a>
+        <a href="mailto:hola@motestudiodepalabras.com" uk-icon="icon: mail;ratio: 2.5" class="uk-visible@s"></a>
+        <a href="https://www.instagram.com/mot.escrituracreativa/" uk-icon="icon: instagram; ratio: 2"
+           class="uk-visible@s"></a>
+        <a href="mailto:hola@motestudiodepalabras.com" uk-icon="icon: mail;ratio: 2" class="uk-hidden@s"></a>
+        <a href="https://www.instagram.com/mot.escrituracreativa/" uk-icon="icon: instagram; ratio: 1.5"
+           class="uk-hidden@s"></a>
+        <a href="contacto.html">
+            <button class="mot-boton-azul-negro uk-button uk-text-lowercase uk-button-small">+ info</button>
+        </a>
+        <p class="uk-visible@m">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política
+            de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
+        <p class="uk-hidden@m uk-text-small uk-text-center">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso
+            Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a>
+        </p>
     </div>
-    <!-- BANNER   -->
-
-    <!-- FOOTER -->
-    <footer class="uk-padding-small uk-margin-top">
-        <div class="uk-container uk-container-expand uk-text-right">
-            <a class="uk-align-left" href="../index.html">
-                <img data-src="../img/mot-icono-footer1.svg" alt="logo-mot" uk-img class="mot-icono-footer">
-                <img data-src="../img/estudiopalabras-icono-footer2.svg" alt="logo-mot" uk-img class="mot-icono-footer uk-visible@s">
-            </a>
-            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m mot-up"><span uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
-            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m mot-up"><span uk-icon="icon: chevron-up; ratio: 2"></span></a>
-            <a href="mailto:hola@motestudiodepalabras.com" uk-icon="icon: mail;ratio: 2.5" class="uk-visible@s"></a>
-            <a href="https://www.instagram.com/mot.escrituracreativa/" uk-icon="icon: instagram; ratio: 2" class="uk-visible@s"></a>
-            <a href="mailto:hola@motestudiodepalabras.com" uk-icon="icon: mail;ratio: 2" class="uk-hidden@s"></a>
-            <a href="https://www.instagram.com/mot.escrituracreativa/" uk-icon="icon: instagram; ratio: 1.5" class="uk-hidden@s"></a>
-            <a href="contacto.html"><button class="mot-boton-azul-negro uk-button uk-text-lowercase uk-button-small">+ info</button></a>
-            <p class="uk-visible@m">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
-            <p class="uk-hidden@m uk-text-small uk-text-center">Mot Estudio de palabras &copy;2020 | <a href="#">Aviso Legal</a> | <a href="#">Política de privacidad</a> | <a href="https://www.uniproyect.com"> UniProyect</a></p>
-        </div>
-    </footer>
-    <!-- FOOTER -->
+</footer>
+<!-- FOOTER -->
 </body>
 
 </html>
