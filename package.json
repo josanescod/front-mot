@@ -2,6 +2,7 @@
   "dependencies": {
     "emailjs-com": "^2.6.3",
     "jquery": "^3.5.1",
+    "parsleyjs": "^2.9.2",
     "uikit": "^3.5.9"
   }
 }
