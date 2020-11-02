@@ -3,14 +3,9 @@ $(document).ready(function () {
         emailjs.init("user_eUy4bBvY6yrtUn0yEIaQJ");
     })();
 
-    var templateParams = {
-        name: 'James',
-        notes: 'Check this out!'
-    };
-
-    $(".mot-form").submit(function (event) {
+    $(".mot-contact-form").submit(function (event) {
         event.preventDefault();
-        emailjs.send('gmail', 'contact_form', templateParams)
+        emailjs.sendForm('gmail', 'contact_form', this)
             .then(function (response) {
                 console.log('SUCCESS!', response.status, response.text);
             }, function (error) {
