@@ -7,12 +7,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../node_modules/uikit/dist/css/uikit.css"/>
+    <link rel="stylesheet" href="../node_modules/parsleyjs/src/parsley.css"/>
     <link rel="stylesheet" href="../css/custom.css"/>
     <link rel="stylesheet" href="../css/mot-image-hero.css"/>
     <link rel="stylesheet" href="../css/botones.css"/>
     <script src="../node_modules/jquery/dist/jquery.js"></script>
     <script src="../node_modules/uikit/dist/js/uikit.js"></script>
     <script src="../node_modules/uikit/dist/js/uikit-icons.js"></script>
+    <script src="../node_modules/emailjs-com/dist/email.js"></script>
+    <script src="../node_modules/parsleyjs/dist/parsley.min.js"></script>
+    <script src="../js/custom.js"></script>
     <script src="../js/scrollanimation.js"></script>
 </head>
 
@@ -301,13 +305,13 @@
 </div>
 
 <!-- FORMULARIO -->
-<div class="uk-section mot-fondo-azul uk-light">
+<div class="uk-section mot-fondo-azul">
     <div class="uk-container">
-        <div class="uk-container uk-container-small uk-text-center uk-margin-bottom">
+        <div class="uk-container uk-container-small uk-text-center uk-margin-bottom uk-light">
             <h2 class="uk-h1 uk-text-bolder"><strong>¿Necesitas más información?</strong></h2>
         </div>
         <div uk-grid>
-            <div class="uk-width-1-2@m">
+            <div class="uk-width-1-2@m uk-light">
                 <p class="uk-h5">
                     Rellena este formulario si te gustaría proponer nuevos horarios o si tienes cualquier otra pregunta.
                     Intentaré responderte en menos de 48h, <span class="uk-text-bold">¡lo prometo!</span>
@@ -315,42 +319,54 @@
                 <img src="../img/bocadillo.jpg" alt="bocadillo">
             </div>
             <div class="uk-width-1-2@m">
-                <form class="uk-form-stacked">
+                <form class="uk-form-stacked mot-contact-form" method="POST" data-parsley-validate="">
+                    <input type="hidden" id="pagina" name="pagina" value="Taller escritura creativa">
                     <div class="uk-margin">
                         <div class="uk-form-controls">
                             <input class="uk-input" id="nombre" name="nombre" type="text"
-                                   placeholder="* Nombre y apellidos..." required>
-                        </div>
-                    </div>
-                    <div class="uk-margin">
-                        <div class="uk-form-controls">
-                            <input class="uk-input" id="email" name="email" type="email" placeholder="* Email..."
+                                   placeholder="* Nombre y apellidos..."
+                                   data-parsley-required-message="Introduzca nombre y apellidos."
                                    required>
                         </div>
                     </div>
                     <div class="uk-margin">
                         <div class="uk-form-controls">
-                            <input class="uk-input" id="localidad" name="localidad" type="email"
-                                   placeholder="* Localidad...">
+                            <input class="uk-input" id="email" name="email" type="email" placeholder="* Email..."
+                                   data-parsley-required-message="Introduzca su email."
+                                   data-parsley-type-message="Introduzca un email valido."
+                                   required>
+                        </div>
+                    </div>
+                    <div class="uk-margin">
+                        <div class="uk-form-controls">
+                            <input class="uk-input" id="localidad" name="localidad" type="text"
+                                   placeholder="* Localidad..."
+                                   data-parsley-required-message="Introduzca su localidad."
+                                   required>
                         </div>
                     </div>
                     <div class="uk-margin">
                         <div class="uk-form-controls">
                             <textarea class="uk-textarea" id="mensaje" name="mensaje" rows="3"
-                                      placeholder="* Mensaje..." required></textarea>
+                                      placeholder="* Mensaje..."
+                                      data-parsley-required-message="Introduzca su mensaje."
+                                      required></textarea>
                         </div>
                     </div>
-                    <p class="uk-text-italic uk-text-small">*Campos obligatorios</p>
-                    <p class="uk-text-italic uk-text-small">Trataremos tus datos para responder tu consulta. Si aceptas,
-                        recibirás comunicaciones comerciales sobre nuestros servicios. Puedes ejercer tus derechos de
-                        acceso, rectificación, supresión y oposición, entre otros, según nuestra <a href="#">Política de
-                            privacidad</a></p>
+                    <div class="uk-light">
+                        <p class="uk-text-italic uk-text-small">*Campos obligatorios</p>
+                        <p class="uk-text-italic uk-text-small">Trataremos tus datos para responder tu consulta. Si aceptas,
+                            recibirás comunicaciones comerciales sobre nuestros servicios. Puedes ejercer tus derechos de
+                            acceso, rectificación, supresión y oposición, entre otros, según nuestra <a href="#">Política de
+                                privacidad</a></p>
+                    </div>
                     <input type="submit"
                            class="mot-boton-amarillo-negro uk-button uk-text-lowercase uk-align-center uk-align-left@m"
                            value="enviar">
                 </form>
             </div>
         </div>
+        <div class="mot-alert"></div>
     </div>
 </div>
 <!-- FORMULARIO -->

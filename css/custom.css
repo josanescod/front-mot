@@ -82,13 +82,6 @@ html * {
     height: 250px;
 }
 
-
-/* menu movil */
-
-svg[data-svg="close-icon"] {
-    color: white;
-}
-
 .mot-columna-izquierda {
     padding: 2% 2% 2% 12%;
 }
