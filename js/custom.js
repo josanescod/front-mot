@@ -22,12 +22,10 @@ $(document).ready(function () {
         emailjs.sendForm('gmail', 'contact_form', this)
             .then(function (response) {
                 $(".mot-contact-form")[0].reset();
-                $(".mot-contact-succes").removeClass("uk-hidden");
                 $(".mot-alert").html(succes);
                 console.log('SUCCESS!', response.status, response.text);
             }, function (error) {
                 $(".mot-contact-form")[0].reset();
-                $(".mot-contact-error").removeClass("uk-hidden");
                 $(".mot-alert").html(error);
                 console.log('FAILED...', error);
             });
