@@ -233,3 +233,8 @@ svg[data-svg="close-icon"] {
     right: 0;
     border-top: 3px solid #F9C00E; }
 
+/* footer movil */
+footer > div {
+    height: 52px;
+   
+}
