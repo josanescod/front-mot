@@ -30,7 +30,6 @@ $(document).ready(function () {
         });
         console.log(mensaje);
         
-
         var templateParams = {
             form_type: $(this).find("#form_type").val(),
             nombre: $(this).find("#nombre").val(),
