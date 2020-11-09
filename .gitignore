@@ -44,3 +44,4 @@ Thumbs.dbi
 
 #node_modules
 node_modules/
+/nbproject/private/
