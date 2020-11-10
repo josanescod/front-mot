@@ -20,21 +20,13 @@ $(document).ready(function () {
                 '</div>!'
 
         event.preventDefault();
-
-        var $inputs = $(this).find('input[type=text],input[type=email],textarea');
-
-        var mensaje = "";
-        
-        $inputs.each(function () {
-            mensaje += this.name+": "+$(this).val()+"<br>";
-        });
-        console.log(mensaje);
         
         var templateParams = {
             form_type: $(this).find("#form_type").val(),
-            nombre: $(this).find("#nombre").val(),
-            email: $(this).find("#email").val(),
-            mensaje: mensaje
+            nombre: $(this).find("#nombre").val() ? 'Nombre: '+$(this).find("#nombre").val() : null,
+            email: $(this).find("#email").val() ? 'Email: '+$(this).find("#email").val() : null,
+            localidad: $(this).find("#localidad").val() ? 'Localidad: '+$(this).find("#localidad").val() : null,
+            mensaje: $(this).find("#mensaje").val() ? 'Mensaje: '+$(this).find("#mensaje").val() : null
         };
 
         emailjs.send('gmail', 'forms', templateParams)
