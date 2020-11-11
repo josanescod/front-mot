@@ -22,11 +22,20 @@ $(document).ready(function () {
         event.preventDefault();
         
         var templateParams = {
-            form_type: $(this).find("#form_type").val(),
-            nombre: $(this).find("#nombre").val() ? 'Nombre: '+$(this).find("#nombre").val() : null,
-            email: $(this).find("#email").val() ? 'Email: '+$(this).find("#email").val() : null,
-            localidad: $(this).find("#localidad").val() ? 'Localidad: '+$(this).find("#localidad").val() : null,
-            mensaje: $(this).find("#mensaje").val() ? 'Mensaje: '+$(this).find("#mensaje").val() : null
+            form_type: $(this).find("[name=form_type]").val(),
+            tipo: $(this).find("[name=tipo]").val() ? 'Tipo: '+$(this).find("[name=tipo]").val() : null,
+            dia: $(this).find("[name=dia]").val() ? 'Dia: '+$(this).find("[name=dia]").val() : null,
+            horario: $(this).find("[name=horario]").val() ? 'Horario: '+$(this).find("[name=horario]").val() : null,
+            inicio: $(this).find("[name=inicio]").val() ? 'Inicio: '+$(this).find("[name=inicio]").val() : null,
+            duracion: $(this).find("[name=duracion]").val() ? 'Duracion: '+$(this).find("[name=duracion]").val() : null,
+            nombre: $(this).find("[name=nombre]").val() ? 'Nombre: '+$(this).find("[name=nombre]").val() : null,
+            apellidos: $(this).find("[name=apellidos]").val() ? 'Apellidos: '+$(this).find("[name=apellidos]").val() : null,
+            email: $(this).find("[name=email]").val() ? 'Email: '+$(this).find("[name=email]").val() : null,
+            telefono: $(this).find("[name=telefono]").val() ? 'Apellidos: '+$(this).find("[name=telefono]").val() : null,
+            edad: $(this).find("[name=edad]").val() ? 'Edad: '+$(this).find("[name=edad]").val() : null,
+            profesion: $(this).find("[name=profesion]").val() ? 'Profesion: '+$(this).find("[name=profesion]").val() : null,
+            localidad: $(this).find("[name=localidad]").val() ? 'Localidad: '+$(this).find("[name=localidad]").val() : null,
+            mensaje: $(this).find("[name=mensaje]").val() ? 'Mensaje: '+$(this).find("[name=mensaje]").val() : null
         };
 
         emailjs.send('gmail', 'forms', templateParams)
