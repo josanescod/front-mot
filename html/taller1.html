@@ -380,13 +380,13 @@
         <form class="uk-form-stacked mot-form" method="POST" data-parsley-validate="">
             <div uk-grid>
                 <div class="uk-width-1-2@m">
+                    <input type="hidden" name="form_type" value="INSCRIPCION - Taller escritura creativa">
+                    <input type="hidden" name="tipo" value="Online">
+                    <input type="hidden" name="dia" value="Martes">
+                    <input type="hidden" name="horario" value="10:30 a 12:00">
+                    <input type="hidden" name="inicio" value="22 de septiembre">
+                    <input type="hidden" name="duracion" value="5 semanas">
                     <div class="uk-margin">
-                        <input type="hidden" name="form_type" value="INSCRIPCION - Taller escritura creativa">
-                        <input type="hidden" name="tipo" value="Online">
-                        <input type="hidden" name="dia" value="Martes">
-                        <input type="hidden" name="horario" value="10:30 a 12:00">
-                        <input type="hidden" name="inicio" value="22 de septiembre">
-                        <input type="hidden" name="duracion" value="5 semanas">
                         <label class="uk-form-label" for="nombre">Nombre*:</label>
                         <div class="uk-form-controls">
                             <input class="uk-input" 
@@ -424,7 +424,7 @@
                         </div>
                     </div>
                     <div class="uk-margin">
-                        <label class="uk-form-label" for="telefono">Teléfono:</label>
+                        <label class="uk-form-label" for="telefono">Teléfono*:</label>
                         <div class="uk-form-controls">
                             <input class="uk-input" 
                                    id="telefono"
@@ -436,18 +436,18 @@
                         </div>
                     </div>
                     <div class="uk-margin">
-                        <div class="uk-form-label">Edad*</div>
+                        <label class="uk-form-label" for="edad">Edad*:</label>
                         <div class="uk-form-controls">
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion"> 16 - 21</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion"> 22 - 35</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion"> 36 - 50</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion"> Mayor de 50</label>
+                            <input class="uk-radio" type="radio" name="edad" value="16 - 21" data-parsley-required-message="Seleccione su rango de edad." required> 16 - 21<br>
+                            <input class="uk-radio" type="radio" name="edad" value="22 - 35"> 22 - 35<br>
+                            <input class="uk-radio" type="radio" name="edad" value="36 - 50"> 36 - 50<br>
+                            <input class="uk-radio" type="radio" name="edad" value="Mayor de 50"> Mayor de 50
                         </div>
                     </div>
                 </div>
                 <div class="uk-width-1-2@m">
                     <div class="uk-margin">
-                        <label class="uk-form-label" for="profesion">Profesion:</label>
+                        <label class="uk-form-label" for="profesion">Profesion*:</label>
                         <div class="uk-form-controls">
                             <input class="uk-input" 
                                    id="profesion"
@@ -459,8 +459,7 @@
                         </div>
                     </div>
                     <div class="uk-margin">
-                        <label class="uk-form-label" for="localidad">¿Desde qué localidad vas a
-                            realizar el taller?</label>
+                        <label class="uk-form-label" for="localidad">¿Desde qué localidad vas a realizar el taller?*</label>
                         <div class="uk-form-controls">
                             <input class="uk-input" 
                                    id="localidad"
@@ -472,22 +471,25 @@
                         </div>
                     </div>
                     <div class="uk-margin">
-                        <div class="uk-form-label">¿Cómo has descubierto la existencia del taller?*</div>
+                        <label class="uk-form-label">¿Cómo has descubierto la existencia del taller?*</label>
                         <div class="uk-form-controls">
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion">Instagram</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion">Facebook</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion">Recomendación de otra persona</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion">Google</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion"> Otro: <input
-                                    class="uk-input" id="otro-inscripcion" name="otro-inscripcion"
-                                    type="text" placeholder="Otro..."></label>
+                            <input class="uk-radio mot-otro" type="radio" name="conocido" value="Instagram" data-parsley-required-message="Escoja una opción." required> Instagram<br>
+                            <input class="uk-radio mot-otro" type="radio" name="conocido" value="Facebook"> Facebook<br>
+                            <input class="uk-radio mot-otro" type="radio" name="conocido" value="Recomendación de otra persona"> Recomendación de otra persona<br>
+                            <input class="uk-radio mot-otro" type="radio" name="conocido" value="Google"> Google<br>
+                            <input class="uk-radio" id="mot-otro" type="radio" name="conocido" value="Otro"> Otro: 
+                            <input class="uk-input" 
+                                   type="text" 
+                                   name="conocido-otro" 
+                                   placeholder="Otro..." 
+                                   disabled="true"
+                                   data-parsley-required-message="Cuentanos como nos conociste.">
                         </div>
                     </div>
                 </div>
             </div>
             <p class="uk-text-italic uk-text-small">*Campos obligatorios</p>
-            <input type="submit" class="mot-boton-amarillo-negro uk-button uk-text-lowercase uk-align-center"
-                   value="Inscribirse">
+            <input type="submit" class="mot-boton-amarillo-negro uk-button uk-text-lowercase uk-align-center" value="Inscribirse">
         </form>
     </div>
 </div>
@@ -501,13 +503,13 @@
         <form class="uk-form-stacked mot-form" method="POST" data-parsley-validate="">
             <div uk-grid>
                 <div class="uk-width-1-2@m">
+                    <input type="hidden" name="form_type" value="INSCRIPCION - Taller escritura creativa">
+                    <input type="hidden" name="tipo" value="Online">
+                    <input type="hidden" name="dia" value="Jueves">
+                    <input type="hidden" name="horario" value="19:30 a 21:00">
+                    <input type="hidden" name="inicio" value="24 de septiembre">
+                    <input type="hidden" name="duracion" value="5 semanas">
                     <div class="uk-margin">
-                        <input type="hidden" name="form_type" value="INSCRIPCION - Taller escritura creativa">
-                        <input type="hidden" name="tipo" value="Online">
-                        <input type="hidden" name="dia" value="Jueves">
-                        <input type="hidden" name="horario" value="19:30 a 21:00">
-                        <input type="hidden" name="inicio" value="24 de septiembre">
-                        <input type="hidden" name="duracion" value="5 semanas">
                         <label class="uk-form-label" for="nombre">Nombre*:</label>
                         <div class="uk-form-controls">
                             <input class="uk-input" 
@@ -545,7 +547,7 @@
                         </div>
                     </div>
                     <div class="uk-margin">
-                        <label class="uk-form-label" for="telefono">Teléfono:</label>
+                        <label class="uk-form-label" for="telefono">Teléfono*:</label>
                         <div class="uk-form-controls">
                             <input class="uk-input" 
                                    id="telefono"
@@ -557,18 +559,18 @@
                         </div>
                     </div>
                     <div class="uk-margin">
-                        <div class="uk-form-label">Edad*</div>
+                        <label class="uk-form-label" for="edad">Edad*:</label>
                         <div class="uk-form-controls">
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion"> 16 - 21</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion"> 22 - 35</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion"> 36 - 50</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion"> Mayor de 50</label>
+                            <input class="uk-radio" type="radio" name="edad" value="16 - 21" data-parsley-required-message="Seleccione su rango de edad." required> 16 - 21<br>
+                            <input class="uk-radio" type="radio" name="edad" value="22 - 35"> 22 - 35<br>
+                            <input class="uk-radio" type="radio" name="edad" value="36 - 50"> 36 - 50<br>
+                            <input class="uk-radio" type="radio" name="edad" value="Mayor de 50"> Mayor de 50
                         </div>
                     </div>
                 </div>
                 <div class="uk-width-1-2@m">
                     <div class="uk-margin">
-                        <label class="uk-form-label" for="profesion">Profesion:</label>
+                        <label class="uk-form-label" for="profesion">Profesion*:</label>
                         <div class="uk-form-controls">
                             <input class="uk-input" 
                                    id="profesion"
@@ -580,8 +582,7 @@
                         </div>
                     </div>
                     <div class="uk-margin">
-                        <label class="uk-form-label" for="localidad">¿Desde qué localidad vas a
-                            realizar el taller?</label>
+                        <label class="uk-form-label" for="localidad">¿Desde qué localidad vas a realizar el taller?*</label>
                         <div class="uk-form-controls">
                             <input class="uk-input" 
                                    id="localidad"
@@ -593,22 +594,20 @@
                         </div>
                     </div>
                     <div class="uk-margin">
-                        <div class="uk-form-label">¿Cómo has descubierto la existencia del taller?*</div>
+                        <label class="uk-form-label">¿Cómo has descubierto la existencia del taller?*</label>
                         <div class="uk-form-controls">
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion">Instagram</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion">Facebook</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion">Recomendación de otra persona</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion">Google</label><br>
-                            <label><input class="uk-radio" type="radio" name="edad-inscripcion"> Otro: <input
-                                    class="uk-input" id="otro-inscripcion" name="otro-inscripcion"
-                                    type="text" placeholder="Otro..."></label>
+                            <input class="uk-radio" type="radio" name="conocido" value="Instagram" data-parsley-required-message="Escoja una opción." required> Instagram<br>
+                            <input class="uk-radio" type="radio" name="conocido" value="Facebook"> Facebook<br>
+                            <input class="uk-radio" type="radio" name="conocido" value="Recomendación de otra persona"> Recomendación de otra persona<br>
+                            <input class="uk-radio" type="radio" name="conocido" value="Google"> Google<br>
+                            <input class="uk-radio" type="radio" name="conocido" > Otro: 
+                            <input class="uk-input" name="otro" type="text" placeholder="Otro..." disabled>
                         </div>
                     </div>
                 </div>
             </div>
             <p class="uk-text-italic uk-text-small">*Campos obligatorios</p>
-            <input type="submit" class="mot-boton-amarillo-negro uk-button uk-text-lowercase uk-align-center"
-                   value="Inscribirse">
+            <input type="submit" class="mot-boton-amarillo-negro uk-button uk-text-lowercase uk-align-center" value="Inscribirse">
         </form>
     </div>
 </div>
