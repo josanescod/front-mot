@@ -10,7 +10,6 @@ $(document).ready(function () {
     });
 
     $('.mot-otro').click(function () {
-        alert("HOLA");
         $("input[type='text'][name='conocido-otro']").val("");
         $("input[type='text'][name='conocido-otro']").attr("required",false);
         $("input[type='text'][name='conocido-otro']").attr("disabled",true);
