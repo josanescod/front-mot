@@ -19,17 +19,6 @@ $(document).ready(function () {
 
         $this = this;
 
-        var succes = '<div class="uk-alert-success mot-contact-succes" uk-alert>\n' +
-                '    <a class="uk-alert-close" uk-close></a>\n' +
-                '    <p>El mensaje se ha enviado correctamente.</p>\n' +
-                '</div>'
-        var error = '<div class="uk-alert-danger mot-contact-error" uk-alert>\n' +
-                '    <a class="uk-alert-close" uk-close></a>\n' +
-                '    <p>El mensaje no se ha podido enviar, intentelo mas tarde o escriba directamente a\n' +
-                '        <a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a>\n' +
-                '    </p>\n' +
-                '</div>!'
-
         event.preventDefault();
 
         var templateParams = {
@@ -54,7 +43,7 @@ $(document).ready(function () {
         emailjs.send('gmail', 'forms', templateParams)
                 .then(function (response) {
                     $this.reset();
-                    $(".mot-alert").html(succes);
+                    $(".mot-alert").html(mensajes.);
                     console.log('SUCCESS!', response.status, response.text);
                 }, function (error) {
                     $this.reset();
@@ -63,6 +52,47 @@ $(document).ready(function () {
                 });
 
     });
+
+    function generateMesage(typeForm) {
+
+        var mensajes = {
+            succes_contacto: '<div class="uk-alert-success mot-contact-succes" uk-alert>\n' +
+                '<a class="uk-alert-close" uk-close></a>\n' +
+                '<p>El mensaje se ha enviado correctamente.</p>\n' +
+                '</div>',
+            error_contacto: '<div class="uk-alert-danger mot-contact-error" uk-alert>\n' +
+                '<a class="uk-alert-close" uk-close></a>\n' +
+                '<p>El mensaje no se ha podido enviar, intentelo mas tarde o escriba directamente a\n' +
+                '<a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a>\n' +
+                '</p>\n' +
+                '</div>!',
+            succes_suscripcion: '<div class="uk-alert-success mot-contact-succes" uk-alert>\n' +
+                '<a class="uk-alert-close" uk-close></a>\n' +
+                '<p>El mensaje se ha enviado correctamente.</p>\n' +
+                '</div>',
+            error_suscripcion: '<div class="uk-alert-danger mot-contact-error" uk-alert>\n' +
+                '<a class="uk-alert-close" uk-close></a>\n' +
+                '<p>El mensaje no se ha podido enviar, intentelo mas tarde o escriba directamente a\n' +
+                '<a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a>\n' +
+                '</p>\n' +
+                '</div>!',
+            succes_inscripcion: '<div class="uk-alert-success mot-contact-succes" uk-alert>\n' +
+                '<a class="uk-alert-close" uk-close></a>\n' +
+                '<p>El mensaje se ha enviado correctamente.</p>\n' +
+                '</div>',
+            error_nscripcion: '<div class="uk-alert-danger mot-contact-error" uk-alert>\n' +
+                '<a class="uk-alert-close" uk-close></a>\n' +
+                '<p>El mensaje no se ha podido enviar, intentelo mas tarde o escriba directamente a\n' +
+                '<a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a>\n' +
+                '</p>\n' +
+                '</div>!'
+        }
+        
+        if (typeForm){
+
+        }
+
+
+    }
+
 });
-
-
