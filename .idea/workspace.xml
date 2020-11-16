@@ -28,7 +28,9 @@
   <component name="ChangeListManager">
     <list default="true" id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contacto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/taller1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/taller2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +112,8 @@
       <workItem from="1605041186148" duration="48000" />
       <workItem from="1605041249234" duration="157000" />
       <workItem from="1605297340335" duration="164000" />
-      <workItem from="1605434011202" duration="1903000" />
+      <workItem from="1605434011202" duration="2023000" />
+      <workItem from="1605558085055" duration="3066000" />
     </task>
     <servers />
   </component>
@@ -162,14 +165,18 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="225" width="423" height="583" key="RollbackChangesDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603006696796" />
+    <state x="2602" y="132" width="546" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605560598563">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2602" y="132" width="546" height="768" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1605560598563" />
     <state x="2688" y="436" width="373" height="161" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603135129259">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2688" y="436" width="373" height="161" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603135129259" />
-    <state x="2150" y="90" width="1618" height="950" key="find.popup" timestamp="1604438572087">
+    <state x="2103" y="60" width="1618" height="950" key="find.popup" timestamp="1605558405740">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="74" y="80" width="1618" height="914" key="find.popup/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1602708439509" />
-    <state x="2150" y="90" width="1618" height="950" key="find.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1604438572087" />
+    <state x="2103" y="60" width="1618" height="950" key="find.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1605558405740" />
   </component>
 </project>

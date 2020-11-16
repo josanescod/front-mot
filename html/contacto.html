@@ -93,7 +93,7 @@
             contactar conmigo. Estaré encantada de leerte y te responderé lo antes posible, <span class="uk-text-bold">¡prometido!</span>
         </p>
         <form class="uk-form-stacked mot-form" method="POST" data-parsley-validate="">
-            <input type="hidden" name="form_type" value="CONTACTO - Pagina contacto">
+            <input type="hidden" name="form_type" data-type-form="contacto" value="CONTACTO - Pagina contacto">
             <div class="uk-child-width-1-3@s" uk-grid>
                 <div class="uk-form-controls">
                     <input class="uk-input" name="nombre" type="text"
@@ -131,7 +131,7 @@
                    class="mot-boton-azul-negro uk-button uk-text-lowercase uk-align-center"
                    value="enviar">
         </form>
-        <div class="mot-alert"></div>
+        <div class="mot-alert-contacto"></div>
     </div>
 </div>
 <!-- FORMULARIO -->
@@ -144,7 +144,7 @@
         <hr class="mot-barra-amarilla">
         <div class="uk-h4">
             <form class="uk-grid-small mot-form" method="POST" data-parsley-validate="" uk-grid>
-                <input type="hidden" name="form_type" value="SUSCRIPCION - Pagina contacto">
+                <input type="hidden" name="form_type" data-type-form="suscripcion" value="SUSCRIPCION - Pagina contacto">
                 <div class="uk-width-1-3@s">
                     <p><strong>Suscribete a nuestra newsletter: </strong>
                 </div>
@@ -161,6 +161,7 @@
                            value="suscribete">
                 </div>
             </form>
+            <div class="mot-alert-suscripcion"></div>
             <p>
                 <strong>Siguenos en Redes:
                     <a class="uk-padding-small" href="https://www.instagram.com/mot.escrituracreativa/"

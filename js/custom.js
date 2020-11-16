@@ -5,14 +5,14 @@ $(document).ready(function () {
     })();
 
     $('#mot-otro').click(function () {
-        $("input[type='text'][name='conocido-otro']").attr("required",true);
-        $("input[type='text'][name='conocido-otro']").attr("disabled",false);
+        $("input[type='text'][name='conocido-otro']").attr("required", true);
+        $("input[type='text'][name='conocido-otro']").attr("disabled", false);
     });
 
     $('.mot-otro').click(function () {
         $("input[type='text'][name='conocido-otro']").val("");
-        $("input[type='text'][name='conocido-otro']").attr("required",false);
-        $("input[type='text'][name='conocido-otro']").attr("disabled",true);
+        $("input[type='text'][name='conocido-otro']").attr("required", false);
+        $("input[type='text'][name='conocido-otro']").attr("disabled", true);
     });
 
     $(".mot-form").submit(function (event) {
@@ -40,20 +40,22 @@ $(document).ready(function () {
             mensaje: $(this).find("[name=mensaje]").val() ? 'Mensaje: ' + $(this).find("[name=mensaje]").val() : null
         };
 
+        var typeForm = $(this).find("[data-type-form]").attr('data-type-form');
+        console.log(typeForm);
         emailjs.send('gmail', 'forms', templateParams)
-                .then(function (response) {
-                    $this.reset();
-                    $(".mot-alert").html(mensajes.);
-                    console.log('SUCCESS!', response.status, response.text);
-                }, function (error) {
-                    $this.reset();
-                    $(".mot-alert").html(error);
-                    console.log('FAILED...', error);
-                });
+            .then(function (response) {
+                $this.reset();
+                generateMesage(typeForm, true);
+                console.log('SUCCESS!', response.status, response.text);
+            }, function (error) {
+                $this.reset();
+                generateMesage(typeForm, false);
+                console.log('FAILED...', error);
+            });
 
     });
 
-    function generateMesage(typeForm) {
+    function generateMesage(typeForm, succes) {
 
         var mensajes = {
             succes_contacto: '<div class="uk-alert-success mot-contact-succes" uk-alert>\n' +
@@ -68,30 +70,37 @@ $(document).ready(function () {
                 '</div>!',
             succes_suscripcion: '<div class="uk-alert-success mot-contact-succes" uk-alert>\n' +
                 '<a class="uk-alert-close" uk-close></a>\n' +
-                '<p>El mensaje se ha enviado correctamente.</p>\n' +
+                '<p>La suscripción se ha realizado correctamente.</p>\n' +
                 '</div>',
             error_suscripcion: '<div class="uk-alert-danger mot-contact-error" uk-alert>\n' +
                 '<a class="uk-alert-close" uk-close></a>\n' +
-                '<p>El mensaje no se ha podido enviar, intentelo mas tarde o escriba directamente a\n' +
+                '<p>La suscripción no se ha podido realizar, intentelo mas tarde o escriba directamente a\n' +
                 '<a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a>\n' +
                 '</p>\n' +
                 '</div>!',
             succes_inscripcion: '<div class="uk-alert-success mot-contact-succes" uk-alert>\n' +
                 '<a class="uk-alert-close" uk-close></a>\n' +
-                '<p>El mensaje se ha enviado correctamente.</p>\n' +
+                '<p>La inscripción se ha realizado correctamente.</p>\n' +
                 '</div>',
-            error_nscripcion: '<div class="uk-alert-danger mot-contact-error" uk-alert>\n' +
+            error_inscripcion: '<div class="uk-alert-danger mot-contact-error" uk-alert>\n' +
                 '<a class="uk-alert-close" uk-close></a>\n' +
-                '<p>El mensaje no se ha podido enviar, intentelo mas tarde o escriba directamente a\n' +
+                '<p>La inscripcion no se ha podido realizar, intentelo mas tarde o escriba directamente a\n' +
                 '<a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a>\n' +
                 '</p>\n' +
                 '</div>!'
         }
-        
-        if (typeForm){
 
+        if (typeForm === 'contacto') {
+            succes ? $(".mot-alert-contacto").html(mensajes.succes_contacto) : $(".mot-alert-contacto").html(mensajes.error_contacto);
         }
 
+        if (typeForm === 'inscripcion') {
+            succes ? $(".mot-alert-inscripcion").html(mensajes.succes_inscripcion) : $(".mot-alert-inscripcion").html(mensajes.succes_inscripcion);
+        }
+
+        if (typeForm === 'suscripcion') {
+            succes ? $(".mot-alert-suscripcion").html(mensajes.succes_suscripcion) : $(".mot-alert-suscripcion").html(mensajes.error_suscripcion);
+        }
 
     }
 

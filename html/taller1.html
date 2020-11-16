@@ -210,6 +210,7 @@
                 </ul>
             </div>
         </div>
+        <div class="mot-alert-inscripcion"></div>
     </div>
 </div>
 
@@ -320,7 +321,7 @@
             </div>
             <div class="uk-width-1-2@m">
                 <form class="uk-form-stacked mot-form" method="POST" data-parsley-validate="">
-                    <input type="hidden" name="form_type" value="CONTACTO - Taller escritura creativa">
+                    <input type="hidden" name="form_type" data-type-form="contacto" value="CONTACTO - Taller escritura creativa">
                     <div class="uk-margin uk-margin-remove-top">
                         <div class="uk-form-controls">
                             <input class="uk-input" name="nombre" type="text"
@@ -366,7 +367,7 @@
                 </form>
             </div>
         </div>
-        <div class="mot-alert"></div>
+        <div class="mot-alert-contacto"></div>
     </div>
 </div>
 <!-- FORMULARIO -->
@@ -380,13 +381,13 @@
         <form class="uk-form-stacked mot-form" method="POST" data-parsley-validate="">
             <div uk-grid>
                 <div class="uk-width-1-2@m">
-                    <input type="hidden" name="form_type" value="INSCRIPCION - Taller escritura creativa">
+                    <input type="hidden" name="form_type" data-type-form="inscripcion" value="INSCRIPCION - Taller escritura creativa">
                     <input type="hidden" name="tipo" value="Online">
                     <input type="hidden" name="dia" value="Martes">
                     <input type="hidden" name="horario" value="10:30 a 12:00">
                     <input type="hidden" name="inicio" value="22 de septiembre">
                     <input type="hidden" name="duracion" value="5 semanas">
-                    <div class="uk-margin">
+                    <div class="uk-margin uk-margin-remove-top">
                         <label class="uk-form-label uk-light" for="nombre">Nombre*:</label>
                         <div class="uk-form-controls">
                             <input class="uk-input" 
@@ -505,7 +506,7 @@
         <form class="uk-form-stacked mot-form" method="POST" data-parsley-validate="">
             <div uk-grid>
                 <div class="uk-width-1-2@m">
-                    <input type="hidden" name="form_type" value="INSCRIPCION - Taller escritura creativa">
+                    <input type="hidden" name="form_type" data-type-form="inscripcion" value="INSCRIPCION - Taller escritura creativa">
                     <input type="hidden" name="tipo" value="Online">
                     <input type="hidden" name="dia" value="Jueves">
                     <input type="hidden" name="horario" value="19:30 a 21:00">
