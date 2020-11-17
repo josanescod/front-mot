@@ -41,7 +41,7 @@ $(document).ready(function () {
         };
 
         var typeForm = $(this).find("[data-type-form]").attr('data-type-form');
-        console.log(typeForm);
+
         emailjs.send('gmail', 'forms', templateParams)
             .then(function (response) {
                 $this.reset();
@@ -96,6 +96,9 @@ $(document).ready(function () {
 
         if (typeForm === 'inscripcion') {
             succes ? $(".mot-alert-inscripcion").html(mensajes.succes_inscripcion) : $(".mot-alert-inscripcion").html(mensajes.succes_inscripcion);
+            $('[uk-modal]').each(function( ) {
+                UIkit.modal($(this)).hide();
+            });
         }
 
         if (typeForm === 'suscripcion') {
