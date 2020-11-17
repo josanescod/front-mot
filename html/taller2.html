@@ -83,15 +83,16 @@
     <div class="uk-background-cover mot-imagen-hero" style="background-image: url(../img/tallerelenguaje.jpg);">
     </div>
     <!--HERO-->
-    <div class="uk-section uk-section-large uk-text-center">
+    <div class="uk-section uk-section-default uk-text-center">
         <div class="uk-container uk-container-xsmall">
-            <p class="uk-h1 uk-text-bolder"><strong>Olvida todo lo que sabes sobre cursos de escritura, porque este no
-                es así</strong></p>
+            <h1 class="uk-text-bolder"><strong>Olvida todo lo que sabes sobre cursos de escritura, porque este no
+                es así</strong></h1>
             <p>
                 A través de una serie de variados ejercicios prácticos, desde juegos surrealistas a mecanismos de creación de ideas, aprenderemos a superar este momento. Dejaremos a un lado las exigencias formales para trabajar la no-técnica, la escritura más visceral.
                 Siempre conscientes de que el objetivo no es alcanzar la máxima calidad literaria del texto, sino el simple hecho de permitirnos escribir sin que las expectativas del resultado inhiban la capacidad creativa presente en cada persona.
             </p>
-            <p>En este taller cualquier texto que sea resultado de haber superado el miedo a la hoja en blanco será bienvenido.</p>
+            <p>En este taller cualquier texto que sea resultado de haber superado el miedo a la hoja en blanco será bienvenido.
+            </p>
             <button class="uk-button mot-boton-azul-negro uk-text-lowercase">me apunto</button>
         </div>
     </div>
@@ -152,13 +153,13 @@
         <div class="uk-container">
             <div uk-grid>
                 <div class="uk-width-1-2@m uk-padding-large uk-margin-small-top">
-                    <h1 class="mot-color-azul"><strong>Taller online</strong></h1>
+                    <p class="uk-h1 mot-color-azul"><strong>Taller online</strong></p>
                     <ul uk-accordion="multiple: true">
                         <li>
                             <a class="uk-accordion-title mot-border-bottom-black" href="#">PRECIO*</a>
                             <div class="uk-accordion-content">
                                 <p>2 personas = 80€/pers<br> 3/5 personas = 65€/pers</p>
-                                <p>*El precio total del taller variará en función de la cantidad de personas inscritas. No máx. 5 personas.</p>
+                                <p class="uk-text-italic uk-text-small">*El precio total del taller variará en función de la cantidad de personas inscritas. No máx. 5 personas.</p>
                             </div>
                         </li>
                         <li>
@@ -166,11 +167,11 @@
                             <div class="uk-accordion-content">
                                 <p>
                                     MARTES<br> De 10.30h a 12h.<br> Inicio 22 de septiembre - 5 semanas<br>
-                                    <a href="#"><u>►¡Inscripciones abiertas aquí!</u></a>
+                                    <a href="#grupo-martes" uk-toggle><u>►¡Inscripciones abiertas aquí!</u></a>
                                 </p>
                                 <p>
                                     JUEVES<br> De 19.30h a 21h.<br> Inicio 24 de septiembre - 5 semanas<br>
-                                    <a href="#"><u>►¡Inscripciones abiertas aquí!</u></a>
+                                    <a href="#grupo-jueves" uk-toggle><u>►¡Inscripciones abiertas aquí!</u></a>
                                 </p>
                             </div>
                         </li>
@@ -200,7 +201,6 @@
                     </ul>
                 </div>
             </div>
-            <div class="mot-alert-inscripcion"></div>
         </div>
     </div>
 
@@ -216,22 +216,23 @@
     </div>
 
     <!-- FORMULARIO -->
-    <div class="uk-section mot-fondo-morado">
-        <div class="uk-container">
-            <div class="uk-container uk-container-small uk-text-center uk-margin-bottom">
+    <div class="uk-section">
+        <div class="uk-container uk-container-small">
+            <div class="uk-container uk-text-center uk-margin-large-bottom">
                 <h2 class="uk-h1 uk-text-bolder"><strong>¿Necesitas más información?</strong></h2>
             </div>
             <div uk-grid>
                 <div class="uk-width-1-2@m">
                     <p class="uk-h5">
-                        Rellena este formulario si te gustaría proponer nuevos horarios o si tienes cualquier otra pregunta. Intentaré responderte en menos de 48h, <span class="uk-text-bold">¡lo prometo!</span>
+                        Rellena este formulario si te gustaría proponer nuevos horarios o si tienes cualquier otra pregunta.
+                        Intentaré responderte en menos de 48h, <span class="uk-text-bold">¡lo prometo!</span>
                     </p>
                     <img src="../img/bocadillo.jpg" alt="bocadillo">
                 </div>
                 <div class="uk-width-1-2@m">
                     <form class="uk-form-stacked mot-form" method="POST" data-parsley-validate="">
                         <input type="hidden" name="form_type" data-type-form="contacto" value="CONTACTO - Taller lenguaje inclusivo">
-                        <div class="uk-margin">
+                        <div class="uk-margin uk-margin-remove-top">
                             <div class="uk-form-controls">
                                 <input class="uk-input" name="nombre" type="text"
                                        placeholder="* Nombre y apellidos..."
@@ -263,7 +264,7 @@
                                           required></textarea>
                             </div>
                         </div>
-                        <div class="uk-light">
+                        <div>
                             <p class="uk-text-italic uk-text-small">*Campos obligatorios</p>
                             <p class="uk-text-italic uk-text-small">Trataremos tus datos para responder tu consulta. Si aceptas,
                                 recibirás comunicaciones comerciales sobre nuestros servicios. Puedes ejercer tus derechos de
@@ -276,10 +277,12 @@
                     </form>
                 </div>
             </div>
-            <div class="mot-alert"></div>
+            <div class="mot-alert-contacto"></div>
         </div>
     </div>
     <!-- FORMULARIO -->
+
+    <hr>
 
     <!-- FOOTER -->
     <footer class="uk-padding-small uk-margin uk-padding-remove-top">
