@@ -1,7 +1,17 @@
+/*
+recaptcha
+Usa esta clave de sitio web en el código HTML que tu sitio web sirve a los usuarios.
+6LcMj-QZAAAAAGeaxxfUlqTgSptiTt7XovvIZ449
+Usa esta clave secreta para la comunicación entre tu sitio web y el servicio reCAPTCHA
+6LcMj-QZAAAAAELDroM4FEkYhag5aGzgWlXmlKGx
+*/
+
+
 $(document).ready(function () {
 
     (function () {
-        emailjs.init("user_eUy4bBvY6yrtUn0yEIaQJ");
+        emailjs.init("user_eUy4bBvY6yrtUn0yEIaQJ");//mio
+        // emailjs.init("user_CaRBXoZecKRtMDN3agyrC");//Lidia
     })();
 
     $('#mot-otro').click(function () {
