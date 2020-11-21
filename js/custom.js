@@ -41,7 +41,7 @@ $(document).ready(function () {
             nombre: $(this).find("[name=nombre]").val() ? 'Nombre: ' + $(this).find("[name=nombre]").val() : null,
             apellidos: $(this).find("[name=apellidos]").val() ? 'Apellidos: ' + $(this).find("[name=apellidos]").val() : null,
             email: $(this).find("[name=email]").val() ? 'Email: ' + $(this).find("[name=email]").val() : null,
-            telefono: $(this).find("[name=telefono]").val() ? 'Apellidos: ' + $(this).find("[name=telefono]").val() : null,
+            telefono: $(this).find("[name=telefono]").val() ? 'Telefono: ' + $(this).find("[name=telefono]").val() : null,
             edad: $(this).find("[name=edad]:checked").val() ? 'Edad: ' + $(this).find("[name=edad]:checked").val() : null,
             profesion: $(this).find("[name=profesion]").val() ? 'Profesion: ' + $(this).find("[name=profesion]").val() : null,
             localidad: $(this).find("[name=localidad]").val() ? 'Localidad: ' + $(this).find("[name=localidad]").val() : null,
@@ -114,6 +114,10 @@ $(document).ready(function () {
         if (typeForm === 'suscripcion') {
             succes ? $(".mot-alert-suscripcion").html(mensajes.succes_suscripcion) : $(".mot-alert-suscripcion").html(mensajes.error_suscripcion);
         }
+
+        $('[uk-modal]').each(function( ) {
+            UIkit.modal($(this)).hide();
+        });
 
     }
 

@@ -29,6 +29,7 @@
     <list default="true" id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +114,9 @@
       <workItem from="1605558085055" duration="3066000" />
       <workItem from="1605642961685" duration="6262000" />
       <workItem from="1605730871929" duration="1239000" />
-      <workItem from="1605732681227" duration="1563000" />
+      <workItem from="1605732681227" duration="1688000" />
+      <workItem from="1605816267975" duration="3744000" />
+      <workItem from="1605963269272" duration="798000" />
     </task>
     <servers />
   </component>
@@ -157,9 +160,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2613" y="269" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603139335477" />
-    <state x="765" y="339" width="424" height="479" key="FileChooserDialogImpl" timestamp="1604437530636">
+    <state x="765" y="339" width="424" height="479" key="FileChooserDialogImpl" timestamp="1605820633786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="765" y="339" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1605820633786" />
     <state x="765" y="339" width="424" height="479" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1604437530636" />
     <state x="2663" y="225" width="423" height="583" key="RollbackChangesDialog" timestamp="1603006696796">
       <screen x="1920" y="0" width="1920" height="1080" />
