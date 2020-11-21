@@ -241,3 +241,43 @@ footer > div {
     height: 52px;
    
 }
+
+/*Formas*/
+.mot-contenedor-forma {
+    min-height: 100px;
+    position: relative;
+}
+
+.mot-redonda {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #F9C00E;
+}
+
+.mot-cuadrado {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #F9C00E;
+}
+
+.mot-circulo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 20px solid #F9C00E;
+}
+
+.mot-rectangulo {
+    position: absolute;
+    width: 95px;
+    height: 25px;
+    background: #F9C00E;
+}
