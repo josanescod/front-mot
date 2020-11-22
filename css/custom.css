@@ -23,16 +23,6 @@ html * {
     font-family: 'Arimo', 'Roboto', 'Open Sans', sans-serif;
 }
 
-.mot-content {
-    /*mirar si se puede eliminar*/
-    flex-grow: 1;
-}
-
-#mot-custom-div {
-    /*mirar si se puede eliminar*/
-    margin-bottom: 75px;
-}
-
 .uk-navbar-nav > li > a {
     color: black;
     padding: 0 40px;
