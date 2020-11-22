@@ -305,3 +305,7 @@ footer > div {
         margin-bottom: 0 !important;
     }
 }
+
+.parsley-errors-list {
+    margin: 6px 0 3px;
+}
