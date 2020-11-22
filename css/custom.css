@@ -281,3 +281,15 @@ footer > div {
     height: 25px;
     background: #F9C00E;
 }
+
+/*imagenes hero*/
+.mot-imagen-hero {
+    height: 50vw;
+}
+
+@media screen and (min-width: 400px) {
+    .mot-imagen-hero {
+        height: 35vw;
+
+    }
+}
