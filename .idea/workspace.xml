@@ -29,7 +29,11 @@
     <list default="true" id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mot-image-hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mot-image-hero.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/org_taller.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/org_taller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/taller1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/taller2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,12 +121,22 @@
       <workItem from="1605732681227" duration="1688000" />
       <workItem from="1605816267975" duration="3744000" />
       <workItem from="1605963269272" duration="5604000" />
-      <workItem from="1606032814227" duration="2116000" />
+      <workItem from="1606032814227" duration="6089000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -157,10 +171,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2338" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1602788844837" />
-    <state x="2613" y="269" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603139335477">
+    <state x="2613" y="269" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606034962051">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2613" y="269" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603139335477" />
+    <state x="2613" y="269" width="524" height="495" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1606034962051" />
     <state x="765" y="339" width="424" height="479" key="FileChooserDialogImpl" timestamp="1605820633786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -178,10 +192,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2688" y="436" width="373" height="161" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603135129259" />
-    <state x="2103" y="60" width="1618" height="950" key="find.popup" timestamp="1605645443513">
+    <state x="2103" y="60" width="1618" height="950" key="find.popup" timestamp="1606036236601">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="74" y="80" width="1618" height="914" key="find.popup/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1602708439509" />
-    <state x="2103" y="60" width="1618" height="950" key="find.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1605645443513" />
+    <state x="2103" y="60" width="1618" height="950" key="find.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1606036236601" />
   </component>
 </project>
