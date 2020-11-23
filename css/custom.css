@@ -1,7 +1,5 @@
-@import url('https://fonts.google.com/specimen/Arimo?category=Sans+Serif#standard-styles');
-
-html,
-body {
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bitter&display=swap');
+html, body {
     color: black;
 }
 
@@ -20,10 +18,10 @@ p li {
 }
 
 html * {
-    font-family: 'Arimo', 'Roboto', 'Open Sans', sans-serif;
+    font-family: 'Arimo', sans-serif !important;
 }
 
-.uk-navbar-nav > li > a {
+.uk-navbar-nav>li>a {
     color: black;
     padding: 0 40px;
     font-size: 0.97rem;
@@ -33,12 +31,12 @@ html * {
     color: #40a8ba !important;
 }
 
-.uk-navbar-nav > li:hover > a {
+.uk-navbar-nav>li:hover>a {
     color: #40a8ba;
     transition: color 0.3s ease-in 0s;
 }
 
-.uk-navbar-dropdown-nav > li:hover > a {
+.uk-navbar-dropdown-nav>li:hover>a {
     color: #40a8ba;
     transition: color 0.3s ease-in 0s;
 }
@@ -46,7 +44,6 @@ html * {
 .mot-fondo-azul {
     background-color: #40a8ba;
 }
-
 
 /* pruebas: para cambiar el color de los simbolos del carrusel y modificar altura sections*/
 
@@ -57,7 +54,6 @@ html * {
 .uk-slidenav-next {
     color: #c5c5c5;
 }
-
 
 /* altura de los divs */
 
@@ -105,15 +101,15 @@ html * {
     background-color: #a273a5;
 }
 
-#movil_white > li {
+#movil_white>li {
     border-bottom: 1px solid white;
 }
 
-#movil_white > li > a {
+#movil_white>li>a {
     color: white;
 }
 
-#movil_white_sub > li > a {
+#movil_white_sub>li>a {
     color: white;
 }
 
@@ -199,11 +195,9 @@ html * {
     .mot-text-responsive-h1 {
         font-size: 1.5rem;
     }
-
     .mot-text-responsive-h2 {
         font-size: 1rem;
     }
-
     .mot-text-responsive-h3 {
         font-size: 0.95rem;
     }
@@ -211,11 +205,12 @@ html * {
 
 /* Divider
  ========================================================================== */
-.uk-grid-divider > * {
+
+.uk-grid-divider>* {
     position: relative;
 }
 
-.uk-grid-divider > :not(.uk-first-column)::before {
+.uk-grid-divider> :not(.uk-first-column)::before {
     content: "";
     position: absolute;
     top: 0;
@@ -224,7 +219,8 @@ html * {
 }
 
 /* Vertical */
-.uk-grid-divider.uk-grid-stack > .uk-grid-margin::before {
+
+.uk-grid-divider.uk-grid-stack>.uk-grid-margin::before {
     content: "";
     position: absolute;
     left: 2;
@@ -233,12 +229,13 @@ html * {
 }
 
 /* footer movil */
-footer > div {
-    height: 52px;
 
+footer>div {
+    height: 52px;
 }
 
 /*Formas*/
+
 .mot-contenedor-forma {
     min-height: 100px;
     position: relative;
@@ -279,6 +276,7 @@ footer > div {
 }
 
 /*imagenes hero*/
+
 .mot-imagen-hero {
     height: 50vw;
 }
@@ -286,7 +284,6 @@ footer > div {
 @media screen and (min-width: 400px) {
     .mot-imagen-hero {
         height: 35vw;
-
     }
 }
 
