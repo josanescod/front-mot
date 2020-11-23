@@ -121,4 +121,8 @@ $(document).ready(function () {
 
     }
 
+    function onSubmit(token) {
+        document.getElementById("mot-form").submit();
+    }
+
 });
