@@ -84,17 +84,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="mot.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front-mot/mot.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -138,7 +127,9 @@
       <workItem from="1605816267975" duration="3744000" />
       <workItem from="1605963269272" duration="5604000" />
       <workItem from="1606032814227" duration="8541000" />
-      <workItem from="1606163592025" duration="2250000" />
+      <workItem from="1606163592025" duration="3963000" />
+      <workItem from="1606248613357" duration="1702000" />
+      <workItem from="1606251006315" duration="1098000" />
     </task>
     <servers />
   </component>
@@ -213,10 +204,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2688" y="436" width="373" height="161" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1603135129259" />
-    <state x="2103" y="60" width="1618" height="950" key="find.popup" timestamp="1606166266695">
+    <state x="2103" y="60" width="1618" height="950" key="find.popup" timestamp="1606252041778">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="74" y="80" width="1618" height="914" key="find.popup/1920.0.1920.1080/0.0.1920.1040@0.0.1920.1040" timestamp="1602708439509" />
-    <state x="2103" y="60" width="1618" height="950" key="find.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1606166266695" />
+    <state x="2103" y="60" width="1618" height="950" key="find.popup/1920.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1606252041778" />
   </component>
 </project>
