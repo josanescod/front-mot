@@ -28,30 +28,9 @@
   <component name="ChangeListManager">
     <list default="true" id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/contacto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mot_Logos-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mot_Logos-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mot_Logos-15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mot_Logos-16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mot_Logos-17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Mot_Logos-18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/avatar.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bocadillo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cab_que_es_mot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contacto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contacto.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fondo1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img2_que_es_mot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/its_simple.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/logoyellow.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/nuves.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/organiza.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/organizauntaller.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/servicios.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tallerelenguaje.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/talleresccreativa.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scrollanimation.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,17 +84,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="mot.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front-mot/mot.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -125,7 +93,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -169,11 +137,12 @@
       <workItem from="1608067313996" duration="388000" />
       <workItem from="1608581188486" duration="1144000" />
       <workItem from="1608627900444" duration="2020000" />
+      <workItem from="1608666771766" duration="2113000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
