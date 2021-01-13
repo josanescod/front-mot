@@ -74,7 +74,7 @@ $(document).ready(function () {
         var mensajes = {
             succes_contacto: '<div class="uk-alert-success mot-contact-succes" uk-alert>\n' +
                 '<a class="uk-alert-close" uk-close></a>\n' +
-                '<p>El mensaje se ha enviado correctamente.</p>\n' +
+                '<p>Tu consulta ha sido enviada con éxito. ¡Hablamos pronto!</p>\n' +
                 '</div>',
             error_contacto: '<div class="uk-alert-danger mot-contact-error" uk-alert>\n' +
                 '<a class="uk-alert-close" uk-close></a>\n' +
