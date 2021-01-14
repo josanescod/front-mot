@@ -28,6 +28,8 @@
   <component name="ChangeListManager">
     <list default="true" id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/mot.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/mot.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/org_taller.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/org_taller.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
