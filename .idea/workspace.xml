@@ -28,14 +28,7 @@
   <component name="ChangeListManager">
     <list default="true" id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/botones.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/botones.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contacto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/mot.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/mot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/org_taller.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/org_taller.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/servicios.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/taller1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/taller2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +82,17 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="mot.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front-mot/mot.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -149,7 +153,7 @@
       <workItem from="1610398991417" duration="511000" />
       <workItem from="1610399526842" duration="45000" />
       <workItem from="1610399870772" duration="56000" />
-      <workItem from="1611001796515" duration="449000" />
+      <workItem from="1611001796515" duration="2623000" />
     </task>
     <servers />
   </component>
