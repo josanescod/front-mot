@@ -28,20 +28,10 @@
   <component name="ChangeListManager">
     <list default="true" id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contacto.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/mot.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/mot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cab_que_es_mot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/contacto.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/fondo1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/fondo1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/home.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/home.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/img2_que_es_mot.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/its_simple.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/its_simple.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/nuves.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/nuves.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/organiza.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/organiza.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/organizauntaller.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/organizauntaller.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/servicios.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/servicios.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/tallerelenguaje.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/tallerelenguaje.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/talleresccreativa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/talleresccreativa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/botones.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/botones.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/taller1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/taller2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller2.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,17 +85,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="mot.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front-mot/mot.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -167,6 +146,8 @@
       <workItem from="1610399526842" duration="45000" />
       <workItem from="1610399870772" duration="56000" />
       <workItem from="1611001796515" duration="3442000" />
+      <workItem from="1611174644507" duration="355000" />
+      <workItem from="1611606443065" duration="1965000" />
     </task>
     <servers />
   </component>

@@ -39,8 +39,7 @@
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    margin: auto;
-    padding: 10px;
+    padding: 0px;
 }
 
 .mot-boton-amarillo-blanco-redondo:hover {
@@ -60,8 +59,7 @@
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    margin: auto;
-    padding: 10px;
+    padding: 0px;
 }
 
 .mot-boton-amarillo-negro-redondo:hover {
@@ -131,8 +129,7 @@
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    margin: auto;
-    padding: 10px;
+    padding: 0px;
 }
 
 .mot-boton-azul-negro-redondo:hover {
@@ -152,8 +149,7 @@
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    margin: auto;
-    padding: 10px;
+    padding: 0px;
 }
 
 .mot-boton-azul-blanco-redondo:hover {

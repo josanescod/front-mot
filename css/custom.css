@@ -296,3 +296,7 @@ footer>div {
 .parsley-errors-list {
     margin: 6px 0 3px;
 }
+
+.grecaptcha-badge{
+    visibility: collapse !important;
+}

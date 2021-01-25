@@ -166,7 +166,7 @@
                                     <u>Escríbeme</u> para conocer los próximos horarios de talleres online. Cada mes se
                                     abre un nuevo grupo así que no tendrás
                                     problemas para encontrar el horario que se adapte a ti. <br>
-                                    <a href="#grupo-jueves" uk-toggle><u>►¡Inscripciones abiertas aquí!</u></a>
+                                    <a href="#modal-form" uk-toggle><u>►¡Inscripciones abiertas aquí!</u></a>
                                 </p>
                             </div>
                         </li>
@@ -261,6 +261,134 @@
     <!-- FORMULARIO -->
 
     <hr>
+
+    <!-- MODAL -->
+    <div id="modal-form" class="uk-modal-container" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body mot-fondo-azul">
+            <button class="uk-modal-close-default uk-light" type="button" uk-close></button>
+            <h2 class="uk-modal-title uk-text-center uk-light">Inscripción: Taller escritura creativa</h2>
+            <h3 class="uk-h3 uk-light"> MARTES ONLINE: De 10.30h a 12h. Inicio 22 de septiembre - 5 semanas</h3>
+            <form class="uk-form-stacked mot-form" method="POST" data-parsley-validate="">
+                <div uk-grid>
+                    <div class="uk-width-1-2@m">
+                        <input type="hidden" name="form_type" data-type-form="inscripcion" value="INSCRIPCION - Taller escritura creativa">
+                        <input type="hidden" name="tipo" value="Online">
+                        <input type="hidden" name="dia" value="Martes">
+                        <input type="hidden" name="horario" value="10:30 a 12:00">
+                        <input type="hidden" name="inicio" value="22 de septiembre">
+                        <input type="hidden" name="duracion" value="5 semanas">
+                        <div class="uk-margin uk-margin-remove-top">
+                            <label class="uk-form-label uk-light" for="nombre">Nombre*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input"
+                                       id="nombre"
+                                       name="nombre"
+                                       type="text"
+                                       placeholder="* Nombre..."
+                                       data-parsley-required-message="Introduzca su nombre."
+                                       required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light" for="apellidos">Apellidos*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input"
+                                       id="apellidos"
+                                       name="apellidos"
+                                       type="text"
+                                       placeholder="* Apellidos..."
+                                       data-parsley-required-message="Introduzca sus apellidos."
+                                       required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light" for="email">Email*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input"
+                                       id="email"
+                                       name="email"
+                                       type="email"
+                                       placeholder="* Email..."
+                                       data-parsley-required-message="Introduzca su email."
+                                       data-parsley-type-message="Introduzca un email valido."
+                                       required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light" for="telefono">Teléfono*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input"
+                                       id="telefono"
+                                       name="telefono"
+                                       type="text"
+                                       placeholder="* Telefono..."
+                                       data-parsley-required-message="Introduzca su telefono."
+                                       required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light">Edad*:</label>
+                            <div class="uk-form-controls">
+                                <input type="date"
+                                       class="uk-input"
+                                       name="edad"
+                                       data-parsley-required-message="Seleccione su fecha de nacimiento."
+                                       required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-2@m">
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light" for="profesion">Profesion*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input"
+                                       id="profesion"
+                                       name="profesion"
+                                       type="text"
+                                       placeholder="* Profesion..."
+                                       data-parsley-required-message="Introduzca su profesion."
+                                       required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light" for="localidad">¿Desde qué localidad vas a realizar el taller?*</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input"
+                                       id="localidad"
+                                       name="localidad"
+                                       type="text"
+                                       placeholder="* Localidad..."
+                                       data-parsley-required-message="Introduzca su localidad."
+                                       required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light">¿Cómo has descubierto la existencia del taller?*</label>
+                            <div class="uk-form-controls uk-light">
+                                <input class="uk-radio mot-otro" type="radio" name="conocido" value="Instagram" data-parsley-required-message="Escoja una opción." required> Instagram<br>
+                                <input class="uk-radio mot-otro" type="radio" name="conocido" value="Facebook"> Facebook<br>
+                                <input class="uk-radio mot-otro" type="radio" name="conocido" value="Recomendación de otra persona"> Recomendación de otra persona<br>
+                                <input class="uk-radio mot-otro" type="radio" name="conocido" value="Google"> Google<br>
+                                <input class="uk-radio uk-light" id="mot-otro" type="radio" name="conocido" value="Otro"> Otro:
+                            </div>
+                            <div class="uk-form-controls">
+                                <input class="uk-input uk-light"
+                                       type="text"
+                                       name="conocido-otro"
+                                       placeholder="Otro..."
+                                       disabled="true"
+                                       data-parsley-required-message="Cuentanos como nos conociste.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="uk-text-italic uk-text-small uk-light">*Campos obligatorios</p>
+                <input type="submit"
+                       class="mot-boton-amarillo-negro uk-button uk-align-center"
+                       value="Inscribirse">
+            </form>
+        </div>
+    </div>
 
     <!-- FOOTER -->
     <footer class="uk-padding-small uk-margin uk-padding-remove-top">
