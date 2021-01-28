@@ -7,6 +7,15 @@ Usa esta clave secreta para la comunicación entre tu sitio web y el servicio re
 */
 
 $(document).ready(function () {
+    //funcion para mostrar fecha actual en el footer
+    function showCurrentYear(){
+        let date = new Date();
+        let year = date.getFullYear();        
+        let yearParagraph = document.querySelectorAll('p');  
+        yearParagraph[yearParagraph.length-2].innerHTML = yearParagraph[yearParagraph.length-2].innerHTML+`${year}`    
+        yearParagraph[yearParagraph.length-3].firstChild.textContent = yearParagraph[yearParagraph.length-3].firstChild.textContent+`${year} | `
+    }
+    showCurrentYear();
 
     (function () {
         emailjs.init("user_eUy4bBvY6yrtUn0yEIaQJ");//mio
