@@ -17,7 +17,6 @@
     <script src="../node_modules/emailjs-com/dist/email.js"></script>
     <script src="../node_modules/parsleyjs/dist/parsley.min.js"></script>
     <script src="../js/custom.js"></script>
-    <script src="../js/scrollanimation.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6LcmdcMUAAAAADUtZa8MRDNOSUk61KxXb0I_iUvb"></script>
 </head>
 
@@ -92,12 +91,11 @@
                 En este <strong>taller de escritura creativa</strong> huiremos de las técnicas narrativas y la perfección formal literaria para jugar con
                 las palabras y la creatividad. <strong>En cada sesión nos enfrentaremos a una hoja en blanco.</strong> Y, a través de diferentes
                 ejercicios, aprenderemos a superar este momento. Dejaremos a un lado las exigencias formales para trabajar la
-                no-técnica, la escritura más visceral. Nos permitiremos escribir sin que las expectativas del resultado inhiban la
-                capacidad creativa presente en cada persona.
+                no-técnica, la escritura más visceral. Esto no va de ganar premios literarios… ¡va de pasar un buen rato con tu creatividad!
             </p>
-            <p>Por eso, en este taller, cualquier texto que sea resultado de haber superado el miedo a la hoja en blanco será bienvenido.
+            <p>Por eso, en este taller, cualquier texto que sea resultado de haber superado el miedo a la hoja en blanco será más que bienvenido.
             </p>
-            <button class="uk-button mot-boton-azul-negro">inscribirme</button>
+            <a href="#modal-form" uk-toggle><button class="uk-button mot-boton-azul-negro">inscribirme</button></a>
         </div>
     </div>
 
@@ -176,7 +174,7 @@
                         <li>
                             <a class="uk-accordion-title mot-border-bottom-black" href="#">PRECIO*</a>
                             <div class="uk-accordion-content">
-                                <p>2 personas = 80€/pers<br> 3/5 personas = 65€/pers</p>
+                                <p>2 personas = 75 €/pers<br> 3-5 personas = 65 €/pers</p>
                                 <p class="uk-text-italic uk-text-small">*El precio total del taller variará en función de la cantidad de personas inscritas. Nº máx. 5 personas.</p>
                             </div>
                         </li>
@@ -185,7 +183,7 @@
                             <div class="uk-accordion-content">
                                 <p>
                                     El taller tiene una duración de 5 semanas, con una sesión semanal de 1 h 30 min. <br>
-                                    <u>Escríbeme</u> para conocer los próximos horarios de talleres online. Cada mes se abre un nuevo grupo así que no tendrás
+                                    <u><a href="#formulario-contacto" uk-scroll>Escríbeme</a></u> para conocer los próximos horarios de talleres online. Cada mes se abre un nuevo grupo así que no tendrás
                                     problemas para encontrar el horario que se adapte a ti. <br>
                                     <a href="#modal-form" uk-toggle><u>►¡Inscripciones abiertas aquí!</u></a>
                                 </p>
@@ -271,7 +269,7 @@
     </div>
 
     <!-- FORMULARIO -->
-    <div class="uk-section mot-fondo-azul">
+    <div class="uk-section mot-fondo-azul" id="formulario-contacto">
         <div class="uk-container uk-container-small">
             <div class="uk-container uk-text-center uk-margin-large-bottom uk-light">
                 <h2 class="uk-h1 uk-text-bolder"><strong>¿Necesitas más información?</strong></h2>
@@ -327,7 +325,7 @@
                                     privacidad</a></p>
                         </div>
                         <input type="submit"
-                               class="mot-boton-amarillo-negro uk-button uk-align-center uk-align-left@m"
+                               class="mot-boton-amarillo-blanco uk-button uk-align-center uk-align-left@m"
                                value="enviar">
                     </form>
                 </div>
@@ -342,7 +340,6 @@
         <div class="uk-modal-dialog uk-modal-body mot-fondo-azul">
             <button class="uk-modal-close-default uk-light" type="button" uk-close></button>
             <h2 class="uk-modal-title uk-text-center uk-light">Inscripción: Taller escritura creativa</h2>
-            <h3 class="uk-h3 uk-light"> MARTES ONLINE: De 10.30h a 12h. Inicio 22 de septiembre - 5 semanas</h3>
             <form class="uk-form-stacked mot-form" method="POST" data-parsley-validate="">
                 <div uk-grid>
                     <div class="uk-width-1-2@m">
@@ -397,7 +394,7 @@
                                        name="telefono"
                                        type="text"
                                        placeholder="* Telefono..."
-                                       data-parsley-required-message="Introduzca su telefono."
+                                       data-parsley-required-message="Introduzca su teléfono."
                                        required>
                             </div>
                         </div>
@@ -459,8 +456,8 @@
                 </div>
                 <p class="uk-text-italic uk-text-small uk-light">*Campos obligatorios</p>
                 <input type="submit"
-                       class="mot-boton-amarillo-negro uk-button uk-align-center"
-                       value="Inscribirse">
+                       class="mot-boton-amarillo-blanco uk-button uk-align-center"
+                       value="Inscribirme">
             </form>
         </div>
     </div>

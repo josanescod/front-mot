@@ -17,7 +17,6 @@
     <script src="../node_modules/emailjs-com/dist/email.js"></script>
     <script src="../node_modules/parsleyjs/dist/parsley.min.js"></script>
     <script src="../js/custom.js"></script>
-    <script src="../js/scrollanimation.js"></script>
     <script src="https://www.google.com/recaptcha/api.js?render=6LcmdcMUAAAAADUtZa8MRDNOSUk61KxXb0I_iUvb"></script>
 </head>
 
@@ -101,7 +100,7 @@
                 sexistas de la lengua aprendiendo por qué existen, cómo funcionan y sobre todo cómo evitarlos mediante
                 el uso de un lenguaje inclusivo.
             </p>
-            <button class="uk-button mot-boton-azul-negro">inscribeme</button>
+            <a href="#modal-form" uk-toggle><button class="uk-button mot-boton-azul-negro">inscribirme</button></a>
         </div>
     </div>
 
@@ -153,8 +152,6 @@
                             <div class="uk-accordion-content">
                                 <p>50 €/pers</p>
                                 <p> Grupos reducidos, entre 3 y 6 personas.</p>
-                                <p class="uk-text-italic uk-text-small">*El precio total del taller variará en función
-                                    de la cantidad de personas inscritas. No máx. 5 personas.</p>
                             </div>
                         </li>
                         <li>
@@ -163,9 +160,7 @@
                                 <p>
                                     El taller tiene una duración de 5 semanas, con una sesión semanal de 1 h 30 min.
                                     <br>
-                                    <u>Escríbeme</u> para conocer los próximos horarios de talleres online. Cada mes se
-                                    abre un nuevo grupo así que no tendrás
-                                    problemas para encontrar el horario que se adapte a ti. <br>
+                                    <u><a href="#formulario-contacto" uk-scroll>Escríbeme</a></u> para conocer los próximos horarios de talleres online.<br>
                                     <a href="#modal-form" uk-toggle><u>►¡Inscripciones abiertas aquí!</u></a>
                                 </p>
                             </div>
@@ -196,7 +191,7 @@
     </div>
 
     <!-- FORMULARIO -->
-    <div class="uk-section">
+    <div class="uk-section" id="formulario-contacto">
         <div class="uk-container uk-container-small">
             <div class="uk-container uk-text-center uk-margin-large-bottom">
                 <h2 class="uk-h1 uk-text-bolder"><strong>¿Necesitas más información?</strong></h2>
@@ -266,8 +261,7 @@
     <div id="modal-form" class="uk-modal-container" uk-modal>
         <div class="uk-modal-dialog uk-modal-body mot-fondo-azul">
             <button class="uk-modal-close-default uk-light" type="button" uk-close></button>
-            <h2 class="uk-modal-title uk-text-center uk-light">Inscripción: Taller escritura creativa</h2>
-            <h3 class="uk-h3 uk-light"> MARTES ONLINE: De 10.30h a 12h. Inicio 22 de septiembre - 5 semanas</h3>
+            <h2 class="uk-modal-title uk-text-center uk-light">Taller de Lenguaje Inclusivo</h2>
             <form class="uk-form-stacked mot-form" method="POST" data-parsley-validate="">
                 <div uk-grid>
                     <div class="uk-width-1-2@m">
@@ -385,7 +379,7 @@
                 <p class="uk-text-italic uk-text-small uk-light">*Campos obligatorios</p>
                 <input type="submit"
                        class="mot-boton-amarillo-negro uk-button uk-align-center"
-                       value="Inscribirse">
+                       value="Inscribirme">
             </form>
         </div>
     </div>

@@ -1,5 +1,5 @@
 .mot-boton-amarillo-blanco {
-    text-transform: uppercase;
+    text-transform: lowercase;
     background-color: transparent;
     color: white;
     border-color: #f9c00e;
@@ -13,7 +13,7 @@
 }
 
 .mot-boton-amarillo-negro {
-    text-transform: uppercase;
+    text-transform: lowercase;
     background-color: transparent;
     color: black;
     border-color: #f9c00e;
@@ -27,7 +27,7 @@
 }
 
 .mot-boton-amarillo-blanco-redondo {
-    text-transform: uppercase;
+    text-transform: lowercase;
     background-color: transparent;
     border-color: #f9c00e;
     border-width: 5px;
@@ -39,7 +39,7 @@
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    padding: 0px;
+    padding: 7px 0px 0px 0px;
 }
 
 .mot-boton-amarillo-blanco-redondo:hover {
@@ -47,7 +47,7 @@
 }
 
 .mot-boton-amarillo-negro-redondo {
-    text-transform: uppercase;
+    text-transform: lowercase;
     background-color: transparent;
     border-color: #f9c00e;
     border-width: 5px;
@@ -59,7 +59,7 @@
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    padding: 0px;
+    padding: 7px 0px 0px 0px;
 }
 
 .mot-boton-amarillo-negro-redondo:hover {
@@ -67,7 +67,7 @@
 }
 
 .mot-boton-amarillo-negro-redondo-linkedin {
-    text-transform: uppercase;
+    text-transform: lowercase;
     background-color: transparent;
     border-color: #f9c00e;
     border-width: 5px;
@@ -89,7 +89,7 @@
 }
 
 .mot-boton-azul-blanco {
-    text-transform: uppercase;
+    text-transform: lowercase;
     background-color: transparent;
     border-color: #40a8ba;
     border-width: 5px;
@@ -103,7 +103,7 @@
 }
 
 .mot-boton-azul-negro {
-    text-transform: uppercase;
+    text-transform: lowercase;
     background-color: transparent;
     border-color: #40a8ba;
     border-width: 5px;
@@ -117,7 +117,7 @@
 }
 
 .mot-boton-azul-negro-redondo {
-    text-transform: uppercase;
+    text-transform: lowercase;
     background-color: transparent;
     border-color: #40a8ba;
     border-width: 5px;
@@ -129,7 +129,7 @@
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    padding: 0px;
+    padding: 7px 0px 0px 0px;
 }
 
 .mot-boton-azul-negro-redondo:hover {
@@ -137,7 +137,7 @@
 }
 
 .mot-boton-azul-blaco-redondo {
-    text-transform: uppercase;
+    text-transform: lowercase;
     background-color: transparent;
     border-color: #40a8ba;
     border-width: 5px;
@@ -149,7 +149,7 @@
     border-radius: 50%;
     text-align: center;
     line-height: 20px;
-    padding: 0px;
+    padding: 7px 0px 0px 0px;
 }
 
 .mot-boton-azul-blanco-redondo:hover {

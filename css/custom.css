@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo&family=Bitter&display=swap');
+
 html, body {
     color: black;
 }
@@ -21,7 +22,7 @@ html * {
     font-family: 'Arimo', sans-serif !important;
 }
 
-.uk-navbar-nav>li>a {
+.uk-navbar-nav > li > a {
     color: black;
     padding: 0 40px;
     font-size: 0.97rem;
@@ -31,12 +32,12 @@ html * {
     color: #40a8ba !important;
 }
 
-.uk-navbar-nav>li:hover>a {
+.uk-navbar-nav > li:hover > a {
     color: #40a8ba;
     transition: color 0.3s ease-in 0s;
 }
 
-.uk-navbar-dropdown-nav>li:hover>a {
+.uk-navbar-dropdown-nav > li:hover > a {
     color: #40a8ba;
     transition: color 0.3s ease-in 0s;
 }
@@ -101,15 +102,15 @@ html * {
     background-color: #a273a5;
 }
 
-#movil_white>li {
+#movil_white > li {
     border-bottom: 1px solid white;
 }
 
-#movil_white>li>a {
+#movil_white > li > a {
     color: white;
 }
 
-#movil_white_sub>li>a {
+#movil_white_sub > li > a {
     color: white;
 }
 
@@ -195,9 +196,11 @@ html * {
     .mot-text-responsive-h1 {
         font-size: 1.5rem;
     }
+
     .mot-text-responsive-h2 {
         font-size: 1rem;
     }
+
     .mot-text-responsive-h3 {
         font-size: 0.95rem;
     }
@@ -206,11 +209,11 @@ html * {
 /* Divider
  ========================================================================== */
 
-.uk-grid-divider>* {
+.uk-grid-divider > * {
     position: relative;
 }
 
-.uk-grid-divider> :not(.uk-first-column)::before {
+.uk-grid-divider > :not(.uk-first-column)::before {
     content: "";
     position: absolute;
     top: 0;
@@ -220,7 +223,7 @@ html * {
 
 /* Vertical */
 
-.uk-grid-divider.uk-grid-stack>.uk-grid-margin::before {
+.uk-grid-divider.uk-grid-stack > .uk-grid-margin::before {
     content: "";
     position: absolute;
     left: 2;
@@ -230,7 +233,7 @@ html * {
 
 /* footer movil */
 
-footer>div {
+footer > div {
     height: 52px;
 }
 
@@ -297,6 +300,6 @@ footer>div {
     margin: 6px 0 3px;
 }
 
-.grecaptcha-badge{
+.grecaptcha-badge {
     visibility: collapse !important;
 }
