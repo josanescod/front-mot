@@ -27,20 +27,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="83d9fafa-d641-4f84-9ab6-4b8b9aa1da5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/sobre-mot-hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/privacidad.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/botones.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/botones.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/contacto.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/mot.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/mot.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/org-taller.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/org-taller.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/servicios.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/servicios.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/taller1.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/taller2.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/taller2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cab_que_es_mot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/servicios.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/servicios.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scrollanimation.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,13 +89,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -170,6 +167,7 @@
       <workItem from="1611606443065" duration="2382000" />
       <workItem from="1611779078001" duration="639000" />
       <workItem from="1612068969986" duration="6307000" />
+      <workItem from="1612210329057" duration="5799000" />
     </task>
     <servers />
   </component>
