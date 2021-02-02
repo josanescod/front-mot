@@ -84,17 +84,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="mot.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/front-mot/mot.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -163,6 +152,7 @@
       <workItem from="1612210329057" duration="6268000" />
       <workItem from="1612216774421" duration="458000" />
       <workItem from="1612297325968" duration="2035000" />
+      <workItem from="1612300239462" duration="81000" />
     </task>
     <servers />
   </component>
