@@ -303,3 +303,7 @@ footer > div {
 .grecaptcha-badge {
     visibility: collapse !important;
 }
+
+.mot-link-azul:hover {
+    color: #40a8ba !important;
+}

@@ -20,29 +20,32 @@
 </head>
 
 <body>
+
     <!-- NAVBAR -->
     <nav class="uk-width-1-1 uk-background-default" uk-navbar uk-sticky>
         <div class="k-navbar-left">
             <ul class="uk-navbar-nav">
                 <li>
-                    <a href="index"><img data-src="img/logo_mot_1.svg" width="100%" height="100%" alt="Logo de mot" uk-img></a>
+                    <a href="/">
+                        <img data-src="img/logo_mot_1.svg" width="100%" height="100%" alt="Logo de mot" uk-img>
+                    </a>
                 </li>
             </ul>
         </div>
         <div class="uk-margin-large-right uk-navbar-right uk-visible@m">
             <ul id="mot-opciones" class="uk-navbar-nav">
-                <li><a href="index">HOME</a></li>
+                <li><a href="/">HOME</a></li>
                 <li>
-                    <a href="#" class="mot-active">TALLERES</a>
+                    <a href="#">TALLERES</a>
                     <div id="mot-submenu" class="uk-navbar-dropdown">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
                             <li><a href="curso-escritura-creativa">Escritura creativa</a></li>
                             <li><a href="curso-lenguaje-inclusivo">Lenguaje inclusivo</a></li>
-                            <li><a href="cursos-empresas" class="mot-active">Para empresas y entidades</a></li>
+                            <li><a href="cursos-empresas">Para empresas y entidades</a></li>
                         </ul>
                     </div>
                 </li>
-                <li><a href="servicios-copywriter">SERVICIOS</a></li>
+                <li><a href="servicios-copywriter" class="mot-active">SERVICIOS</a></li>
                 <li><a href="about-lidia-palmer">SOBRE MOT</a></li>
                 <li><a href="contacto">CONTACTO</a></li>
             </ul>
@@ -55,13 +58,14 @@
         </div>
     </nav>
     <!-- NAVBAR -->
+
     <!-- MENU MOVIL -->
     <div id="menu_movil" uk-offcanvas="overlay: true;flip: true">
         <div class="uk-offcanvas-bar uk-hidden@m uk-light">
             <button class="uk-offcanvas-close" type="button" uk-close></button>
             <ul id="movil_white" class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
                 <br>
-                <li class="uk-nav-header uk-active"><a href="index">HOME</a></li>
+                <li class="uk-nav-header uk-active"><a href="/">HOME</a></li>
                 <li class="uk-nav-header uk-parent">
                     <a href="#">TALLERES</a>
                     <ul id="movil_white_sub" class="uk-nav-sub">
@@ -77,6 +81,7 @@
         </div>
     </div>
     <!-- MENU MOVIL -->
+
     <!--HERO-->
     <div class="uk-background-cover mot-imagen-hero" style="background-image: url(img/organiza.jpg);">
     </div>
@@ -132,33 +137,38 @@
     <!-- FOOTER -->
     <footer class="uk-padding-small uk-margin uk-padding-remove-top">
         <div class="uk-container uk-container-expand uk-text-right">
-            <a class="uk-align-left" href="/index">
+            <a class="uk-align-left" href="/">
                 <img data-src="img/mot-icono-footer1.svg" alt="logo-mot" uk-img class="mot-icono-footer">
-                <img data-src="img/estudiopalabras-icono-footer2.svg" alt="logo-mot" uk-img
-                    class="mot-icono-footer uk-visible@s">
+                <img data-src="img/estudiopalabras-icono-footer2.svg" alt="logo-mot" uk-img class="mot-icono-footer uk-visible@s">
             </a>
-            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m mot-up"><span
-                    uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
-            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m mot-up"><span
-                    uk-icon="icon: chevron-up; ratio: 2"></span></a>
-            <a href="mailto:hola@motestudiodepalabras.com" target="_blank" uk-icon="icon: mail;ratio: 2.5"
-                class="uk-visible@s"></a>
-            <a href="https://www.instagram.com/mot.escrituracreativa/" target="_blank"
-                uk-icon="icon: instagram; ratio: 2" class="uk-visible@s"></a>
-            <a href="mailto:hola@motestudiodepalabras.com" target="_blank" uk-icon="icon: mail;ratio: 2"
-                class="uk-hidden@s"></a>
-            <a href="https://www.instagram.com/mot.escrituracreativa/" target="_blank"
-                uk-icon="icon: instagram; ratio: 1.5" class="uk-hidden@s"></a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m mot-up">
+                <span uk-icon="icon: chevron-up; ratio: 3.5"></span>
+            </a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m mot-up">
+                <span uk-icon="icon: chevron-up; ratio: 2"></span>
+            </a>
+            <a href="mailto:hola@motestudiodepalabras.com" target="_blank" uk-icon="icon: mail;ratio: 2.5" class="uk-visible@s"></a>
+            <a href="https://www.instagram.com/mot.escrituracreativa/" target="_blank" uk-icon="icon: instagram; ratio: 2" class="uk-visible@s"></a>
+            <a href="mailto:hola@motestudiodepalabras.com" target="_blank" uk-icon="icon: mail;ratio: 2" class="uk-hidden@s"></a>
+            <a href="https://www.instagram.com/mot.escrituracreativa/" target="_blank" uk-icon="icon: instagram; ratio: 1.5" class="uk-hidden@s"></a>
             <a href="contacto">
-                <button class="mot-boton-azul-negro uk-button uk-button-small uk-visible@m">+
-                    info</button>
+                <button class="mot-boton-azul-negro uk-button uk-button-small uk-visible@m">+ info</button>
             </a>
-            <p class="uk-visible@m uk-margin">Mot Estudio de palabras &copy;<a href="privacidad">Aviso Legal</a> | <a href="https://www.uniproyect.com" target="_blank"> UniProyect</a></p>
+            <p class="uk-visible@m uk-margin">
+                Mot Estudio de palabras &copy;<a href="privacidad">Aviso Legal</a>
+                | <a href="https://www.uniproyect.com" target="_blank"> UniProyect</a>
+            </p>
         </div>
-        <p class="uk-hidden@m uk-text-small uk-text-center uk-margin-remove">Mot Estudio de palabras &copy;</p>
-        <p class="uk-hidden@m uk-text-small uk-text-center uk-margin-remove"> <a href="privacidad">Aviso Legal</a> | <a href="https://www.uniproyect.com" target="_blank"> UniProyect</a></p>
+        <p class="uk-hidden@m uk-text-small uk-text-center uk-margin-remove">
+            Mot Estudio de palabras &copy;
+        </p>
+        <p class="uk-hidden@m uk-text-small uk-text-center uk-margin-remove">
+            <a href="privacidad">Aviso Legal</a> |
+            <a href="https://www.uniproyect.com" target="_blank"> UniProyect</a>
+        </p>
     </footer>
     <!-- FOOTER -->
+
 </body>
 
 </html>

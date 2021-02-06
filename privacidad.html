@@ -21,453 +21,456 @@
 </head>
 
 <body>
-<!-- NAVBAR -->
-<nav class="uk-width-1-1 uk-background-default" uk-navbar uk-sticky>
-    <div class="k-navbar-left">
-        <ul class="uk-navbar-nav">
-            <li>
-                <a href="index"><img data-src="img/logo_mot_1.svg" width="100%" height="100%"
-                                             alt="Logo de mot" uk-img></a>
-            </li>
-        </ul>
-    </div>
-    <div class="uk-margin-large-right uk-navbar-right uk-visible@m">
-        <ul id="mot-opciones" class="uk-navbar-nav">
-            <li><a href="index">HOME</a></li>
-            <li>
-                <a href="#">TALLERES</a>
-                <div id="mot-submenu" class="uk-navbar-dropdown">
-                    <ul class="uk-nav uk-navbar-dropdown-nav">
+
+    <!-- NAVBAR -->
+    <nav class="uk-width-1-1 uk-background-default" uk-navbar uk-sticky>
+        <div class="k-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="/">
+                        <img data-src="img/logo_mot_1.svg" width="100%" height="100%" alt="Logo de mot" uk-img>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-margin-large-right uk-navbar-right uk-visible@m">
+            <ul id="mot-opciones" class="uk-navbar-nav">
+                <li><a href="/">HOME</a></li>
+                <li>
+                    <a href="#">TALLERES</a>
+                    <div id="mot-submenu" class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="curso-escritura-creativa">Escritura creativa</a></li>
+                            <li><a href="curso-lenguaje-inclusivo">Lenguaje inclusivo</a></li>
+                            <li><a href="cursos-empresas">Para empresas y entidades</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="servicios-copywriter" class="mot-active">SERVICIOS</a></li>
+                <li><a href="about-lidia-palmer">SOBRE MOT</a></li>
+                <li><a href="contacto">CONTACTO</a></li>
+            </ul>
+        </div>
+        <div id="mot-custom-div" class="uk-navbar-right uk-hidden@m">
+            <ul class="uk-navbar-nav">
+                <!-- boton oculto en tabletas o superior-->
+                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil" data-uk-navbar-toggle-icon></button>
+            </ul>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+
+    <!-- MENU MOVIL -->
+    <div id="menu_movil" uk-offcanvas="overlay: true;flip: true">
+        <div class="uk-offcanvas-bar uk-hidden@m uk-light">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <ul id="movil_white" class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
+                <br>
+                <li class="uk-nav-header uk-active"><a href="/">HOME</a></li>
+                <li class="uk-nav-header uk-parent">
+                    <a href="#">TALLERES</a>
+                    <ul id="movil_white_sub" class="uk-nav-sub">
                         <li><a href="curso-escritura-creativa">Escritura creativa</a></li>
                         <li><a href="curso-lenguaje-inclusivo">Lenguaje inclusivo</a></li>
                         <li><a href="cursos-empresas">Para empresas y entidades</a></li>
                     </ul>
-                </div>
-            </li>
-            <li><a href="servicios-copywriter">SERVICIOS</a></li>
-            <li><a href="about-lidia-palmer">SOBRE MOT</a></li>
-            <li><a href="contacto">CONTACTO</a></li>
-        </ul>
+                </li>
+                <li class="uk-nav-header uk-active"><a href="servicios-copywriter">SERVICIOS</a></li>
+                <li class="uk-nav-header uk-active"><a href="about-lidia-palmer">SOBRE MOT</a></li>
+                <li class="uk-nav-header"><a href="contacto">CONTACTO</a></li>
+            </ul>
+        </div>
     </div>
-    <div id="mot-custom-div" class="uk-navbar-right uk-hidden@m">
-        <ul class="uk-navbar-nav">
-            <!-- boton oculto en tabletas o superior-->
-            <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil"
-                    data-uk-navbar-toggle-icon></button>
-        </ul>
-    </div>
-</nav>
-<!-- NAVBAR -->
-<!-- MENU MOVIL -->
-<div id="menu_movil" uk-offcanvas="overlay: true;flip: true">
-    <div class="uk-offcanvas-bar uk-hidden@m uk-light">
-        <button class="uk-offcanvas-close" type="button" uk-close></button>
-        <ul id="movil_white" class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
-            <br>
-            <li class="uk-nav-header uk-active"><a href="index">HOME</a></li>
-            <li class="uk-nav-header uk-parent">
-                <a href="#">TALLERES</a>
-                <ul id="movil_white_sub" class="uk-nav-sub">
-                    <li><a href="curso-escritura-creativa">Escritura creativa</a></li>
-                    <li><a href="curso-lenguaje-inclusivo">Lenguaje inclusivo</a></li>
-                    <li><a href="cursos-empresas">Para empresas y entidades</a></li>
-                </ul>
-            </li>
-            <li class="uk-nav-header uk-active"><a href="servicios-copywriter">SERVICIOS</a></li>
-            <li class="uk-nav-header uk-active"><a href="about-lidia-palmer">SOBRE MOT</a></li>
-            <li class="uk-nav-header"><a href="contacto">CONTACTO</a></li>
-        </ul>
-    </div>
-</div>
-<!-- MENU MOVIL -->
+    <!-- MENU MOVIL -->
 
-<div class="uk-section">
-    <div class="uk-container">
-        <h1 class="uk-h1 uk-text-bolder"><strong>AVISO LEGAL Y POLÍTICA DE PRIVACIDAD</strong></h1>
-        <p>
-            Esta página Web es propiedad de Lidia Palmer Capilla con NIF nº 20494361G y domicilio en Calle Espronceda
-            362, 08027, Barcelona (BARCELONA ).
-        </p>
-        <p>
-            Para cualquier consulta o propuesta, contáctanos en el e-mail:
-            <a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a>
-        </p>
-        <p>
-            Esta página Web se rige por la normativa exclusivamente aplicable en España, quedando sometida a ella, tanto
-            nacionales como extranjeros que utilicen esta Web.
-        </p>
-        <p>
-            El acceso a nuestra página Web por parte del USUARIO es gratuito y está condicionado a la previa lectura y
-            aceptación integra, expresa y sin reservas de las presentes CONDICIONES GENERALES DE USO vigentes en el
-            momento del acceso, que rogamos lea detenidamente. El USUARIO en el momento que utiliza nuestro portal, sus
-            contenidos o servicios, acepta y se somete expresamente a las condiciones generales de uso del mismo. Si el
-            usuario no estuviere de acuerdo con las presentes condiciones de uso, deberá abstenerse de utilizar este
-            portal y operar por medio del mismo.
-        </p>
-        <p>
-            En cualquier momento podremos modificar la presentación y configuración de nuestra Web, ampliar o reducir
-            servicios, e incluso suprimirla de la Red, así como los servicios y contenidos prestados, todo ello de forma
-            unilateral y sin previo aviso.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>PROPIEDAD INTELECTUAL</strong></h3>
-        <p>
-            Todos los contenidos, textos, imágenes, marcas y códigos fuente son de nuestra propiedad o de terceros a los
-            que se han adquirido sus derechos de explotación, y están protegidos por los derechos de Propiedad
-            Intelectual e Industrial.
-        </p>
-        <p>
-            El usuario únicamente tiene derecho a un uso privado de los mismos, sin ánimo de lucro, y necesita
-            autorización expresa para modificarlos, reproducirlos, explotarlos, distribuirlos o ejercer cualquier
-            derecho perteneciente a su titular.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>CONDICIONES DE ACCESO</strong></h3>
-        <p>
-            El acceso a nuestra página Web es gratuito y no exige previa suscripción o registr
-        </p>
-        <p>
-            El envío de datos personales implica la aceptación expresa por parte del USUARIO de nuestra política de
-            privacidad.
-        </p>
-        <p>
-            El usuario debe acceder a nuestra página Web conforme a la buena fe y las normas de orden público. El acceso
-            a nuestro sitio Web se realiza bajo la propia y exclusiva responsabilidad del usuario, que responderá en
-            todo caso de los daños y perjuicios que pueda causar a terceros o a nosotros mismos.
-        </p>
-        <p>
-            Teniendo en cuenta la imposibilidad de control respecto a la información, contenidos y servicios que
-            contengan otras páginas web a los que se pueda acceder a través de los enlaces que nuestra página web pueda
-            poner a su disposición, le comunicamos que quedamos eximidos de cualquier responsabilidad por los daños y
-            perjuicios de toda clase que pudiesen derivar por la utilización de esas páginas web, ajenas a nuestra
-            empresa, por parte del usuario.
-        </p>
-        <h2 class="uk-h2 uk-text-bolder"><strong>POLÍTICA DE PRIVACIDAD</strong></h2>
-        <p>
-            Aquí tienes la información necesaria para entender la política de privacidad que aplicaremos en la web. Esta
-            política define las condiciones establecidas para el dominio
-            <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>ADVERTENCIAS MENORES DE EDAD</strong></h3>
-        <p>
-            Los mayores de 18 años podrán registrarse en <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>
-            como usuarios sin el previo consentimiento de sus padres o tutores. En el caso de los menores de 18 años se
-            requiere el consentimiento de los padres o tutores para el tratamiento de sus datos personales. En ningún
-            caso se recabarán del menor de edad datos relativos a la situación profesional, económica o a la intimidad
-            de los otros miembros de la familia, sin el consentimiento de éstos. Si eres menor de 18 años y has accedido
-            a este sitio web sin avisar a tus padres no debes registrarte como usuario.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>DATOS DEL RESPONSABLE</strong></h3>
-        <p>
-            Identidad del responsable: Lidia Palmer Capilla <br>
-            Nombre comercial: MOT Estudio de Palabras <br>
-            NIF/CIF: 20494361G <br>
-            Dirección: Calle Espronceda 362, 08027, Barcelona <br>
-            Correo electrónico: <a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a> <br>
-            Actividad: Redacción creativa, Marketing de contenidos, Publicidad, Formaciones relacionadas con lenguaje y
-            escritura. <br>
-            Lidia Palmer ha adecuado esta web a las exigencias del Reglamento (UE) 2016/679 del Parlamento Europeo y del
-            Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas (RGPD), así como con la Ley
-            34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSICE o
-            LSSI). De acuerdo con lo establecido en el Reglamento General de Protección de datos europeo (RGPD)
-            2016/679, Lidia Palmer, con domicilio en Calle Espronceda 362, 08027, Barcelona será responsable del
-            tratamiento de los datos correspondientes a Usuarios de la web, suscriptores, alumnos y clientes. Lidia
-            Palmer no vende, alquila ni cede datos de carácter personal que puedan identificar al usuario, ni lo hará en
-            el futuro, a terceros sin el consentimiento previo de este.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>LEGITIMACIÓN PARA EL TRATAMIENTO DE TUS DATOS</strong></h3>
-        <p>
-            La base legal para el tratamiento de los datos de las personas que contraten productos o servicios ofrecidos
-            por Lidia Palmer es la ejecución del contrato de prestación de servicios. La base legal para el tratamiento
-            de los datos de suscriptores al boletín, que contactan a través del formulario de contacto o que comentan en
-            el blog es el consentimiento que se solicita al usuario sin que en ningún caso la retirada de este
-            condicione la ejecución del contrato de prestación de servicios. También la contratación de productos y
-            servicios según los términos y condiciones que constan en la política comercial.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>CATEGORÍA DE DATOS</strong></h3>
-        <p>
-            Las categorías de datos que se tratan son:
-            Datos identificativos, concretamente, nombre, apellido, fecha de nacimiento y correo electrónico.
-            No se tratan categorías de datos especialmente protegidos.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>¿POR CUÁNTO TIEMPO CONSERVARÉ TUS DATOS?</strong></h3>
-        <p>
-            Lidia Palmer conservará los Datos Personales de los clientes por el tiempo que dure la relación contractual
-            entre Lidia Palmer y el cliente y en todo caso, durante el periodo que resulte necesario para la
-            formulación, el ejercicio o la defensa de potenciales reclamaciones, y/o siempre que lo permitiese la
-            legislación aplicable.
-            Una vez finalizado el mencionado plazo, Lidia Palmer se compromete a cesar el tratamiento de todos los datos
-            personales, así como a bloquearlos debidamente.
-            Asimismo, según el consentimiento otorgado en la primera capa de información, Lidia Palmer conservará los
-            Datos Personales que hayan proporcionado los usuarios que finalmente no hayan llegado a contratar el
-            servicio durante un período de cinco años a partir de la última vez que el usuario interactuó con Lidia
-            Palmer. Ello sin perjuicio de la conservación que resultase necesaria para la formulación, el ejercicio o la
-            defensa de potenciales reclamaciones y/o siempre que lo permitiese la legislación aplicable. Una vez
-            finalizado el mencionado plazo, Lidia Palmer se compromete a cesar el tratamiento de todos los Datos
-            Personales, así como a bloquearlos debidamente.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>CÓMO SE OBTIENEN DATOS PERSONALES EN ESTA WEB?</strong></h3>
-        <p>
-            Los datos personales que trata Lidia Palmer proceden de:
-            Formulario de contacto <br>
-            Formulario de inscripción <br>
-            Formulario de suscripción <br>
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>¿CON QUÉ FINALIDAD TRATO TUS DATOS PERSONALES?</strong></h3>
-        <p>
-            Utilizo diferentes sistemas de captura de información personal y trato la información que me facilitan las
-            personas interesadas con el siguiente fin por cada sistema de captura (formularios):
-        </p>
-        <ul>
-            <li>
-                Formulario de contacto: Solicito: nombre, apellido, email y localidad para responder a los
-                requerimientos y consultas que los usuarios formulen mediante ese formulario de
-                <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>.
-                Los datos que me facilitas estarán ubicados en los servidores de
-                cdmon.com – 10dencehispahard S.L proveedor de hosting de Lidia Palmer dentro de la UE.
-            </li>
-            <li>
-                Formulario de suscripción a contenidos: Solicito: nombre, apellido, email para gestionar la lista de
-                suscripciones, enviar boletines, promociones y ofertas especiales, facilitados por el usuario al
-                realizar la suscripción. Te informamos que los datos que nos facilitas estarán ubicados en los
-                servidores de cdmon.com – 10dencehispahard S.L. proveedor de hosting de Lidia Palmer dentro de la UE.
-
-            </li>
-        </ul>
-        <p>Existen otras finalidades por la que tratamos tus datos personales:</p>
-        <ul>
-            <li>
-                Para garantizar el cumplimiento de las condiciones de uso y la ley aplicable. Esto puede incluir el
-                desarrollo de herramientas y algoritmos que ayudan a esta web a garantizar la confidencialidad de los
-                datos personales que recoge.
-            </li>
-            <li>
-                Para apoyar y mejorar los servicios que ofrece esta web.
-            </li>
-            <li>
-                También se recogen otros datos no identificativos que se obtienen mediante algunas cookies que se
-                descargan en el ordenador del usuario cuando navega en esta web que detallo en la política de cookies.
-            </li>
-            <li>
-                Para gestionar las redes sociales. MOT Estudio de Palabras puede tener presencia en redes sociales. El
-                tratamiento de los datos que se lleve a cabo de las personas que se hagan seguidoras en las redes
-                sociales de la páginas oficiales de MOT Estudio de Palabras se regirá por este apartado. Así como por
-                aquellas condiciones de uso, políticas de privacidad y normativas de acceso que pertenezcan a la red
-                social que proceda en cada caso y aceptadas previamente por el usuario de
+    <div class="uk-section">
+        <div class="uk-container">
+            <h1 class="uk-h1 uk-text-bolder"><strong>AVISO LEGAL Y POLÍTICA DE PRIVACIDAD</strong></h1>
+            <p>
+                Esta página Web es propiedad de Lidia Palmer Capilla con NIF nº 20494361G y domicilio en Calle Espronceda
+                362, 08027, Barcelona (BARCELONA ).
+            </p>
+            <p>
+                Para cualquier consulta o propuesta, contáctanos en el e-mail:
+                <a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a>
+            </p>
+            <p>
+                Esta página Web se rige por la normativa exclusivamente aplicable en España, quedando sometida a ella, tanto
+                nacionales como extranjeros que utilicen esta Web.
+            </p>
+            <p>
+                El acceso a nuestra página Web por parte del USUARIO es gratuito y está condicionado a la previa lectura y
+                aceptación integra, expresa y sin reservas de las presentes CONDICIONES GENERALES DE USO vigentes en el
+                momento del acceso, que rogamos lea detenidamente. El USUARIO en el momento que utiliza nuestro portal, sus
+                contenidos o servicios, acepta y se somete expresamente a las condiciones generales de uso del mismo. Si el
+                usuario no estuviere de acuerdo con las presentes condiciones de uso, deberá abstenerse de utilizar este
+                portal y operar por medio del mismo.
+            </p>
+            <p>
+                En cualquier momento podremos modificar la presentación y configuración de nuestra Web, ampliar o reducir
+                servicios, e incluso suprimirla de la Red, así como los servicios y contenidos prestados, todo ello de forma
+                unilateral y sin previo aviso.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>PROPIEDAD INTELECTUAL</strong></h3>
+            <p>
+                Todos los contenidos, textos, imágenes, marcas y códigos fuente son de nuestra propiedad o de terceros a los
+                que se han adquirido sus derechos de explotación, y están protegidos por los derechos de Propiedad
+                Intelectual e Industrial.
+            </p>
+            <p>
+                El usuario únicamente tiene derecho a un uso privado de los mismos, sin ánimo de lucro, y necesita
+                autorización expresa para modificarlos, reproducirlos, explotarlos, distribuirlos o ejercer cualquier
+                derecho perteneciente a su titular.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>CONDICIONES DE ACCESO</strong></h3>
+            <p>
+                El acceso a nuestra página Web es gratuito y no exige previa suscripción o registr
+            </p>
+            <p>
+                El envío de datos personales implica la aceptación expresa por parte del USUARIO de nuestra política de
+                privacidad.
+            </p>
+            <p>
+                El usuario debe acceder a nuestra página Web conforme a la buena fe y las normas de orden público. El acceso
+                a nuestro sitio Web se realiza bajo la propia y exclusiva responsabilidad del usuario, que responderá en
+                todo caso de los daños y perjuicios que pueda causar a terceros o a nosotros mismos.
+            </p>
+            <p>
+                Teniendo en cuenta la imposibilidad de control respecto a la información, contenidos y servicios que
+                contengan otras páginas web a los que se pueda acceder a través de los enlaces que nuestra página web pueda
+                poner a su disposición, le comunicamos que quedamos eximidos de cualquier responsabilidad por los daños y
+                perjuicios de toda clase que pudiesen derivar por la utilización de esas páginas web, ajenas a nuestra
+                empresa, por parte del usuario.
+            </p>
+            <h2 class="uk-h2 uk-text-bolder"><strong>POLÍTICA DE PRIVACIDAD</strong></h2>
+            <p>
+                Aquí tienes la información necesaria para entender la política de privacidad que aplicaremos en la web. Esta
+                política define las condiciones establecidas para el dominio
                 <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>
-            </li>
-            <li>
-                Tratará sus datos con las finalidades de administrar correctamente su presencia en la red social,
-                informando de actividades, productos o servicios ofrecidos por Lidia Palmer, así como para cualquier
-                otra finalidad que las normativas de las redes sociales permitan.
-            </li>
-        </ul>
-        <p>
-            Los Usuarios, mediante la marcación de las casillas correspondientes (Checkbox) ubicadas en cada uno de
-            estos formularios y aportar los datos en los campos, marcados con un asterisco aceptan expresamente y de
-            forma libre e inequívoca, que sus datos son necesarias para atender su solicitud, por parte de Lidia Palmer,
-            siendo voluntaria la inclusión de datos en los campos restantes.
-        </p>
-        <p>
-            Para el tratamiento de datos de mis usuarios, clientes y alumnos implemento todas las medidas técnicas y
-            organizativas de seguridad establecidas en la legislación vigente.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>¿CUÁLES SON TUS DERECHOS CUANDO NOS FACILITAS TUS DATOS?</strong></h3>
-        <p>
-            Cualquier persona tiene derecho a obtener confirmación sobre si en
-            <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a> estamos tratando datos
-            personales que te conciernen, o no.
-        </p>
-        <p>Las personas interesadas tienen derecho a:</p>
-        <ul>
-            <li>Solicitar el acceso a los datos personales relativos al interesado</li>
-            <li>Solicitar su rectificación o supresión</li>
-            <li>Solicitar la limitación de su tratamiento</li>
-            <li>Oponerse al tratamiento</li>
-            <li>Solicitar la portabilidad de los datos</li>
-        </ul>
-        <p>
-            Los interesados podrán acceder a sus datos personales, así como a solicitar la rectificación de los datos
-            inexactos o, en su caso, solicitar su supresión cuando, entre otros motivos, los datos ya no sean necesarios
-            para los fines que fueron recogidos.
-        </p>
-        <p>
-            determinadas circunstancias, los interesados podrán solicitar la limitación del tratamiento de sus datos, en
-            cuyo caso únicamente los conservaré para el ejercicio o la defensa de reclamaciones.
-        </p>
-        <p>
-            En determinadas circunstancias y por motivos relacionados con su situación particular, los interesados
-            podrán oponerse al tratamiento de sus datos Lidia Palmer dejará de tratar los datos, salvo por motivos
-            legítimos imperiosos, o el ejercicio o la defensa de posibles reclamaciones. También podrán solicitar la
-            portabilidad de sus datos.
-        </p>
-        <p>
-            Los interesados también tendrán derecho a la tutela judicial efectiva y a presentar una reclamación ante la
-            autoridad de control, en este caso, la Agencia Española de Protección de Datos, si consideran que el
-            tratamiento de datos personales que le conciernen infringe el Reglamento.
-        </p>
-        <h4 class="uk-h4">Cómo puedes ejercitar tus derechos</h4>
-        <p>
-            Para ejercitar cualquiera de estos derechos, debes escribir a
-            <a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a>
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>¿A QUÉ DESTINATARIOS SE COMUNICARÁN TUS DATOS?</strong></h3>
-        <p>
-            Muchas herramientas que utilizamos para gestionar tus datos son gestionadas por terceros.
-        </p>
-        <p>
-            Los datos se comunicarán a las siguientes empresas para prestar servicios estrictamente necesarios para el
-            desarrollo de su actividad, https://motestudiodepalbras.com comparte datos con los siguientes prestadores
-            bajo sus correspondientes condiciones de privacidad.
-        </p>
-        <p>
-            Hosting: cdmon.com – 10dencehispahard S.L Calle Girona, 81 – 83 LOCAL 6, Malgrat de mar, 08380, Barcelona
-            Trata los datos con la finalidad de realizar sus servicios de hosting a Lidia Palmer
-            Google Analytics: un servicio analítico de web prestado por Google, Inc., una compañía de Delaware cuya
-            oficina principal está en 1600 Amphitheatre Parkway, Mountain View (California), CA 94043, Estados Unidos
-            (“Google”). Google Analytics utiliza “cookies”, que son archivos de texto ubicados en tu ordenador, para
-            ayudar a <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>
-            a analizar el uso que hacen los usuarios del sitio web. La información que genera la cookie acerca de su uso
-            de
-            <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a> (incluyendo tu
-            dirección IP) será directamente transmitida y archivada por Google en los servidores de Estados Unidos.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>¿A QUÉ DESTINATARIOS SE COMUNICARÁN TUS DATOS?</strong></h3>
-        <p>
-            Al navegar por el dominio de <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>
-            se pueden recoger datos que pueden incluir,
-            direcciones IP, ubicación geográfica (aproximadamente), un registro de cómo se utilizan los servicios y
-            sitios, y otros datos que no pueden ser utilizados para identificar al usuario. Entre los datos no
-            identificativos están también los relacionados a tus hábitos de navegación a través de servicios de
-            terceros. Esta web utiliza como servicio de análisis de terceros: a Google Analytics.
-        </p>
-        <p>
-            Utilizo esta información para analizar tendencias, administrar el sitio, rastrear los movimientos de los
-            usuarios alrededor del sitio y para recopilar información demográfica sobre nuestra base de usuarios en su
-            conjunto.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>¿A QUÉ DESTINATARIOS SE COMUNICARÁN TUS DATOS?</strong></h3>
-        <p>
-            Lidia Palmer se compromete en el uso y tratamiento de los datos incluidos personales de los usuarios,
-            respetando su confidencialidad y a utilizarlos de acuerdo con la finalidad de este, así como a dar
-            cumplimiento a su obligación de guardarlos y adaptar todas las medidas para evitar la alteración, pérdida,
-            tratamiento o acceso no autorizado (como los protocolos Https que utilizo), de conformidad con lo
-            establecido en la normativa vigente de protección de datos.
-        </p>
-        <p>
-            Lidia Palmer no puede garantizar la absoluta inexpugnabilidad de la red Internet y por tanto la violación de
-            los datos mediante accesos fraudulentos a ellos por parte de terceros.
-        </p>
-        <p>
-            No nos hacemos responsables de la política de privacidad respecto a los datos personales que pueda facilitar
-            a terceros por medio de los enlaces disponibles en nuestra página web.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>¿A QUÉ DESTINATARIOS SE COMUNICARÁN TUS DATOS?</strong></h3>
-        <p>
-            Como usuario, eres el único responsable de la veracidad y corrección de los datos que remitas a
-            <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>
-            exonerando a Lidia Palmer de cualquier responsabilidad al respecto. Los
-            usuarios garantizan y responden, en cualquier caso, de la exactitud, vigencia y autenticidad de los datos
-            personales facilitados, y se comprometen a mantenerlos debidamente actualizados. El usuario acepta
-            proporcionar información completa y correcta en el formulario de contacto o suscripción.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>¿A QUÉ DESTINATARIOS SE COMUNICARÁN TUS DATOS?</strong></h3>
-        <p>
-            El usuario declara haber sido informado de las condiciones sobre protección de datos de carácter personal,
-            aceptando y consintiendo el tratamiento de estos por parte de Lidia Palmer en la forma y para las
-            finalidades indicadas en esta política de privacidad
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>REVOCABILIDAD</strong></h3>
-        <p>
-            El consentimiento prestado, tanto para el tratamiento como para la cesión de los datos de los interesados,
-            es revocable en cualquier momento comunicándolo a <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>
-            en los términos establecidos en esta Política para el ejercicio de los derechos ARCO. Esta revocación en
-            ningún caso tendrá carácter retroactivo.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>CAMBIOS EN LA POLÍTICA DE PRIVACIDAD</strong></h3>
-        <p>
-            La presente Política de Privacidad puede ser modificada para adaptarlas a los cambios que se produzca en
-            nuestra web, así como modificaciones legislativas o jurisprudenciales sobre datos personales que vayan
-            apareciendo, por lo que exige su lectura, cada vez que nos facilite sus datos a través de esta Web.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>CORREOS COMERCIALES</strong></h3>
-        <p>
-            De acuerdo con la LSSICE, Lidia Palmer no realiza prácticas de SPAM, por lo que no envía correos comerciales
-            por vía electrónica que no hayan sido previamente solicitados o autorizados por el usuario. En consecuencia,
-            en cada uno de los formularios habidos en la web, el usuario tiene la posibilidad de dar su consentimiento
-            expreso para recibir el boletín, con independencia de la información comercial puntualmente solicitada.
-        </p>
-        <p>
-            Conforme a lo dispuesto en la Ley 34/2002 de Servicios de la Sociedad de la Información y de comercio
-            electrónico, <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a> se compromete a
-            no enviar comunicaciones de carácter comercial sin identificarlas debidamente.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>CORREOS COMERCIALES</strong></h3>
-        <p>
-            Al poner a disposición del usuario esta página Web queremos ofrecerle un servicio de calidad, utilizando la
-            máxima diligencia en la prestación del mismo, así como en los medios tecnológicos utilizados. No obstante,
-            no responderemos de la presencia de virus y otros elementos que de algún modo puedan dañar el sistema
-            informático del usuario.
-        </p>
-        <p>
-            No garantizamos que la disponibilidad del servicio sea continua e ininterrumpida.
-        </p>
-        <p>
-            El USUARIO tiene prohibido cualquier tipo de acción sobre nuestro portal que origine una excesiva sobrecarga
-            de funcionamiento a nuestros sistemas informáticos, así como la introducción de virus, o instalación de
-            robots, o software que altere el normal funcionamiento de nuestra web, o en definitiva pueda causar daños a
-            nuestros sistemas informáticos.
-        </p>
-        <p>
-            El USUARIO asume toda la responsabilidad derivada del uso de nuestra página web.
-        </p>
-        <p>
-            El USUARIO reconoce que ha entendido toda la información respecto a las condiciones de uso de nuestro
-            portal, y reconoce que son suficientes para la exclusión del error en las mismas, y por lo tanto, las acepta
-            integra y expresamente.
-        </p>
-        <h3 class="uk-h3 uk-text-bolder"><strong>DUDAS O CONSULTAS SOBRE ESTA POLÍTICA O TUS DERECHOS</strong></h3>
-        <p>Si tienes alguna pregunta o comentario sobre esta política, o si tienes alguna inquietud sobre la forma en
-            que se ha podido gestionar alguna información personal que nos hayas proporcionado, puedes contactarme por
-            correo electrónico a: <a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a>
-        </p>
-        <p>
-            Documento revisado el 28/1/2021
-        </p>
-    </div>
-</div>
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>ADVERTENCIAS MENORES DE EDAD</strong></h3>
+            <p>
+                Los mayores de 18 años podrán registrarse en <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>
+                como usuarios sin el previo consentimiento de sus padres o tutores. En el caso de los menores de 18 años se
+                requiere el consentimiento de los padres o tutores para el tratamiento de sus datos personales. En ningún
+                caso se recabarán del menor de edad datos relativos a la situación profesional, económica o a la intimidad
+                de los otros miembros de la familia, sin el consentimiento de éstos. Si eres menor de 18 años y has accedido
+                a este sitio web sin avisar a tus padres no debes registrarte como usuario.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>DATOS DEL RESPONSABLE</strong></h3>
+            <p>
+                Identidad del responsable: Lidia Palmer Capilla <br>
+                Nombre comercial: MOT Estudio de Palabras <br>
+                NIF/CIF: 20494361G <br>
+                Dirección: Calle Espronceda 362, 08027, Barcelona <br>
+                Correo electrónico: <a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a> <br>
+                Actividad: Redacción creativa, Marketing de contenidos, Publicidad, Formaciones relacionadas con lenguaje y
+                escritura. <br>
+                Lidia Palmer ha adecuado esta web a las exigencias del Reglamento (UE) 2016/679 del Parlamento Europeo y del
+                Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas (RGPD), así como con la Ley
+                34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSICE o
+                LSSI). De acuerdo con lo establecido en el Reglamento General de Protección de datos europeo (RGPD)
+                2016/679, Lidia Palmer, con domicilio en Calle Espronceda 362, 08027, Barcelona será responsable del
+                tratamiento de los datos correspondientes a Usuarios de la web, suscriptores, alumnos y clientes. Lidia
+                Palmer no vende, alquila ni cede datos de carácter personal que puedan identificar al usuario, ni lo hará en
+                el futuro, a terceros sin el consentimiento previo de este.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>LEGITIMACIÓN PARA EL TRATAMIENTO DE TUS DATOS</strong></h3>
+            <p>
+                La base legal para el tratamiento de los datos de las personas que contraten productos o servicios ofrecidos
+                por Lidia Palmer es la ejecución del contrato de prestación de servicios. La base legal para el tratamiento
+                de los datos de suscriptores al boletín, que contactan a través del formulario de contacto o que comentan en
+                el blog es el consentimiento que se solicita al usuario sin que en ningún caso la retirada de este
+                condicione la ejecución del contrato de prestación de servicios. También la contratación de productos y
+                servicios según los términos y condiciones que constan en la política comercial.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>CATEGORÍA DE DATOS</strong></h3>
+            <p>
+                Las categorías de datos que se tratan son:
+                Datos identificativos, concretamente, nombre, apellido, fecha de nacimiento y correo electrónico.
+                No se tratan categorías de datos especialmente protegidos.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>¿POR CUÁNTO TIEMPO CONSERVARÉ TUS DATOS?</strong></h3>
+            <p>
+                Lidia Palmer conservará los Datos Personales de los clientes por el tiempo que dure la relación contractual
+                entre Lidia Palmer y el cliente y en todo caso, durante el periodo que resulte necesario para la
+                formulación, el ejercicio o la defensa de potenciales reclamaciones, y/o siempre que lo permitiese la
+                legislación aplicable.
+                Una vez finalizado el mencionado plazo, Lidia Palmer se compromete a cesar el tratamiento de todos los datos
+                personales, así como a bloquearlos debidamente.
+                Asimismo, según el consentimiento otorgado en la primera capa de información, Lidia Palmer conservará los
+                Datos Personales que hayan proporcionado los usuarios que finalmente no hayan llegado a contratar el
+                servicio durante un período de cinco años a partir de la última vez que el usuario interactuó con Lidia
+                Palmer. Ello sin perjuicio de la conservación que resultase necesaria para la formulación, el ejercicio o la
+                defensa de potenciales reclamaciones y/o siempre que lo permitiese la legislación aplicable. Una vez
+                finalizado el mencionado plazo, Lidia Palmer se compromete a cesar el tratamiento de todos los Datos
+                Personales, así como a bloquearlos debidamente.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>CÓMO SE OBTIENEN DATOS PERSONALES EN ESTA WEB?</strong></h3>
+            <p>
+                Los datos personales que trata Lidia Palmer proceden de:
+                Formulario de contacto <br>
+                Formulario de inscripción <br>
+                Formulario de suscripción <br>
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>¿CON QUÉ FINALIDAD TRATO TUS DATOS PERSONALES?</strong></h3>
+            <p>
+                Utilizo diferentes sistemas de captura de información personal y trato la información que me facilitan las
+                personas interesadas con el siguiente fin por cada sistema de captura (formularios):
+            </p>
+            <ul>
+                <li>
+                    Formulario de contacto: Solicito: nombre, apellido, email y localidad para responder a los
+                    requerimientos y consultas que los usuarios formulen mediante ese formulario de
+                    <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>.
+                    Los datos que me facilitas estarán ubicados en los servidores de
+                    cdmon.com – 10dencehispahard S.L proveedor de hosting de Lidia Palmer dentro de la UE.
+                </li>
+                <li>
+                    Formulario de suscripción a contenidos: Solicito: nombre, apellido, email para gestionar la lista de
+                    suscripciones, enviar boletines, promociones y ofertas especiales, facilitados por el usuario al
+                    realizar la suscripción. Te informamos que los datos que nos facilitas estarán ubicados en los
+                    servidores de cdmon.com – 10dencehispahard S.L. proveedor de hosting de Lidia Palmer dentro de la UE.
 
-
-<!-- FOOTER -->
-<footer class="uk-padding-small uk-margin uk-padding-remove-top">
-    <div class="uk-container uk-container-expand uk-text-right">
-        <a class="uk-align-left" href="index">
-            <img data-src="img/mot-icono-footer1.svg" alt="logo-mot" uk-img class="mot-icono-footer">
-            <img data-src="img/estudiopalabras-icono-footer2.svg" alt="logo-mot" uk-img
-                 class="mot-icono-footer uk-visible@s">
-        </a>
-        <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m mot-up"><span
-                uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
-        <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m mot-up"><span
-                uk-icon="icon: chevron-up; ratio: 2"></span></a>
-        <a href="mailto:hola@motestudiodepalabras.com" target="_blank" uk-icon="icon: mail;ratio: 2.5"
-           class="uk-visible@s"></a>
-        <a href="https://www.instagram.com/mot.escrituracreativa/" target="_blank"
-           uk-icon="icon: instagram; ratio: 2" class="uk-visible@s"></a>
-        <a href="mailto:hola@motestudiodepalabras.com" target="_blank" uk-icon="icon: mail;ratio: 2"
-           class="uk-hidden@s"></a>
-        <a href="https://www.instagram.com/mot.escrituracreativa/" target="_blank"
-           uk-icon="icon: instagram; ratio: 1.5" class="uk-hidden@s"></a>
-        <a href="contacto">
-            <button class="mot-boton-azul-negro uk-button uk-button-small uk-visible@m">+
-                info
-            </button>
-        </a>
-        <p class="uk-visible@m uk-margin">Mot Estudio de palabras &copy;<a href="privacidad">Aviso Legal</a> | <a href="https://www.uniproyect.com" target="_blank"> UniProyect</a></p>
+                </li>
+            </ul>
+            <p>Existen otras finalidades por la que tratamos tus datos personales:</p>
+            <ul>
+                <li>
+                    Para garantizar el cumplimiento de las condiciones de uso y la ley aplicable. Esto puede incluir el
+                    desarrollo de herramientas y algoritmos que ayudan a esta web a garantizar la confidencialidad de los
+                    datos personales que recoge.
+                </li>
+                <li>
+                    Para apoyar y mejorar los servicios que ofrece esta web.
+                </li>
+                <li>
+                    También se recogen otros datos no identificativos que se obtienen mediante algunas cookies que se
+                    descargan en el ordenador del usuario cuando navega en esta web que detallo en la política de cookies.
+                </li>
+                <li>
+                    Para gestionar las redes sociales. MOT Estudio de Palabras puede tener presencia en redes sociales. El
+                    tratamiento de los datos que se lleve a cabo de las personas que se hagan seguidoras en las redes
+                    sociales de la páginas oficiales de MOT Estudio de Palabras se regirá por este apartado. Así como por
+                    aquellas condiciones de uso, políticas de privacidad y normativas de acceso que pertenezcan a la red
+                    social que proceda en cada caso y aceptadas previamente por el usuario de
+                    <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>
+                </li>
+                <li>
+                    Tratará sus datos con las finalidades de administrar correctamente su presencia en la red social,
+                    informando de actividades, productos o servicios ofrecidos por Lidia Palmer, así como para cualquier
+                    otra finalidad que las normativas de las redes sociales permitan.
+                </li>
+            </ul>
+            <p>
+                Los Usuarios, mediante la marcación de las casillas correspondientes (Checkbox) ubicadas en cada uno de
+                estos formularios y aportar los datos en los campos, marcados con un asterisco aceptan expresamente y de
+                forma libre e inequívoca, que sus datos son necesarias para atender su solicitud, por parte de Lidia Palmer,
+                siendo voluntaria la inclusión de datos en los campos restantes.
+            </p>
+            <p>
+                Para el tratamiento de datos de mis usuarios, clientes y alumnos implemento todas las medidas técnicas y
+                organizativas de seguridad establecidas en la legislación vigente.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>¿CUÁLES SON TUS DERECHOS CUANDO NOS FACILITAS TUS DATOS?</strong></h3>
+            <p>
+                Cualquier persona tiene derecho a obtener confirmación sobre si en
+                <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a> estamos tratando datos
+                personales que te conciernen, o no.
+            </p>
+            <p>Las personas interesadas tienen derecho a:</p>
+            <ul>
+                <li>Solicitar el acceso a los datos personales relativos al interesado</li>
+                <li>Solicitar su rectificación o supresión</li>
+                <li>Solicitar la limitación de su tratamiento</li>
+                <li>Oponerse al tratamiento</li>
+                <li>Solicitar la portabilidad de los datos</li>
+            </ul>
+            <p>
+                Los interesados podrán acceder a sus datos personales, así como a solicitar la rectificación de los datos
+                inexactos o, en su caso, solicitar su supresión cuando, entre otros motivos, los datos ya no sean necesarios
+                para los fines que fueron recogidos.
+            </p>
+            <p>
+                determinadas circunstancias, los interesados podrán solicitar la limitación del tratamiento de sus datos, en
+                cuyo caso únicamente los conservaré para el ejercicio o la defensa de reclamaciones.
+            </p>
+            <p>
+                En determinadas circunstancias y por motivos relacionados con su situación particular, los interesados
+                podrán oponerse al tratamiento de sus datos Lidia Palmer dejará de tratar los datos, salvo por motivos
+                legítimos imperiosos, o el ejercicio o la defensa de posibles reclamaciones. También podrán solicitar la
+                portabilidad de sus datos.
+            </p>
+            <p>
+                Los interesados también tendrán derecho a la tutela judicial efectiva y a presentar una reclamación ante la
+                autoridad de control, en este caso, la Agencia Española de Protección de Datos, si consideran que el
+                tratamiento de datos personales que le conciernen infringe el Reglamento.
+            </p>
+            <h4 class="uk-h4">Cómo puedes ejercitar tus derechos</h4>
+            <p>
+                Para ejercitar cualquiera de estos derechos, debes escribir a
+                <a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a>
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>¿A QUÉ DESTINATARIOS SE COMUNICARÁN TUS DATOS?</strong></h3>
+            <p>
+                Muchas herramientas que utilizamos para gestionar tus datos son gestionadas por terceros.
+            </p>
+            <p>
+                Los datos se comunicarán a las siguientes empresas para prestar servicios estrictamente necesarios para el
+                desarrollo de su actividad, https://motestudiodepalbras.com comparte datos con los siguientes prestadores
+                bajo sus correspondientes condiciones de privacidad.
+            </p>
+            <p>
+                Hosting: cdmon.com – 10dencehispahard S.L Calle Girona, 81 – 83 LOCAL 6, Malgrat de mar, 08380, Barcelona
+                Trata los datos con la finalidad de realizar sus servicios de hosting a Lidia Palmer
+                Google Analytics: un servicio analítico de web prestado por Google, Inc., una compañía de Delaware cuya
+                oficina principal está en 1600 Amphitheatre Parkway, Mountain View (California), CA 94043, Estados Unidos
+                (“Google”). Google Analytics utiliza “cookies”, que son archivos de texto ubicados en tu ordenador, para
+                ayudar a <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>
+                a analizar el uso que hacen los usuarios del sitio web. La información que genera la cookie acerca de su uso
+                de
+                <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a> (incluyendo tu
+                dirección IP) será directamente transmitida y archivada por Google en los servidores de Estados Unidos.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>¿A QUÉ DESTINATARIOS SE COMUNICARÁN TUS DATOS?</strong></h3>
+            <p>
+                Al navegar por el dominio de <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>
+                se pueden recoger datos que pueden incluir,
+                direcciones IP, ubicación geográfica (aproximadamente), un registro de cómo se utilizan los servicios y
+                sitios, y otros datos que no pueden ser utilizados para identificar al usuario. Entre los datos no
+                identificativos están también los relacionados a tus hábitos de navegación a través de servicios de
+                terceros. Esta web utiliza como servicio de análisis de terceros: a Google Analytics.
+            </p>
+            <p>
+                Utilizo esta información para analizar tendencias, administrar el sitio, rastrear los movimientos de los
+                usuarios alrededor del sitio y para recopilar información demográfica sobre nuestra base de usuarios en su
+                conjunto.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>¿A QUÉ DESTINATARIOS SE COMUNICARÁN TUS DATOS?</strong></h3>
+            <p>
+                Lidia Palmer se compromete en el uso y tratamiento de los datos incluidos personales de los usuarios,
+                respetando su confidencialidad y a utilizarlos de acuerdo con la finalidad de este, así como a dar
+                cumplimiento a su obligación de guardarlos y adaptar todas las medidas para evitar la alteración, pérdida,
+                tratamiento o acceso no autorizado (como los protocolos Https que utilizo), de conformidad con lo
+                establecido en la normativa vigente de protección de datos.
+            </p>
+            <p>
+                Lidia Palmer no puede garantizar la absoluta inexpugnabilidad de la red Internet y por tanto la violación de
+                los datos mediante accesos fraudulentos a ellos por parte de terceros.
+            </p>
+            <p>
+                No nos hacemos responsables de la política de privacidad respecto a los datos personales que pueda facilitar
+                a terceros por medio de los enlaces disponibles en nuestra página web.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>¿A QUÉ DESTINATARIOS SE COMUNICARÁN TUS DATOS?</strong></h3>
+            <p>
+                Como usuario, eres el único responsable de la veracidad y corrección de los datos que remitas a
+                <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>
+                exonerando a Lidia Palmer de cualquier responsabilidad al respecto. Los
+                usuarios garantizan y responden, en cualquier caso, de la exactitud, vigencia y autenticidad de los datos
+                personales facilitados, y se comprometen a mantenerlos debidamente actualizados. El usuario acepta
+                proporcionar información completa y correcta en el formulario de contacto o suscripción.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>¿A QUÉ DESTINATARIOS SE COMUNICARÁN TUS DATOS?</strong></h3>
+            <p>
+                El usuario declara haber sido informado de las condiciones sobre protección de datos de carácter personal,
+                aceptando y consintiendo el tratamiento de estos por parte de Lidia Palmer en la forma y para las
+                finalidades indicadas en esta política de privacidad
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>REVOCABILIDAD</strong></h3>
+            <p>
+                El consentimiento prestado, tanto para el tratamiento como para la cesión de los datos de los interesados,
+                es revocable en cualquier momento comunicándolo a <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a>
+                en los términos establecidos en esta Política para el ejercicio de los derechos ARCO. Esta revocación en
+                ningún caso tendrá carácter retroactivo.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>CAMBIOS EN LA POLÍTICA DE PRIVACIDAD</strong></h3>
+            <p>
+                La presente Política de Privacidad puede ser modificada para adaptarlas a los cambios que se produzca en
+                nuestra web, así como modificaciones legislativas o jurisprudenciales sobre datos personales que vayan
+                apareciendo, por lo que exige su lectura, cada vez que nos facilite sus datos a través de esta Web.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>CORREOS COMERCIALES</strong></h3>
+            <p>
+                De acuerdo con la LSSICE, Lidia Palmer no realiza prácticas de SPAM, por lo que no envía correos comerciales
+                por vía electrónica que no hayan sido previamente solicitados o autorizados por el usuario. En consecuencia,
+                en cada uno de los formularios habidos en la web, el usuario tiene la posibilidad de dar su consentimiento
+                expreso para recibir el boletín, con independencia de la información comercial puntualmente solicitada.
+            </p>
+            <p>
+                Conforme a lo dispuesto en la Ley 34/2002 de Servicios de la Sociedad de la Información y de comercio
+                electrónico, <a href="https://motestudiodepalabras.com">https://motestudiodepalabras.com</a> se compromete a
+                no enviar comunicaciones de carácter comercial sin identificarlas debidamente.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>CORREOS COMERCIALES</strong></h3>
+            <p>
+                Al poner a disposición del usuario esta página Web queremos ofrecerle un servicio de calidad, utilizando la
+                máxima diligencia en la prestación del mismo, así como en los medios tecnológicos utilizados. No obstante,
+                no responderemos de la presencia de virus y otros elementos que de algún modo puedan dañar el sistema
+                informático del usuario.
+            </p>
+            <p>
+                No garantizamos que la disponibilidad del servicio sea continua e ininterrumpida.
+            </p>
+            <p>
+                El USUARIO tiene prohibido cualquier tipo de acción sobre nuestro portal que origine una excesiva sobrecarga
+                de funcionamiento a nuestros sistemas informáticos, así como la introducción de virus, o instalación de
+                robots, o software que altere el normal funcionamiento de nuestra web, o en definitiva pueda causar daños a
+                nuestros sistemas informáticos.
+            </p>
+            <p>
+                El USUARIO asume toda la responsabilidad derivada del uso de nuestra página web.
+            </p>
+            <p>
+                El USUARIO reconoce que ha entendido toda la información respecto a las condiciones de uso de nuestro
+                portal, y reconoce que son suficientes para la exclusión del error en las mismas, y por lo tanto, las acepta
+                integra y expresamente.
+            </p>
+            <h3 class="uk-h3 uk-text-bolder"><strong>DUDAS O CONSULTAS SOBRE ESTA POLÍTICA O TUS DERECHOS</strong></h3>
+            <p>Si tienes alguna pregunta o comentario sobre esta política, o si tienes alguna inquietud sobre la forma en
+                que se ha podido gestionar alguna información personal que nos hayas proporcionado, puedes contactarme por
+                correo electrónico a: <a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a>
+            </p>
+            <p>
+                Documento revisado el 28/1/2021
+            </p>
+        </div>
     </div>
-    <p class="uk-hidden@m uk-text-small uk-text-center uk-margin-remove">Mot Estudio de palabras &copy;</p>
-    <p class="uk-hidden@m uk-text-small uk-text-center uk-margin-remove"><a href="privacidad">Aviso Legal</a> | <a href="https://www.uniproyect.com" target="_blank">
-        UniProyect</a></p>
-</footer>
-<!-- FOOTER -->
+
+    <!-- FOOTER -->
+    <footer class="uk-padding-small uk-margin uk-padding-remove-top">
+        <div class="uk-container uk-container-expand uk-text-right">
+            <a class="uk-align-left" href="/">
+                <img data-src="img/mot-icono-footer1.svg" alt="logo-mot" uk-img class="mot-icono-footer">
+                <img data-src="img/estudiopalabras-icono-footer2.svg" alt="logo-mot" uk-img class="mot-icono-footer uk-visible@s">
+            </a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m mot-up">
+                <span uk-icon="icon: chevron-up; ratio: 3.5"></span>
+            </a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m mot-up">
+                <span uk-icon="icon: chevron-up; ratio: 2"></span>
+            </a>
+            <a href="mailto:hola@motestudiodepalabras.com" target="_blank" uk-icon="icon: mail;ratio: 2.5" class="uk-visible@s"></a>
+            <a href="https://www.instagram.com/mot.escrituracreativa/" target="_blank" uk-icon="icon: instagram; ratio: 2" class="uk-visible@s"></a>
+            <a href="mailto:hola@motestudiodepalabras.com" target="_blank" uk-icon="icon: mail;ratio: 2" class="uk-hidden@s"></a>
+            <a href="https://www.instagram.com/mot.escrituracreativa/" target="_blank" uk-icon="icon: instagram; ratio: 1.5" class="uk-hidden@s"></a>
+            <a href="contacto">
+                <button class="mot-boton-azul-negro uk-button uk-button-small uk-visible@m">+ info</button>
+            </a>
+            <p class="uk-visible@m uk-margin">
+                Mot Estudio de palabras &copy;<a href="privacidad">Aviso Legal</a>
+                | <a href="https://www.uniproyect.com" target="_blank"> UniProyect</a>
+            </p>
+        </div>
+        <p class="uk-hidden@m uk-text-small uk-text-center uk-margin-remove">
+            Mot Estudio de palabras &copy;
+        </p>
+        <p class="uk-hidden@m uk-text-small uk-text-center uk-margin-remove">
+            <a href="privacidad">Aviso Legal</a> |
+            <a href="https://www.uniproyect.com" target="_blank"> UniProyect</a>
+        </p>
+    </footer>
+    <!-- FOOTER -->
 
 </body>
 
