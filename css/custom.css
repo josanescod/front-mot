@@ -307,3 +307,26 @@ footer > div {
 .mot-link-azul:hover {
     color: #40a8ba !important;
 }
+
+#mot-cookies-banner {
+    background-color: rgba(20, 20, 20, .8);
+    height: auto;
+    font-size: 14px;
+    color: #ccc;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: none;
+}
+
+#mot-cookies-banner a {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+#mot-cookies-banner a:hover {
+    color: #40a8ba;
+}

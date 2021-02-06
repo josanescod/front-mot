@@ -7,6 +7,34 @@ Usa esta clave secreta para la comunicación entre tu sitio web y el servicio re
 */
 
 $(document).ready(function () {
+
+    function readCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) {
+                return decodeURIComponent( c.substring(nameEQ.length,c.length) );
+            }
+        }
+        return false;
+    }
+
+    if(!readCookie("cookies-aceptadas")) {
+        setTimeout(function () {
+            console.log(document.cookie);
+            $("#mot-cookies-banner").fadeIn();
+            $("#mot-cookies-banner").css( "display", "flex");
+        }, 4000);
+    }
+
+    $(".mot-acecptar-cookies").click(function () {
+        document.cookie = "cookies-aceptadas=true; max-age=3600; path=/";
+        $("#mot-cookies-banner").fadeOut(200);
+        $("#mot-cookies-banner").css( "display", "none");
+    });
+
     //funcion para mostrar fecha actual en el footer
     function showCurrentYear(){
         let date = new Date();
