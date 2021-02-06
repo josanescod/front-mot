@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Lenguaje inclusivo | MOT</title>
+    <meta name="description" content="Con el taller de Lenguaje inclusivo podrás comunicarte con el mundo y contigo">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+    <link rel="stylesheet" href="node_modules/uikit/dist/css/uikit.css" />
+    <link rel="stylesheet" href="node_modules/parsleyjs/src/parsley.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/botones.css" />
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/uikit/dist/js/uikit.js"></script>
+    <script src="node_modules/uikit/dist/js/uikit-icons.js"></script>
+    <script src="node_modules/emailjs-com/dist/email.js"></script>
+    <script src="node_modules/parsleyjs/dist/parsley.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcmdcMUAAAAADUtZa8MRDNOSUk61KxXb0I_iUvb"></script>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="uk-width-1-1 uk-background-default" uk-navbar uk-sticky>
+        <div class="k-navbar-left">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="index"><img data-src="img/logo_mot_1.svg" width="100%" height="100%"
+                            alt="Logo de mot" uk-img></a>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-margin-large-right uk-navbar-right uk-visible@m">
+            <ul id="mot-opciones" class="uk-navbar-nav">
+                <li><a href="index">HOME</a></li>
+                <li>
+                    <a href="#" class="mot-active">TALLERES</a>
+                    <div id="mot-submenu" class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="curso-escritura-creativa">Escritura creativa</a></li>
+                            <li><a href="taller2" class="mot-active">Lenguaje inclusivo</a></li>
+                            <li><a href="cursos-empresas">Para empresas y entidades</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="servicios-copywriter">SERVICIOS</a></li>
+                <li><a href="about-lidia-palmer">SOBRE MOT</a></li>
+                <li><a href="contacto">CONTACTO</a></li>
+            </ul>
+        </div>
+        <div id="mot-custom-div" class="uk-navbar-right uk-hidden@m">
+            <ul class="uk-navbar-nav">
+                <!-- boton oculto en tabletas o superior-->
+                <button type="button" class="uk-navbar-toggle  uk-position-right" uk-toggle="target: #menu_movil"
+                    data-uk-navbar-toggle-icon></button>
+            </ul>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+    <!-- MENU MOVIL -->
+    <div id="menu_movil" uk-offcanvas="overlay: true;flip: true">
+        <div class="uk-offcanvas-bar uk-hidden@m uk-light">
+            <button class="uk-offcanvas-close" type="button" uk-close></button>
+            <ul id="movil_white" class="uk-nav uk-nav-default uk-nav-parent-icon" uk-nav>
+                <br>
+                <li class="uk-nav-header uk-active"><a href="index">HOME</a></li>
+                <li class="uk-nav-header uk-parent">
+                    <a href="#">TALLERES</a>
+                    <ul id="movil_white_sub" class="uk-nav-sub">
+                        <li><a href="curso-escritura-creativa">Escritura creativa</a></li>
+                        <li><a href="taller2">Lenguaje inclusivo</a></li>
+                        <li><a href="cursos-empresas">Para empresas y entidades</a></li>
+                    </ul>
+                </li>
+                <li class="uk-nav-header uk-active"><a href="servicios-copywriter">SERVICIOS</a></li>
+                <li class="uk-nav-header uk-active"><a href="about-lidia-palmer">SOBRE MOT</a></li>
+                <li class="uk-nav-header"><a href="contacto">CONTACTO</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- MENU MOVIL -->
+    <!-- CONTENIDO -->
+
+    <!--HERO-->
+    <div class="uk-background-cover mot-imagen-hero" style="background-image: url(img/tallerelenguaje.jpg);">
+    </div>
+    <!--HERO-->
+    <div class="uk-section uk-section-default uk-text-center">
+        <div class="uk-container uk-container-xsmall">
+            <h1 class="uk-text-bolder"><strong>Descubre la importancia del lenguaje inclusivo</strong></h1>
+            <p>
+                Bienvenidx a este espacio de aprendizaje y reflexión sobre el lenguaje no sexista. <br>
+                En este taller nos acercaremos al lenguaje inclusivo como disciplina esencial dentro de las
+                reivindicaciones feministas y comprenderemos su importancia para visibilizar a las mujeres y fomentar la
+                igualdad.
+            </p>
+            <p>Para ello, a través del pensamiento de diferentes autoras y de actividades creativas y participativas,
+                reflexionaremos sobre las consecuencias del sistema de géneros en el lenguaje y detectaremos los usos
+                sexistas de la lengua aprendiendo por qué existen, cómo funcionan y sobre todo cómo evitarlos mediante
+                el uso de un lenguaje inclusivo.
+            </p>
+            <a href="#modal-form" uk-toggle><button class="uk-button mot-boton-azul-negro">inscribirme</button></a>
+        </div>
+    </div>
+
+    <div class="uk-section" uk-grid>
+        <div class="uk-container uk-width-1-2@m uk-margin-remove uk-padding-large mot-fondo-morado">
+            <div class="uk-margin-auto-left@m uk-margin-remove@s uk-padding">
+                <p><strong>¿A QUIÉN VA DIRIGIDO?</strong></p>
+                <p class="uk-h1"><strong>Si quieres un mundo más justo, este taller es para ti</strong></p>
+                <p> Si sientes inquietud ante la posición de la mujer en la sociedad y buscas herramientas que te
+                    permitan fomentar la igualdad en todos los ámbitos, te recomiendo este taller de lenguaje inclusivo.
+                    Y no te preocupes, porque no se necesitan conocimientos previos.
+                </p>
+            </div>
+        </div>
+        <div class="uk-container uk-width-1-2@m uk-margin-remove uk-padding-large mot-fondo-morado-claro">
+            <div class="uk-margin-auto-right@m uk-margin-remove@ uk-padding">
+                <p><strong>OBJETIVOS</strong></p>
+                <p class="uk-h1"><strong>¿Qué conseguirás?</strong></p>
+                <ul class="uk-list uk-list-hyphen">
+                    <li>
+                        Desarrollar un espíritu crítico ante el tratamiento discriminatorio de las mujeres que se lleva
+                        a cabo a través del lenguaje.
+                    </li>
+                    <li>
+                        Comprender el sistema sexo-género y su relación con el lenguaje, así como los principales
+                        conceptos relacionados.
+                    </li>
+                    <li>
+                        Identificar el sexismo y el androcentrismo lingüísticos y entender las dinámicas que los
+                        justifican y perpetúan.
+                    </li>
+                    <li>
+                        Entender la importancia del lenguaje inclusivo como herramienta de promoción de la igualdad y
+                        ser capaz de utilizarlo en el día a día.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-section">
+        <div class="uk-container">
+            <div uk-grid>
+                <div class="uk-width-1-2@m uk-padding-large uk-margin-small-top">
+                    <p class="uk-h1 mot-color-azul"><strong>Taller online</strong></p>
+                    <ul uk-accordion="multiple: true">
+                        <li>
+                            <a class="uk-accordion-title mot-border-bottom-black" href="#">PRECIO*</a>
+                            <div class="uk-accordion-content">
+                                <p>50 €/pers</p>
+                                <p> Grupos reducidos, entre 3 y 6 personas.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="uk-accordion-title mot-border-bottom-black" href="#">HORARIOS</a>
+                            <div class="uk-accordion-content">
+                                <p>
+                                    El taller tiene una duración de 5 semanas, con una sesión semanal de 1 h 30 min.
+                                    <br>
+                                    <u><a href="#formulario-contacto" uk-scroll>Escríbeme</a></u> para conocer los próximos horarios de talleres online.<br>
+                                    <a href="#modal-form" uk-toggle><u>►¡Inscripciones abiertas aquí!</u></a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-width-1-2@m uk-padding-large uk-margin-small-top">
+                    <p class="uk-h1 mot-color-azul"><strong>Taller presencial</strong></p>
+                    <p>Debido a la situación actual no hay talleres presenciales programados. Hasta nuevo aviso, todos
+                        los talleres se llevarán a cabo de manera online.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-section uk-text-center uk-background-cover uk-light uk-padding-large uk-background-fixed"
+        style="background-image: url(img/nuves.jpg);">
+        <div class="uk-container uk-container-small">
+            <h2 class="uk-h1 mot-text-responsive-h1 uk-margin-remove-bottom"><strong class="uk-text-bolder">¿Quieres
+                    organizar un taller presencial en tu centro, asociación o empresa? </strong></h2>
+            <p class="uk-h1 mot-text-responsive-h1 uk-margin-remove-top">
+                Podemos colaborar para impartir el taller en tu centro, empresa o asociación.
+            </p>
+            <a href="cursos-empresas">
+                <button class="uk-button mot-boton-amarillo-blanco-redondo">cuentame<br>mas</button>
+            </a>
+        </div>
+    </div>
+
+    <!-- FORMULARIO -->
+    <div class="uk-section" id="formulario-contacto">
+        <div class="uk-container uk-container-small">
+            <div class="uk-container uk-text-center uk-margin-large-bottom">
+                <h2 class="uk-h1 uk-text-bolder"><strong>¿Necesitas más información?</strong></h2>
+            </div>
+            <div uk-grid>
+                <div class="uk-width-1-2@m">
+                    <p class="uk-h5">
+                        Rellena este formulario si te gustaría proponer nuevos horarios o si tienes cualquier otra
+                        pregunta.
+                        Intentaré responderte en menos de 48h, <span class="uk-text-bold">¡lo prometo!</span>
+                    </p>
+                    <img src="img/bocadillo.jpg" alt="bocadillo">
+                </div>
+                <div class="uk-width-1-2@m">
+                    <form class="uk-form-stacked mot-form" method="POST" data-parsley-validate="">
+                        <input type="hidden" name="form_type" data-type-form="contacto"
+                            value="CONTACTO - Taller lenguaje inclusivo">
+                        <div class="uk-margin uk-margin-remove-top">
+                            <div class="uk-form-controls">
+                                <input class="uk-input" name="nombre" type="text" placeholder="* Nombre y apellidos..."
+                                    data-parsley-required-message="Introduzca nombre y apellidos." required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <div class="uk-form-controls">
+                                <input class="uk-input" name="email" type="email" placeholder="* Email..."
+                                    data-parsley-required-message="Introduzca su email."
+                                    data-parsley-type-message="Introduzca un email valido." required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <div class="uk-form-controls">
+                                <input class="uk-input" name="localidad" type="text" placeholder="* Localidad..."
+                                    data-parsley-required-message="Introduzca su localidad." required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <div class="uk-form-controls">
+                                <textarea class="uk-textarea" name="mensaje" rows="3" placeholder="* Mensaje..."
+                                    data-parsley-required-message="Introduzca su mensaje." required></textarea>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="uk-text-italic uk-text-small">*Campos obligatorios</p>
+                            <p class="uk-text-italic uk-text-small">Trataremos tus datos para responder tu consulta. Si
+                                aceptas,
+                                recibirás comunicaciones comerciales sobre nuestros servicios. Puedes ejercer tus
+                                derechos de
+                                acceso, rectificación, supresión y oposición, entre otros, según nuestra
+                                <a href="privacidad">Política de privacidad</a>.<br>
+                                This site is protected by reCAPTCHA and the Google
+                                <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+                                <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+                            </p>
+                        </div>
+                        <input type="submit"
+                            class="mot-boton-amarillo-negro uk-button uk-align-center uk-align-left@m"
+                            value="enviar">
+                    </form>
+                </div>
+            </div>
+            <div class="mot-alert-contacto"></div>
+        </div>
+    </div>
+    <!-- FORMULARIO -->
+
+    <hr>
+
+    <!-- MODAL -->
+    <div id="modal-form" class="uk-modal-container" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body mot-fondo-azul">
+            <button class="uk-modal-close-default uk-light" type="button" uk-close></button>
+            <h2 class="uk-modal-title uk-text-center uk-light">Taller de Lenguaje Inclusivo</h2>
+            <form class="uk-form-stacked mot-form" method="POST" data-parsley-validate="">
+                <div uk-grid>
+                    <div class="uk-width-1-2@m">
+                        <input type="hidden" name="form_type" data-type-form="inscripcion" value="INSCRIPCION - Taller escritura creativa">
+                        <input type="hidden" name="tipo" value="Online">
+                        <input type="hidden" name="dia" value="Martes">
+                        <input type="hidden" name="horario" value="10:30 a 12:00">
+                        <input type="hidden" name="inicio" value="22 de septiembre">
+                        <input type="hidden" name="duracion" value="5 semanas">
+                        <div class="uk-margin uk-margin-remove-top">
+                            <label class="uk-form-label uk-light" for="nombre">Nombre*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input"
+                                       id="nombre"
+                                       name="nombre"
+                                       type="text"
+                                       placeholder="* Nombre..."
+                                       data-parsley-required-message="Introduzca su nombre."
+                                       required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light" for="apellidos">Apellidos*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input"
+                                       id="apellidos"
+                                       name="apellidos"
+                                       type="text"
+                                       placeholder="* Apellidos..."
+                                       data-parsley-required-message="Introduzca sus apellidos."
+                                       required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light" for="email">Email*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input"
+                                       id="email"
+                                       name="email"
+                                       type="email"
+                                       placeholder="* Email..."
+                                       data-parsley-required-message="Introduzca su email."
+                                       data-parsley-type-message="Introduzca un email valido."
+                                       required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light" for="telefono">Teléfono*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input"
+                                       id="telefono"
+                                       name="telefono"
+                                       type="text"
+                                       placeholder="* Telefono..."
+                                       data-parsley-required-message="Introduzca su telefono."
+                                       required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light">Edad*:</label>
+                            <div class="uk-form-controls">
+                                <input type="date"
+                                       class="uk-input"
+                                       name="edad"
+                                       data-parsley-required-message="Seleccione su fecha de nacimiento."
+                                       required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-2@m">
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light" for="profesion">Profesion*:</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input"
+                                       id="profesion"
+                                       name="profesion"
+                                       type="text"
+                                       placeholder="* Profesion..."
+                                       data-parsley-required-message="Introduzca su profesion."
+                                       required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light" for="localidad">¿Desde qué localidad vas a realizar el taller?*</label>
+                            <div class="uk-form-controls">
+                                <input class="uk-input"
+                                       id="localidad"
+                                       name="localidad"
+                                       type="text"
+                                       placeholder="* Localidad..."
+                                       data-parsley-required-message="Introduzca su localidad."
+                                       required>
+                            </div>
+                        </div>
+                        <div class="uk-margin">
+                            <label class="uk-form-label uk-light">¿Cómo has descubierto la existencia del taller?*</label>
+                            <div class="uk-form-controls uk-light">
+                                <input class="uk-radio mot-otro" type="radio" name="conocido" value="Instagram" data-parsley-required-message="Escoja una opción." required> Instagram<br>
+                                <input class="uk-radio mot-otro" type="radio" name="conocido" value="Facebook"> Facebook<br>
+                                <input class="uk-radio mot-otro" type="radio" name="conocido" value="Recomendación de otra persona"> Recomendación de otra persona<br>
+                                <input class="uk-radio mot-otro" type="radio" name="conocido" value="Google"> Google<br>
+                                <input class="uk-radio uk-light" id="mot-otro" type="radio" name="conocido" value="Otro"> Otro:
+                            </div>
+                            <div class="uk-form-controls">
+                                <input class="uk-input uk-light"
+                                       type="text"
+                                       name="conocido-otro"
+                                       placeholder="Otro..."
+                                       disabled="true"
+                                       data-parsley-required-message="Cuentanos como nos conociste.">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class="uk-text-italic uk-text-small uk-light">*Campos obligatorios</p>
+                <div class="uk-form-controls uk-flex">
+                    <input class="uk-checkbox uk-margin-remove-top" name="acepta" id="acepta"
+                           type="checkbox"
+                           data-parsley-required-message="Debe aceptar la política de privacidad."
+                           required>
+                    <label class="uk-form-label uk-light uk-margin-small-left" for="acepta">Acepto la política de privacidad</label>
+                </div>
+                <p class="uk-text-italic uk-text-small uk-light">Trataremos tus datos para responder tu consulta. Si
+                    aceptas, recibirás comunicaciones comerciales sobre nuestros servicios. Puedes ejercer tus derechos
+                    de acceso, rectificación, supresión y oposición, entre otros, según nuestra
+                    <a href="privacidad">Política de privacidad</a>.<br>
+                    This site is protected by reCAPTCHA and the Google
+                    <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+                    <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+                </p>
+                <input type="submit"
+                       class="mot-boton-amarillo-negro uk-button uk-align-center"
+                       value="Inscribirme">
+            </form>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="uk-padding-small uk-margin uk-padding-remove-top">
+        <div class="uk-container uk-container-expand uk-text-right">
+            <a class="uk-align-left" href="index">
+                <img data-src="img/mot-icono-footer1.svg" alt="logo-mot" uk-img class="mot-icono-footer">
+                <img data-src="img/estudiopalabras-icono-footer2.svg" alt="logo-mot" uk-img
+                    class="mot-icono-footer uk-visible@s">
+            </a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-visible@m mot-up"><span
+                    uk-icon="icon: chevron-up; ratio: 3.5"></span></a>
+            <a href="" uk-scroll class="uk-align-left uk-totop uk-margin-remove uk-hidden@m mot-up"><span
+                    uk-icon="icon: chevron-up; ratio: 2"></span></a>
+            <a href="mailto:hola@motestudiodepalabras.com" target="_blank" uk-icon="icon: mail;ratio: 2.5"
+                class="uk-visible@s"></a>
+            <a href="https://www.instagram.com/mot.escrituracreativa/" target="_blank"
+                uk-icon="icon: instagram; ratio: 2" class="uk-visible@s"></a>
+            <a href="mailto:hola@motestudiodepalabras.com" target="_blank" uk-icon="icon: mail;ratio: 2"
+                class="uk-hidden@s"></a>
+            <a href="https://www.instagram.com/mot.escrituracreativa/" target="_blank"
+                uk-icon="icon: instagram; ratio: 1.5" class="uk-hidden@s"></a>
+            <a href="contacto">
+                <button class="mot-boton-azul-negro uk-button uk-button-small uk-visible@m">+
+                    info</button>
+            </a>
+            <p class="uk-visible@m uk-margin">Mot Estudio de palabras &copy;<a href="privacidad">Aviso Legal</a> | <a href="https://www.uniproyect.com" target="_blank"> UniProyect</a></p>
+        </div>
+        <p class="uk-hidden@m uk-text-small uk-text-center uk-margin-remove">Mot Estudio de palabras &copy;</p>
+        <p class="uk-hidden@m uk-text-small uk-text-center uk-margin-remove"> <a href="privacidad">Aviso Legal</a> | <a href="https://www.uniproyect.com" target="_blank">
+                UniProyect</a></p>
+    </footer>
+    <!-- FOOTER -->
+</body>
+
+</html>
