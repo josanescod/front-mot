@@ -8,11 +8,15 @@ Usa esta clave secreta para la comunicación entre tu sitio web y el servicio re
 
 $(document).ready(function () {
 
+    //Año actual
+    $(".mot-year").text(' ' + new Date().getFullYear() + ' | ');
+
+    //cookies
     function readCookie(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(';');
-        for(var i=0;i < ca.length;i++) {
-            var c = ca[i];
+        let nameEQ = name + "=";
+        let ca = document.cookie.split(';');
+        for(let i=0;i < ca.length;i++) {
+            let c = ca[i];
             while (c.charAt(0)==' ') c = c.substring(1,c.length);
             if (c.indexOf(nameEQ) == 0) {
                 return decodeURIComponent( c.substring(nameEQ.length,c.length) );
@@ -35,16 +39,7 @@ $(document).ready(function () {
         $("#mot-cookies-banner").css( "display", "none");
     });
 
-    //funcion para mostrar fecha actual en el footer
-    function showCurrentYear(){
-        let date = new Date();
-        let year = date.getFullYear();        
-        let yearParagraph = document.querySelectorAll('p');  
-        yearParagraph[yearParagraph.length-2].innerHTML = yearParagraph[yearParagraph.length-2].innerHTML+`${year}`    
-        yearParagraph[yearParagraph.length-3].firstChild.textContent = yearParagraph[yearParagraph.length-3].firstChild.textContent+`${year} | `
-    }
-    showCurrentYear();
-
+    //formularios
     (function () {
         emailjs.init("user_eUy4bBvY6yrtUn0yEIaQJ");//mio
         // emailjs.init("user_CaRBXoZecKRtMDN3agyrC");//Lidia
@@ -67,7 +62,7 @@ $(document).ready(function () {
 
         event.preventDefault();
 
-        var templateParams = {
+        let templateParams = {
             form_type: $(this).find("[name=form_type]").val(),
             tipo: $(this).find("[name=tipo]").val() ? 'Tipo: ' + $(this).find("[name=tipo]").val() : null,
             dia: $(this).find("[name=dia]").val() ? 'Dia: ' + $(this).find("[name=dia]").val() : null,
@@ -86,7 +81,7 @@ $(document).ready(function () {
             mensaje: $(this).find("[name=mensaje]").val() ? 'Mensaje: ' + $(this).find("[name=mensaje]").val() : null
         };
 
-        var typeForm = $(this).find("[data-type-form]").attr('data-type-form');
+        let typeForm = $(this).find("[data-type-form]").attr('data-type-form');
 
         grecaptcha.ready(function () {
             grecaptcha.execute('6LcmdcMUAAAAADUtZa8MRDNOSUk61KxXb0I_iUvb', {action: 'submit'}).then(function (token) {
@@ -108,7 +103,7 @@ $(document).ready(function () {
 
     function generateMesage(typeForm, succes) {
 
-        var mensajes = {
+        let mensajes = {
             succes_contacto: '<div class="uk-alert-success mot-contact-succes" uk-alert>\n' +
                 '<a class="uk-alert-close" uk-close></a>\n' +
                 '<p>Tu consulta ha sido enviada con éxito. ¡Hablamos pronto!</p>\n' +
