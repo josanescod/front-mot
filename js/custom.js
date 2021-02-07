@@ -26,7 +26,7 @@ $(document).ready(function () {
     }
 
     $(".mot-acecptar-cookies").click(function () {
-        document.cookie = "cookies-aceptadas=true; max-age=3600; path=/";
+        document.cookie = "cookies-aceptadas=true; max-age=2592000; path=/";
         $("#mot-cookies-banner").fadeOut(200);
         $("#mot-cookies-banner").css( "display", "none");
     });
