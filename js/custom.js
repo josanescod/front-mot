@@ -33,8 +33,8 @@ $(document).ready(function () {
 
     //formularios
     (function () {
-        emailjs.init("user_eUy4bBvY6yrtUn0yEIaQJ");//Desarrollo
-        // emailjs.init("user_CaRBXoZecKRtMDN3agyrC");//Produccion
+        // emailjs.init("user_eUy4bBvY6yrtUn0yEIaQJ");//Desarrollo
+        emailjs.init("user_CaRBXoZecKRtMDN3agyrC");//Produccion
     })();
 
     $('#mot-otro').click(function () {
