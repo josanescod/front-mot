@@ -33,7 +33,6 @@ $(document).ready(function () {
 
     //formularios
     (function () {
-        // emailjs.init("user_eUy4bBvY6yrtUn0yEIaQJ");//Desarrollo
         emailjs.init("user_CaRBXoZecKRtMDN3agyrC");//Produccion
     })();
 
@@ -74,7 +73,6 @@ $(document).ready(function () {
         let typeForm = $(this).find("[data-type-form]").attr('data-type-form');
 
         grecaptcha.ready(function () {
-            // grecaptcha.execute('6LcmdcMUAAAAADUtZa8MRDNOSUk61KxXb0I_iUvb', {action: 'submit'}).then(function (token) { //Desarrollo
             grecaptcha.execute('6LcMj-QZAAAAAGeaxxfUlqTgSptiTt7XovvIZ449', {action: 'submit'}).then(function (token) { //Produccion
 
                 emailjs.send('gmail', 'forms', templateParams)
