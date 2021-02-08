@@ -38,11 +38,13 @@ $(document).ready(function () {
     })();
 
     $('#mot-otro').click(function () {
+        console.log(1);
         $("input[type='text'][name='conocido-otro']").attr("required", true);
         $("input[type='text'][name='conocido-otro']").attr("disabled", false);
     });
 
     $('.mot-otro').click(function () {
+        console.log(2);
         $("input[type='text'][name='conocido-otro']").val("");
         $("input[type='text'][name='conocido-otro']").attr("required", false);
         $("input[type='text'][name='conocido-otro']").attr("disabled", true);
