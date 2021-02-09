@@ -33,7 +33,8 @@ $(document).ready(function () {
 
     //formularios
     (function () {
-        emailjs.init("user_CaRBXoZecKRtMDN3agyrC");//Produccion
+        emailjs.init("user_eUy4bBvY6yrtUn0yEIaQJ");//Desarrollo
+        // emailjs.init("user_CaRBXoZecKRtMDN3agyrC");//Produccion
     })();
 
     $('#mot-otro').click(function () {
@@ -61,9 +62,9 @@ $(document).ready(function () {
             nombre: $(this).find("[name=nombre]").val() ? 'Nombre: ' + $(this).find("[name=nombre]").val() : null,
             apellidos: $(this).find("[name=apellidos]").val() ? 'Apellidos: ' + $(this).find("[name=apellidos]").val() : null,
             email: $(this).find("[name=email]").val() ? 'Email: ' + $(this).find("[name=email]").val() : null,
-            telefono: $(this).find("[name=telefono]").val() ? 'Telefono: ' + $(this).find("[name=telefono]").val() : null,
+            telefono: $(this).find("[name=telefono]").val() ? 'Teléfono: ' + $(this).find("[name=telefono]").val() : null,
             edad: $(this).find("[name=edad]").val() ? 'Edad: ' + $(this).find("[name=edad]").val() : null,
-            profesion: $(this).find("[name=profesion]").val() ? 'Profesion: ' + $(this).find("[name=profesion]").val() : null,
+            profesion: $(this).find("[name=profesion]").val() ? 'Profesión: ' + $(this).find("[name=profesion]").val() : null,
             localidad: $(this).find("[name=localidad]").val() ? 'Localidad: ' + $(this).find("[name=localidad]").val() : null,
             conocido: $(this).find("[name=conocido]:checked").val() ? 'Ha conocido Mot por: ' + $(this).find("[name=conocido]:checked").val() : null,
             conocidoOtro: $(this).find("[name=conocido-otro]").val() ? 'Como fue: ' + $(this).find("[name=conocido-otro]").val() : null,
@@ -73,7 +74,8 @@ $(document).ready(function () {
         let typeForm = $(this).find("[data-type-form]").attr('data-type-form');
 
         grecaptcha.ready(function () {
-            grecaptcha.execute('6LcMj-QZAAAAAGeaxxfUlqTgSptiTt7XovvIZ449', {action: 'submit'}).then(function (token) { //Produccion
+            grecaptcha.execute('6LcmdcMUAAAAADUtZa8MRDNOSUk61KxXb0I_iUvb', {action: 'submit'}).then(function (token) { //Desarrollo
+            // grecaptcha.execute('6LcMj-QZAAAAAGeaxxfUlqTgSptiTt7XovvIZ449', {action: 'submit'}).then(function (token) { //Produccion
 
                 emailjs.send('gmail', 'forms', templateParams)
                     .then(function (response) {

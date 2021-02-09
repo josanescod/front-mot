@@ -308,6 +308,10 @@ footer > div {
     color: #40a8ba !important;
 }
 
+.mot-link-amarillo:hover {
+    color: #F9C00E !important;
+}
+
 #mot-cookies-banner {
     background-color: rgba(20, 20, 20, .8);
     height: auto;
