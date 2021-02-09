@@ -19,7 +19,6 @@ $(document).ready(function () {
 
     if(!readCookie("cookies-aceptadas")) {
         setTimeout(function () {
-            console.log(document.cookie);
             $("#mot-cookies-banner").fadeIn();
             $("#mot-cookies-banner").css( "display", "flex");
         }, 4000);
@@ -33,18 +32,16 @@ $(document).ready(function () {
 
     //formularios
     (function () {
-        emailjs.init("user_eUy4bBvY6yrtUn0yEIaQJ");//Desarrollo
-        // emailjs.init("user_CaRBXoZecKRtMDN3agyrC");//Produccion
+        // emailjs.init("user_eUy4bBvY6yrtUn0yEIaQJ");//Desarrollo
+        emailjs.init("user_CaRBXoZecKRtMDN3agyrC");//Produccion
     })();
 
     $('#mot-otro').click(function () {
-        console.log(1);
         $("input[type='text'][name='conocido-otro']").attr("required", true);
         $("input[type='text'][name='conocido-otro']").attr("disabled", false);
     });
 
     $('.mot-otro').click(function () {
-        console.log(2);
         $("input[type='text'][name='conocido-otro']").val("");
         $("input[type='text'][name='conocido-otro']").attr("required", false);
         $("input[type='text'][name='conocido-otro']").attr("disabled", true);
@@ -74,8 +71,8 @@ $(document).ready(function () {
         let typeForm = $(this).find("[data-type-form]").attr('data-type-form');
 
         grecaptcha.ready(function () {
-            grecaptcha.execute('6LcmdcMUAAAAADUtZa8MRDNOSUk61KxXb0I_iUvb', {action: 'submit'}).then(function (token) { //Desarrollo
-            // grecaptcha.execute('6LcMj-QZAAAAAGeaxxfUlqTgSptiTt7XovvIZ449', {action: 'submit'}).then(function (token) { //Produccion
+            // grecaptcha.execute('6LcmdcMUAAAAADUtZa8MRDNOSUk61KxXb0I_iUvb', {action: 'submit'}).then(function (token) { //Desarrollo
+            grecaptcha.execute('6LcMj-QZAAAAAGeaxxfUlqTgSptiTt7XovvIZ449', {action: 'submit'}).then(function (token) { //Produccion
 
                 emailjs.send('gmail', 'forms', templateParams)
                     .then(function (response) {
@@ -131,13 +128,6 @@ $(document).ready(function () {
             succes ? $(".mot-alert-contacto").html(mensajes.succes_contacto) : $(".mot-alert-contacto").html(mensajes.error_contacto);
         }
 
-        if (typeForm === 'inscripcion') {
-            succes ? $(".mot-alert-inscripcion").html(mensajes.succes_inscripcion) : $(".mot-alert-inscripcion").html(mensajes.succes_inscripcion);
-            $('[uk-modal]').each(function () {
-                UIkit.modal($(this)).hide();
-            });
-        }
-
         if (typeForm === 'suscripcion') {
             succes ? $(".mot-alert-suscripcion").html(mensajes.succes_suscripcion) : $(".mot-alert-suscripcion").html(mensajes.error_suscripcion);
         }
@@ -145,6 +135,14 @@ $(document).ready(function () {
         $('[uk-modal]').each(function () {
             UIkit.modal($(this)).hide();
         });
+
+        if (typeForm === 'inscripcion') {
+            if (succes) {
+                UIkit.modal($('#modal-alert')).show();
+            } else {
+                UIkit.modal.alert('No se ha podido realizar la suscripcion, intentelo de nuevo mas tarde');
+            }
+        }
 
     }
 

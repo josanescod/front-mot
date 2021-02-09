@@ -33,8 +33,7 @@
     <script src="node_modules/emailjs-com/dist/email.js"></script>
     <script src="node_modules/parsleyjs/dist/parsley.min.js"></script>
     <script src="js/custom.js"></script>
-    <script src="https://www.google.com/recaptcha/api.js?render=6LcmdcMUAAAAADUtZa8MRDNOSUk61KxXb0I_iUvb"></script><!--Desarrollo-->
-<!--    <script src="https://www.google.com/recaptcha/api.js?render=6LcMj-QZAAAAAGeaxxfUlqTgSptiTt7XovvIZ449"></script>&lt;!&ndash;Produccion&ndash;&gt;-->
+    <script src="https://www.google.com/recaptcha/api.js?render=6LcMj-QZAAAAAGeaxxfUlqTgSptiTt7XovvIZ449"></script><!--Produccion-->
 </head>
 
 <body>
@@ -217,7 +216,6 @@
                     <p>Debido a la situación actual no hay talleres presenciales programados. Hasta nuevo aviso, todos los talleres se llevarán a cabo de manera online.</p>
                 </div>
             </div>
-            <div class="mot-alert-inscripcion"></div>
         </div>
     </div>
 
@@ -362,7 +360,7 @@
     </div>
     <!-- FORMULARIO -->
 
-    <!-- MODAL -->
+    <!-- MODAL FORM -->
     <div id="modal-form" class="uk-modal-container" uk-modal>
         <div class="uk-modal-dialog uk-modal-body mot-fondo-azul">
             <button class="uk-modal-close-default uk-light" type="button" uk-close></button>
@@ -499,6 +497,25 @@
             </form>
         </div>
     </div>
+    <!-- MODAL FORM -->
+
+    <!-- MODAL ALERT -->
+    <div id="modal-alert" class="uk-modal-container uk-modal" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body mot-fondo-azul">
+            <h2 class="uk-modal-title uk-text-center uk-light">¡Has comenzado el proceso de inscripción!</h2>
+            <p class="uk-text-center uk-light">
+                Pronto me pondré en contacto contigo a través de email, si no lo recibes en un par de días revisa tu
+                carpeta de spam. Ahí te explicaré más sobre la forma de pago para finalizar tu inscripción.
+                Si necesitas hacer alguna modificación en tu inscripción o tienes alguna duda escríbeme a
+                <a href="mailto:hola@motestudiodepalabras.com">hola@motestudiodepalabras.com.</a>
+            </p>
+            <p class="uk-text-center uk-light">¡Hasta pronto!</p>
+            <button class="mot-boton-amarillo-blanco uk-button uk-align-center uk-modal-close" type="button">
+                genial
+            </button>
+        </div>
+    </div>
+    <!-- MODAL ALERT -->
 
     <!-- FOOTER -->
     <footer class="uk-padding-small uk-margin uk-padding-remove-top">
